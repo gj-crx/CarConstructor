@@ -1,0 +1,21 @@
+{
+    "name": "PlayerIntents",
+    "rootNamespace": "",
+    "references": [
+        "GUID:65321977a84bee74ebb7ff27c7d00936",
+        "GUID:4a65a19f5b24ad24cb3a74db2eebb5e5",
+        "GUID:920fc72170e117f44af7e523908d1b0f",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:6546d7765b4165b40850b3667f981c26",
+        "GUID:1418b7faf1b71e641805f1ef8e9c6fc0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
