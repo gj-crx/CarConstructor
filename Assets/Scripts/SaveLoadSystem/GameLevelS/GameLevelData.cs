@@ -18,6 +18,7 @@ namespace SaveLoadSystem
         public int CoinRewardPerStar = 100;
         public Position StartingPosition;
 
+        public bool AlwaysUnlocked = true;
 
 
         public async Task GenerateLevel()

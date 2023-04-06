@@ -11,7 +11,13 @@ public class PlayerLevelEditor : MonoBehaviour
     [SerializeField]
     private int selectedParticle = 0;
     [SerializeField]
+    private int selectedSecondParticle = 0;
+
+    [SerializeField]
     private int spawningSpeed = 6;
+    [SerializeField]
+    private int secondParticleSpawningSpeed = 1;
+
     [SerializeField]
     private float spawningTimeInterval = 0.05f;
     [SerializeField]
@@ -39,6 +45,12 @@ public class PlayerLevelEditor : MonoBehaviour
                 if (placedLastSecond < spawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedParticle);
                 placedLastSecond++;
             }
+            if (Input.GetKey(KeyCode.F))
+            {
+                if (placedLastSecond < secondParticleSpawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedSecondParticle);
+                placedLastSecond++;
+            }
+
             if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.E))
             {
                 if (StartFlag != null) newLevelToSave.StartingPosition = new Position(StartFlag.transform.position + MapEditor.StartingPointOffset);
@@ -60,13 +72,14 @@ public class PlayerLevelEditor : MonoBehaviour
     }
     private void GoToLevelEditorMode()
     {
-        Debug.LogError("Trying to go to a level editor mode using release build!");
-        return;
+    #if UNITY_EDITOR
 
         if (PlayerRepresentation.LocalPlayer.SelectedCar != null) PlayerRepresentation.LocalPlayer.SelectedCar.gameObject.SetActive(false);
         Camera.main.orthographicSize = cameraDistance;
         Camera.main.gameObject.GetComponent<CameraFollowing>().ManualControl = true;
         MapEditor.ClearMap(false);
+
+    #endif
     }
     private IEnumerator RecountPlacedParticles()
     {

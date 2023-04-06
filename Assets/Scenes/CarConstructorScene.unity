@@ -596,7 +596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1751,11 +1751,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 474952269}
-  - {fileID: 1017003678}
+  - {fileID: 221333532}
   - {fileID: 290315062}
   - {fileID: 934644061}
-  - {fileID: 221333532}
+  - {fileID: 1017003678}
+  - {fileID: 474952269}
   m_Father: {fileID: 7252178174095754597}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2719,7 +2719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3845,7 +3845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4193,7 +4193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5686,7 +5686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
       propertyPath: m_AnchorMax.x

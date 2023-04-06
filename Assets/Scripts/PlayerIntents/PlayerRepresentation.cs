@@ -58,7 +58,7 @@ public class PlayerRepresentation : MonoBehaviour
     public class Player
     {
         public int Money = 0;
-        public List<LevelStatus> LevelProgressData = new List<LevelStatus>();
+        public List<LevelStatus> LevelProgressData = new List<LevelStatus>(100);
 
         [NonSerialized()]
         public List<Car> OwnedCars = new List<Car>();
@@ -74,6 +74,16 @@ public class PlayerRepresentation : MonoBehaviour
             LevelProgressData.Add(0);
 
             Money = startingMoney;
+        }
+
+        public void ExpandLevelsProgressData(int totalLevelsCount)
+        {
+            int countDifference = totalLevelsCount - LevelProgressData.Count;
+            for (int levelID = LevelProgressData.Count; levelID < totalLevelsCount; levelID++)
+            {
+                if (GameLevelSaverLoader.AllLoadedGameLevels[levelID].AlwaysUnlocked || LevelProgressData[levelID - 1] != LevelStatus.Locked) LevelProgressData.Add(LevelStatus.Unlocked);
+                else LevelProgressData.Add(LevelStatus.Locked);
+            }
         }
 
         [System.Serializable]

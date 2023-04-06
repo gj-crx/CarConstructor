@@ -15,11 +15,16 @@ namespace UI
             for (int i = 0; i < levelPanels.Count; i++) GameObject.Destroy(levelPanels[i]);
             levelPanels.Clear();
 
+            if (PlayerRepresentation.LocalPlayer.LevelProgressData.Count < GameLevelSaverLoader.AllLoadedGameLevels.Count) 
+                PlayerRepresentation.LocalPlayer.ExpandLevelsProgressData(GameLevelSaverLoader.AllLoadedGameLevels.Count);
+
             foreach (var gameLevel in GameLevelSaverLoader.AllLoadedGameLevels)
             {
                 GameObject gameLevelPanel = null;
 
-                if (PlayerRepresentation.LocalPlayer.LevelProgressData.Count <= gameLevel.LevelID || PlayerRepresentation.LocalPlayer.LevelProgressData[gameLevel.LevelID] == PlayerRepresentation.Player.LevelStatus.Locked)
+                if (gameLevel.AlwaysUnlocked == false 
+                    && (PlayerRepresentation.LocalPlayer.LevelProgressData.Count <= gameLevel.LevelID 
+                        || PlayerRepresentation.LocalPlayer.LevelProgressData[gameLevel.LevelID] == PlayerRepresentation.Player.LevelStatus.Locked))
                 { //locked stage
                     gameLevelPanel = GameObject.Instantiate(PrefabManager.GameLevelItemPrefabs[4]);
                 }

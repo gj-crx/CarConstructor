@@ -60,19 +60,19 @@ namespace SaveLoadSystem
         }
         public static void SaveObjectAsAsset(GameObject asset, string SaveName, string directory = "")
         {
-                Debug.LogError("RELEASE BUILD DETECTED");
+            #if UNITY_EDITOR
 
             if (directory == "")
             {
-            //    PrefabUtility.SaveAsPrefabAsset(asset, "Assets/Resources/" + SaveName + ".prefab");
+                PrefabUtility.SaveAsPrefabAsset(asset, "Assets/Resources/" + SaveName + ".prefab");
 
             }
             else
             {
                 if (Directory.Exists("Assets/Resources/" + directory + "/") == false) Directory.CreateDirectory("Assets/Resources/" + directory + "/");
-                //    PrefabUtility.SaveAsPrefabAsset(asset, "Assets/Resources/" + directory + "/" + SaveName + ".prefab");
+                PrefabUtility.SaveAsPrefabAsset(asset, "Assets/Resources/" + directory + "/" + SaveName + ".prefab");
             }
-
+            #endif
         }
 
     }

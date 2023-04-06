@@ -21,6 +21,7 @@ namespace SaveLoadSystem
 
         public static void SaveNewLevel(GameLevelData levelToSave, string fileSaveName)
         {
+        #if UNITY_EDITOR
 
             Directory.CreateDirectory("Assets/Resources/Levels/" + fileSaveName);
             if (levelToSave.LevelName == "") levelToSave.LevelName = fileSaveName;
@@ -43,10 +44,10 @@ namespace SaveLoadSystem
                     wallsCount++;
                 }
             }
-       //      EditorUtility.SetDirty(levelToSave);
-           Debug.LogError("Trying to save level with a RELEASE build");
+           EditorUtility.SetDirty(levelToSave);
+           AllLoadedGameLevels.Add(levelToSave);
 
-            AllLoadedGameLevels.Add(levelToSave);
+        #endif
         }
         
         public static void LoadAllGameLevels()
