@@ -101,7 +101,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.8
+  m_Mass: 3
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarPartName: Metal joint
-  CarPartTypeID: 7
+  CarPartTypeID: 6
   ConnectedFramePartID: -1
   Type: 4
   Icon: {fileID: 21300000, guid: 03cb0f9b9d35a14499ccade97f1b3da1, type: 3}

@@ -12,5547 +12,5773 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85e8809f7e47ffa4aaa71a3e27ff4f2e, type: 3}
   m_Name: Level4
   m_EditorClassIdentifier: 
-  LevelName: Level 3
+  LevelName: Level 4
   BasicParticles:
   - particlePosition:
-      X: 11.038096
-      Y: 10.251908
+      X: 0.9620736
+      Y: 3.770865
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.529164
-      Y: 9.489796
+      X: 0.7145154
+      Y: 3.7822378
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.107583
-      Y: 10.249164
+      X: 0.5140271
+      Y: 3.935429
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 9.325136
-      Y: 10.414048
+      X: 0.39558163
+      Y: 3.775601
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.010668
-      Y: 9.262725
+      X: 0.25914615
+      Y: 3.9563348
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.207129
-      Y: 7.642771
+      X: 0.0867766
+      Y: 3.7652285
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.447791
-      Y: 9.345081
+      X: -0.71356475
+      Y: 3.7635107
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.030973
-      Y: 8.771735
+      X: -0.43687445
+      Y: 3.7631774
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 5.933931
-      Y: 8.6258545
+      X: -0.9671958
+      Y: 3.731008
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 12.246006
-      Y: 9.505538
+      X: 9.631179
+      Y: 3.7759216
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 15.3004055
-      Y: 8.140923
+      X: -0.58064145
+      Y: 4.016161
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.803727
-      Y: 8.908107
+      X: 1.7289858
+      Y: 3.7929354
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.7479
-      Y: 9.216694
+      X: -0.18520886
+      Y: 3.817154
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.667377
-      Y: 6.028858
+      X: 0.00893354
+      Y: 4.021273
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.953035
-      Y: 10.029348
+      X: -7.2532268
+      Y: 3.7782512
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 17.150988
-      Y: 6.821039
+      X: 1.4391965
+      Y: 3.7733896
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 15.128657
-      Y: 8.352912
+      X: -0.86529136
+      Y: 3.9929879
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.596441
-      Y: 9.649768
+      X: -0.31386933
+      Y: 4.0650363
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.773088
-      Y: 9.808234
+      X: 1.998404
+      Y: 3.7986157
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.3441515
-      Y: 8.662227
+      X: 2.843232
+      Y: 3.7274396
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 7.029995
-      Y: 9.023459
+      X: 4.168171
+      Y: 4.0244727
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.117428
-      Y: 6.2860303
+      X: 3.2299557
+      Y: 3.767962
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.976848
-      Y: 8.989064
+      X: 3.5223734
+      Y: 3.791801
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.25298
-      Y: 10.650611
+      X: 3.9910674
+      Y: 3.7739465
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.466614
-      Y: 10.171802
+      X: 3.0297902
+      Y: 3.8292866
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.857902
-      Y: 8.433277
+      X: 3.309892
+      Y: 4.02112
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 13.869957
-      Y: 9.01084
+      X: 3.5422316
+      Y: 4.1247764
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 4.631149
-      Y: 7.631445
+      X: 3.7352026
+      Y: 3.9164798
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 31.618912
-      Y: 5.313813
+      X: 4.2533097
+      Y: 3.7961624
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 8.000815
-      Y: 9.354931
+      X: 4.5348907
+      Y: 3.788269
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.243452
-      Y: 9.028248
+      X: 4.4166036
+      Y: 4.0572133
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.4399016
-      Y: 6.990778
+      X: 4.8010807
+      Y: 3.768702
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.680879
-      Y: 8.801074
+      X: 4.6633887
+      Y: 4.004925
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 4.871408
-      Y: 7.8425765
+      X: 4.989383
+      Y: 3.9263222
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 21.770157
-      Y: 4.6857553
+      X: 5.1896462
+      Y: 3.787855
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.17636025
-      Y: 4.921387
+      X: 5.6231384
+      Y: 4.0028195
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.917508
-      Y: 10.033432
+      X: 5.463527
+      Y: 3.791044
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.883612
-      Y: 6.748292
+      X: 4.9960046
+      Y: 4.3531656
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.08614
-      Y: 8.414563
+      X: 5.796208
+      Y: 3.7868135
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 12.706571
-      Y: 9.059233
+      X: 5.3306093
+      Y: 4.008784
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.477853
-      Y: 8.541098
+      X: 5.9372377
+      Y: 3.9925797
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -2.4808743
-      Y: 4.3243113
+      X: 6.079801
+      Y: 3.7895074
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -1.1887435
-      Y: 4.4357233
+      X: 6.2306
+      Y: 4.001893
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.111112
-      Y: 8.518802
+      X: 5.7675986
+      Y: 4.2092676
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 8.429033
-      Y: 9.230241
+      X: 6.872781
+      Y: 3.7737637
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.413864
-      Y: 8.42089
+      X: 6.029565
+      Y: 4.2215786
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 17.42667
-      Y: 6.3516903
+      X: 5.4517555
+      Y: 4.223957
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 9.97632
-      Y: 10.629809
+      X: 6.6212626
+      Y: 3.7922678
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 3.232673
-      Y: 6.8307443
+      X: 7.3061624
+      Y: 3.7849941
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.175817
-      Y: 10.041361
+      X: 4.869433
+      Y: 4.1387825
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -0.5515804
-      Y: 4.313254
+      X: 6.3473043
+      Y: 3.7799704
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.539831
-      Y: 5.6410933
+      X: 6.4791503
+      Y: 4.0312567
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.488676
-      Y: 8.992005
+      X: 6.498158
+      Y: 4.274412
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.595936
-      Y: 10.41688
+      X: 6.767865
+      Y: 3.9971454
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.5927696
-      Y: 8.219912
+      X: 7.086127
+      Y: 3.8962724
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.381213
-      Y: 9.287888
+      X: 6.7662206
+      Y: 4.2365265
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.9820871
-      Y: 6.761918
+      X: 6.9822254
+      Y: 4.119158
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.087963
-      Y: 7.4897966
+      X: 7.259372
+      Y: 4.064667
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.488586
-      Y: 7.927883
+      X: 7.4017797
+      Y: 4.348356
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.243899
-      Y: 10.027932
+      X: 7.590112
+      Y: 3.7923787
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.791149
-      Y: 9.539884
+      X: 7.8300056
+      Y: 3.7935276
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.17395
-      Y: 9.134072
+      X: 7.5018644
+      Y: 4.0555706
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.635237
-      Y: 10.115377
+      X: 7.77713
+      Y: 4.0686216
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.468556
-      Y: 10.332852
+      X: 8.024244
+      Y: 3.9867318
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.138535
-      Y: 5.932922
+      X: 8.202684
+      Y: 3.7936103
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.680623
-      Y: 8.348504
+      X: 7.663898
+      Y: 4.2941732
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.1188145
-      Y: 7.9455667
+      X: 7.9621367
+      Y: 4.2459593
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.70227
-      Y: 9.396219
+      X: 8.589926
+      Y: 3.790618
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.151075
-      Y: 10.385784
+      X: 8.243075
+      Y: 4.1566677
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.4947051
-      Y: 5.7578745
+      X: 8.385103
+      Y: 3.914592
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.267555
-      Y: 9.768193
+      X: 8.226692
+      Y: 4.4031734
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -2.7619703
-      Y: 4.327952
+      X: 8.731835
+      Y: 3.9923556
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.071419
-      Y: 7.9988847
+      X: 9.168147
+      Y: 4.046999
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.205349
-      Y: 6.0230017
+      X: 8.877788
+      Y: 3.7921844
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.251931
-      Y: 10.170823
+      X: 8.518455
+      Y: 4.1562915
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.74404
-      Y: 9.3266735
+      X: 8.935877
+      Y: 4.1246753
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 6.5776663
-      Y: 8.819165
+      X: 9.1568165
+      Y: 3.7858129
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.745739
-      Y: 10.166117
+      X: 9.400958
+      Y: 3.8906455
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.28652
-      Y: 6.5769234
+      X: 9.658983
+      Y: 4.0558653
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 14.805733
-      Y: 8.065292
+      X: 9.919481
+      Y: 4.0236626
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.09313
-      Y: 9.805772
+      X: 9.904852
+      Y: 3.7822351
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.580423
-      Y: 6.5780916
+      X: 10.1598835
+      Y: 3.8746922
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.435957
-      Y: 9.963262
+      X: 10.405801
+      Y: 3.795424
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.18013
-      Y: 8.265434
+      X: 10.683788
+      Y: 3.7968464
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.6135337
-      Y: 6.346019
+      X: 10.765923
+      Y: 4.027617
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 21.496904
-      Y: 4.745399
+      X: 10.959185
+      Y: 3.7515728
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 9.8671
-      Y: 10.379326
+      X: 11.190823
+      Y: 3.8112395
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.800873
-      Y: 6.3885946
+      X: 10.345154
+      Y: 4.047963
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.20738
-      Y: 8.542339
+      X: 11.914695
+      Y: 3.7652342
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.846849
-      Y: 8.580203
+      X: 11.5955305
+      Y: 3.789187
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: -4.435264
-      Y: 4.3254
+      X: 11.049059
+      Y: 4.037691
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.766495
-      Y: 5.4666247
+      X: 11.262256
+      Y: 4.4290776
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.9584959
-      Y: 7.252779
+      X: 12.263198
+      Y: 3.7520535
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.496282
-      Y: 9.645074
+      X: 11.384388
+      Y: 3.9287822
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.999521
-      Y: 5.1297603
+      X: 15.853211
+      Y: 3.7847826
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.974765
-      Y: 9.767761
+      X: 11.303983
+      Y: 4.194234
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -1.4328403
-      Y: 4.3195586
+      X: 11.80283
+      Y: 3.9744987
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.004633
-      Y: 9.514766
+      X: 10.898815
+      Y: 4.5448856
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.4689064
-      Y: 7.3957763
+      X: 11.573211
+      Y: 4.0996895
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 22.746897
-      Y: 4.526508
+      X: 11.025533
+      Y: 4.291673
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.324557
-      Y: 8.771534
+      X: 16.443865
+      Y: 3.8040626
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.170537
-      Y: 7.374537
+      X: 10.563384
+      Y: 4.436751
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.003647
-      Y: 9.368853
+      X: 14.112432
+      Y: 3.8115385
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.035442
-      Y: 8.710344
+      X: 11.519412
+      Y: 4.375846
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.870144
-      Y: 5.872001
+      X: 12.111526
+      Y: 3.9499114
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.352125
-      Y: 7.809762
+      X: 13.795378
+      Y: 3.7580876
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.270642
-      Y: 9.485161
+      X: 10.773207
+      Y: 4.2980337
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -0.9457056
-      Y: 4.314558
+      X: 10.547041
+      Y: 4.1905904
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.045488
-      Y: 9.104672
+      X: 10.329372
+      Y: 4.3072095
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.41658
-      Y: 9.814945
+      X: 10.126018
+      Y: 4.1611495
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.259218
-      Y: 7.280786
+      X: 10.032166
+      Y: 4.386031
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.695893
-      Y: 9.873307
+      X: 9.8240795
+      Y: 4.24741
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.507429
-      Y: 9.363396
+      X: 9.586053
+      Y: 4.3172803
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -1.9823225
-      Y: 4.3176975
+      X: 9.332539
+      Y: 4.269457
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 3.7037308
-      Y: 7.1157804
+      X: 9.085001
+      Y: 4.3167305
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 21.947628
-      Y: 4.4934754
+      X: 8.740874
+      Y: 4.2634506
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.703847
-      Y: 7.7992163
+      X: 8.4629965
+      Y: 4.3929477
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.8180203
-      Y: 8.375937
+      X: 7.847872
+      Y: 4.4648085
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 20.213896
-      Y: 4.9645414
+      X: 7.5777426
+      Y: 4.525659
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.926357
-      Y: 8.65854
+      X: 7.1615105
+      Y: 4.2872186
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.639622
-      Y: 5.744292
+      X: 6.663307
+      Y: 4.46398
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.775905
-      Y: 9.3747835
+      X: 6.2556477
+      Y: 4.3207746
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.016962
-      Y: 10.135251
+      X: 6.4255257
+      Y: 4.506244
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.589821
-      Y: 7.551658
+      X: 5.2356677
+      Y: 4.337774
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.268927
-      Y: 5.2251797
+      X: 5.116185
+      Y: 4.130809
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.5286193
-      Y: 6.6370845
+      X: 3.9829974
+      Y: 4.46793
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.916445
-      Y: 9.006546
+      X: 4.587453
+      Y: 4.2390594
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.444435
-      Y: 6.1863604
+      X: 4.343055
+      Y: 4.3477407
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.764847
-      Y: 9.281485
+      X: 4.0973682
+      Y: 4.2920256
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.511763
-      Y: 5.118633
+      X: 3.779458
+      Y: 4.457154
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.556327
-      Y: 7.925969
+      X: 3.921354
+      Y: 4.0973406
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.343323
-      Y: 8.100328
+      X: 3.7531075
+      Y: 4.2433057
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.63967
-      Y: 8.98088
+      X: 3.5434546
+      Y: 4.373866
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 22.455856
-      Y: 4.5025835
+      X: 3.3853624
+      Y: 4.1427536
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.746922
-      Y: 9.606858
+      X: 3.069671
+      Y: 3.971347
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.739912
-      Y: 4.969406
+      X: -4.442557
+      Y: 3.763244
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.655443
-      Y: 4.706081
+      X: 2.563979
+      Y: 3.758549
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.290867
-      Y: 9.134154
+      X: 2.3381126
+      Y: 3.7546108
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.9178505
-      Y: 9.577569
+      X: 2.2014995
+      Y: 3.9551473
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.173975
-      Y: 5.657935
+      X: 1.8616054
+      Y: 4.0041895
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.3127193
-      Y: 6.0362873
+      X: 1.6169772
+      Y: 3.9456527
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.616657
-      Y: 6.183644
+      X: 0.8556917
+      Y: 4.2509665
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 18.399199
-      Y: 5.866139
+      X: 1.2042575
+      Y: 3.7754152
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.703924
-      Y: 6.854212
+      X: 1.0737588
+      Y: 3.991102
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.3342867
-      Y: 7.16699
+      X: 0.8257582
+      Y: 4.016861
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.69798
-      Y: 4.897391
+      X: 0.630968
+      Y: 4.153845
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.035809
-      Y: 5.3882666
+      X: 0.40554008
+      Y: 4.1792436
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.093903
-      Y: 9.282315
+      X: 0.30854347
+      Y: 4.3985987
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 21.267586
-      Y: 4.8741198
+      X: 0.15130693
+      Y: 4.2103233
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.646884
-      Y: 8.263051
+      X: -0.11750957
+      Y: 4.250835
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 7.1542535
-      Y: 8.459969
+      X: -0.27351904
+      Y: 4.278935
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.460161
-      Y: 4.8501925
+      X: -0.48711202
+      Y: 4.213106
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.4641194
-      Y: 8.392847
+      X: -0.95535123
+      Y: 4.2677736
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.826222
-      Y: 7.4105616
+      X: -0.7263994
+      Y: 4.208788
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.317556
-      Y: 9.029272
+      X: -1.105822
+      Y: 4.072865
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.6858816
-      Y: 8.578967
+      X: -1.5023903
+      Y: 3.7801206
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.3910503
-      Y: 8.891215
+      X: -1.2477509
+      Y: 3.7432275
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.334543
-      Y: 7.050554
+      X: -1.1997932
+      Y: 4.3011875
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.176093
-      Y: 8.1657505
+      X: -1.4786166
+      Y: 4.180787
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 18.919222
-      Y: 5.407256
+      X: -1.3479217
+      Y: 3.973624
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.294348
-      Y: 5.204983
+      X: -1.5741884
+      Y: 4.4111333
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.177719
-      Y: 9.909474
+      X: -1.362225
+      Y: 4.4225655
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.618701
-      Y: 8.726722
+      X: -1.7707121
+      Y: 3.7760272
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.970375
-      Y: 5.147205
+      X: -2.0244203
+      Y: 3.7703488
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.347313
-      Y: 9.691931
+      X: -1.6360508
+      Y: 3.9891586
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.926715
-      Y: 7.7019744
+      X: -1.8850772
+      Y: 4.0164323
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.264446
-      Y: 4.663691
+      X: -2.3045878
+      Y: 3.7591088
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.279411
-      Y: 9.589366
+      X: -1.7264017
+      Y: 4.216937
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.447293
-      Y: 8.037606
+      X: -2.0373168
+      Y: 4.237485
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.0271893
-      Y: 7.004697
+      X: -2.0099413
+      Y: 4.61787
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.879194
-      Y: 6.1207004
+      X: -1.866864
+      Y: 4.418527
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.780262
-      Y: 8.744931
+      X: -2.2046285
+      Y: 3.9583955
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.479708
-      Y: 6.8228464
+      X: -2.5395062
+      Y: 3.8727653
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.903654
-      Y: 9.882195
+      X: -2.744948
+      Y: 3.7722573
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.3828025
-      Y: 8.596277
+      X: -2.5584142
+      Y: 4.139935
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.524542
-      Y: 5.332328
+      X: -2.9826334
+      Y: 3.8263605
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.0414648
-      Y: 6.4728603
+      X: -2.9363513
+      Y: 4.2749524
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.052673
-      Y: 5.665112
+      X: -2.187063
+      Y: 4.442169
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.59483
-      Y: 7.2573543
+      X: -2.7991228
+      Y: 4.038604
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.121197
-      Y: 9.395418
+      X: -3.4579244
+      Y: 3.7637596
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.224489
-      Y: 7.8936
+      X: -3.2122655
+      Y: 3.765308
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.13955
-      Y: 4.9733057
+      X: -3.8026261
+      Y: 3.74077
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.679009
-      Y: 9.745735
+      X: -2.281998
+      Y: 4.2131653
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.924718
-      Y: 8.265307
+      X: -3.359529
+      Y: 3.9709783
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.626514
-      Y: 5.1380415
+      X: -3.3481443
+      Y: 4.210055
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.8801165
-      Y: 8.389324
+      X: -6.069621
+      Y: 3.7864552
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.7916403
-      Y: 6.5577993
+      X: -3.0979156
+      Y: 4.0465493
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.526759
-      Y: 9.541903
+      X: -3.6353633
+      Y: 3.9720364
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.367829
-      Y: 7.686825
+      X: -2.4592178
+      Y: 4.382044
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.535753
-      Y: 6.40061
+      X: -3.9998446
+      Y: 3.9825258
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.873695
-      Y: 6.4769926
+      X: -2.5471072
+      Y: 4.799211
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.997509
-      Y: 5.8743787
+      X: -3.1611235
+      Y: 4.3743186
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.664679
-      Y: 7.9717684
+      X: -3.8832116
+      Y: 4.205896
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.0594792
-      Y: 5.8873863
+      X: -2.7025175
+      Y: 4.3387585
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.532227
-      Y: 8.858798
+      X: -4.0892053
+      Y: 3.7551236
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.061266
-      Y: 7.4630218
+      X: -5.826766
+      Y: 3.7644823
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.834351
-      Y: 7.1650805
+      X: -2.3817096
+      Y: 4.616505
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 21.146217
-      Y: 4.6330695
+      X: -2.928576
+      Y: 4.520914
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.3754486
-      Y: 5.5128164
+      X: -3.634745
+      Y: 4.218226
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 19.96408
-      Y: 4.8670454
+      X: -2.622459
+      Y: 4.560843
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.659937
-      Y: 8.206713
+      X: -3.3010094
+      Y: 4.5820837
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.273487
-      Y: 8.75226
+      X: -4.6939025
+      Y: 3.768967
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.092669
-      Y: 6.3224998
+      X: -3.4833276
+      Y: 4.4154544
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.0969033
-      Y: 7.673264
+      X: 14.365046
+      Y: 3.7599292
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.0960778
-      Y: 5.52119
+      X: 14.619965
+      Y: 3.7597682
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.409294
-      Y: 5.5959883
+      X: 14.865571
+      Y: 3.7612815
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.77414
-      Y: 7.7823176
+      X: 15.1049595
+      Y: 3.75164
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.404982
-      Y: 4.9490128
+      X: 15.357278
+      Y: 3.7445142
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.9433
-      Y: 7.852107
+      X: 15.581074
+      Y: 3.7717733
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.3781
-      Y: 9.322392
+      X: 15.71786
+      Y: 4.0114527
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.666056
-      Y: 5.470441
+      X: 15.989556
+      Y: 4.0298963
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.28402
-      Y: 5.4716134
+      X: 16.136797
+      Y: 3.8090534
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.504577
-      Y: 9.466551
+      X: 26.467817
+      Y: 3.8105125
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.119983
-      Y: 7.72793
+      X: 26.22131
+      Y: 3.7993715
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.7463837
-      Y: 7.6954503
+      X: 20.680256
+      Y: 3.7841697
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.282728
-      Y: 9.106493
+      X: 16.282335
+      Y: 4.0073566
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.713471
-      Y: 9.132493
+      X: 15.432974
+      Y: 3.9802334
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.923155
-      Y: 4.794765
+      X: 15.175383
+      Y: 3.9706047
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 19.716637
-      Y: 5.1595144
+      X: 14.553037
+      Y: 4.0076504
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.1519203
-      Y: 8.772009
+      X: 14.282065
+      Y: 3.9919755
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.071801
-      Y: 9.66606
+      X: 13.898279
+      Y: 3.9194071
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.8513975
-      Y: 9.519727
+      X: 13.540975
+      Y: 3.793611
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.400636
-      Y: 8.14514
+      X: 13.28567
+      Y: 3.7806628
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 2.8724902
-      Y: 6.2500787
+      X: 13.130694
+      Y: 3.9996424
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.083902
-      Y: 7.0618916
+      X: 12.995564
+      Y: 3.779058
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.7223864
-      Y: 7.3827696
+      X: 12.746106
+      Y: 3.79707
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.753878
-      Y: 8.941832
+      X: 13.038928
+      Y: 4.258733
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.555916
-      Y: 9.108317
+      X: 12.51693
+      Y: 3.7776477
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -1.7030679
-      Y: 4.322767
+      X: 12.392365
+      Y: 3.9540985
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.619492
-      Y: 8.700925
+      X: 12.86702
+      Y: 4.0342565
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.697965
-      Y: 8.492337
+      X: 12.229415
+      Y: 4.113232
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.2497377
-      Y: 7.4655232
+      X: 13.429713
+      Y: 4.0150223
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.518805
-      Y: 9.231269
+      X: 12.615894
+      Y: 4.100783
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.89822
-      Y: 8.107131
+      X: 12.769251
+      Y: 4.3129387
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.927543
-      Y: 8.363158
+      X: 14.927621
+      Y: 4.021719
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.175249
-      Y: 9.142914
+      X: 13.503132
+      Y: 4.2766004
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.357899
-      Y: 7.412358
+      X: 12.433729
+      Y: 4.307845
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.477392
-      Y: 8.612755
+      X: 14.056187
+      Y: 4.1364007
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 10.251579
-      Y: 9.365083
+      X: 13.241799
+      Y: 4.403106
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.2356629
-      Y: 5.2988424
+      X: 13.703567
+      Y: 4.0935388
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 6.4507146
-      Y: 7.7303877
+      X: 12.982083
+      Y: 4.4922585
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.433684
-      Y: 8.844661
+      X: 13.861308
+      Y: 4.298354
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.166725
-      Y: 8.186544
+      X: 13.157736
+      Y: 4.712567
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.76289
-      Y: 9.12733
+      X: 12.622062
+      Y: 4.554122
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -4.7079816
-      Y: 4.3286967
+      X: 12.845442
+      Y: 4.727438
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.991215
-      Y: 7.16459
+      X: 12.139706
+      Y: 4.354491
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.5038347
-      Y: 7.598733
+      X: 11.965638
+      Y: 4.159805
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.7143836
-      Y: 7.9435315
+      X: 12.581872
+      Y: 4.7913194
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.003967
-      Y: 8.827838
+      X: 12.358572
+      Y: 4.553372
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.675349
-      Y: 9.311295
+      X: 11.786179
+      Y: 4.3404307
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.8805065
-      Y: 8.604197
+      X: 11.950938
+      Y: 4.5438333
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.8897705
-      Y: 8.119877
+      X: 12.853378
+      Y: 4.9741974
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 8.234332
-      Y: 8.868019
+      X: 11.136454
+      Y: 4.667267
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.01858
-      Y: 9.051705
+      X: 11.689485
+      Y: 4.572973
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.6793854
-      Y: 6.08625
+      X: 11.436353
+      Y: 4.6519356
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.933541
-      Y: 8.997732
+      X: 10.255424
+      Y: 4.5416408
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.1658535
-      Y: 9.120575
+      X: 10.803077
+      Y: 4.7842617
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.4530063
-      Y: 8.3259115
+      X: 11.306066
+      Y: 4.8937373
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.77226
-      Y: 8.194726
+      X: 11.492186
+      Y: 5.1029553
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.170865
-      Y: 8.843663
+      X: 11.030147
+      Y: 4.922061
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.954424
-      Y: 9.28883
+      X: 11.608437
+      Y: 4.8392906
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.312165
-      Y: 8.633302
+      X: 11.889927
+      Y: 4.810013
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.6579745
-      Y: 5.541337
+      X: 11.807369
+      Y: 5.036168
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.2839475
-      Y: 6.9081655
+      X: 12.1452265
+      Y: 4.718301
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.528076
-      Y: 9.084262
+      X: 12.065401
+      Y: 4.9949813
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.610294
-      Y: 7.131668
+      X: 12.322504
+      Y: 4.9035497
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.78785264
-      Y: 4.781892
+      X: 12.327431
+      Y: 5.150074
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.8193307
-      Y: 6.604336
+      X: 12.616588
+      Y: 5.0355415
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.498444
-      Y: 8.972715
+      X: 12.64624
+      Y: 5.280334
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.9678023
-      Y: 5.28915
+      X: 13.013685
+      Y: 5.170263
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.87726134
-      Y: 5.0245748
+      X: 13.414489
+      Y: 4.603005
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -4.158969
-      Y: 4.3332076
+      X: 13.122274
+      Y: 4.950483
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -5.288852
-      Y: 4.339021
+      X: 13.378116
+      Y: 4.863566
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.2042713
-      Y: 7.6138477
+      X: 13.896375
+      Y: 4.5707245
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.275595
-      Y: 6.548502
+      X: 13.664626
+      Y: 4.474153
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.3222656
-      Y: 7.197916
+      X: 14.110246
+      Y: 4.440699
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.1356994
-      Y: 4.65007
+      X: 14.329447
+      Y: 4.2620134
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.081371
-      Y: 8.471316
+      X: 14.587848
+      Y: 4.2668347
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.8363398
-      Y: 5.756306
+      X: 14.457268
+      Y: 4.511168
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.97713
-      Y: 7.442401
+      X: 14.868057
+      Y: 4.2773156
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.399206
-      Y: 8.9741745
+      X: 15.144146
+      Y: 4.2382526
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -2.2331188
-      Y: 4.4043956
+      X: 15.34326
+      Y: 4.4308667
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.56596
-      Y: 7.3280797
+      X: 15.542034
+      Y: 4.2271824
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.6935153
-      Y: 8.466195
+      X: 16.11777
+      Y: 4.2041483
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.026557
-      Y: 8.211406
+      X: 15.711273
+      Y: 4.4902
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.9944677
-      Y: 8.747688
+      X: 15.863994
+      Y: 4.262267
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.562985
-      Y: 8.696955
+      X: 20.433865
+      Y: 3.7919948
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.326805
-      Y: 8.910598
+      X: 15.746549
+      Y: 4.6458187
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.898585
-      Y: 8.835845
+      X: 15.063312
+      Y: 4.4866304
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.173014
-      Y: 8.272696
+      X: 14.744914
+      Y: 4.500151
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.315939
-      Y: 5.7350383
+      X: 14.679884
+      Y: 4.773909
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.43173
-      Y: 8.24226
+      X: 14.3898535
+      Y: 4.769387
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.632448
-      Y: 8.418489
+      X: 14.131092
+      Y: 4.6870394
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.15586
-      Y: 8.523037
+      X: 15.151014
+      Y: 4.9451957
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.843811
-      Y: 8.083566
+      X: 13.606196
+      Y: 4.7475643
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.562988
-      Y: 8.624016
+      X: 13.882911
+      Y: 4.8113394
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.428316
-      Y: 5.3154974
+      X: 14.180639
+      Y: 4.9351335
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.886974
-      Y: 8.3449545
+      X: 14.516018
+      Y: 5.0131884
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.773108
-      Y: 6.87748
+      X: 13.582142
+      Y: 5.02628
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.376074
-      Y: 8.55089
+      X: 14.306318
+      Y: 5.143995
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.804915
-      Y: 9.048976
+      X: 13.832113
+      Y: 5.0453897
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.616395
-      Y: 7.9172783
+      X: 13.352507
+      Y: 5.145717
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.647839
-      Y: 8.076077
+      X: 13.366175
+      Y: 5.39112
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.100545
-      Y: 8.574349
+      X: 13.594758
+      Y: 5.2879667
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.619745
-      Y: 8.211395
+      X: 12.981664
+      Y: 5.414203
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.135056
-      Y: 8.775012
+      X: 12.182623
+      Y: 5.3511395
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 21.331364
-      Y: 4.458173
+      X: 15.375722
+      Y: 4.8536263
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.165401
-      Y: 6.8132777
+      X: 11.678674
+      Y: 5.2651777
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.898058
-      Y: 7.9901614
+      X: 10.677244
+      Y: 5.2369385
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.4534063
-      Y: 8.049567
+      X: 11.95711
+      Y: 5.2355113
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 14.359839
-      Y: 7.7546935
+      X: 13.623715
+      Y: 5.5258365
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.157127
-      Y: 8.254029
+      X: 11.825615
+      Y: 5.458164
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 16.839233
-      Y: 6.2060175
+      X: 12.42741
+      Y: 5.393728
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.392584
-      Y: 8.3434105
+      X: 13.182939
+      Y: 5.556614
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 19.895113
-      Y: 4.6016474
+      X: 12.952787
+      Y: 5.6592016
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.86322
-      Y: 8.768388
+      X: 12.752581
+      Y: 5.502913
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.393264
-      Y: 8.281131
+      X: 12.292892
+      Y: 5.60024
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.637508
-      Y: 8.878752
+      X: 12.050935
+      Y: 5.5555544
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.129736
-      Y: 7.880315
+      X: 11.345418
+      Y: 5.3684063
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.348713
-      Y: 8.714882
+      X: 11.563777
+      Y: 5.542928
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.071378
-      Y: 8.011618
+      X: 10.212048
+      Y: 5.0334063
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.818674
-      Y: 8.575675
+      X: 11.185498
+      Y: 5.142642
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.807927
-      Y: 7.4433107
+      X: 10.90319
+      Y: 5.1337566
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.583329
-      Y: 7.573003
+      X: 10.47208
+      Y: 4.665784
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.65062
-      Y: 6.396434
+      X: 10.436119
+      Y: 4.909796
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.086184
-      Y: 8.881994
+      X: 10.220085
+      Y: 4.784609
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.143774
-      Y: 7.9722056
+      X: 9.404907
+      Y: 4.5452557
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 10.861546
-      Y: 8.115392
+      X: 9.904448
+      Y: 4.5974
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.45162
-      Y: 5.9462614
+      X: 8.871329
+      Y: 4.4676003
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.821991
-      Y: 8.790446
+      X: 9.663561
+      Y: 4.5549426
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.666471
-      Y: 7.832623
+      X: 8.665034
+      Y: 4.4965496
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.670477
-      Y: 8.154423
+      X: 8.991842
+      Y: 4.6766386
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.345769
-      Y: 7.9596486
+      X: 10.676014
+      Y: 4.9868364
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.764931
-      Y: 8.523228
+      X: 9.227464
+      Y: 4.7230225
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.403201
-      Y: 7.703817
+      X: 9.545377
+      Y: 4.7720194
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.97359
-      Y: 7.5047636
+      X: 10.004203
+      Y: 4.9040456
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.903539
-      Y: 8.054617
+      X: 7.7620854
+      Y: 4.699374
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 10.964904
-      Y: 8.352707
+      X: 8.7525
+      Y: 4.72683
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.677078
-      Y: 4.4395785
+      X: 8.374506
+      Y: 4.2773914
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.034365
-      Y: 8.54289
+      X: 11.943591
+      Y: 5.8044004
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.907733
-      Y: 7.700859
+      X: 13.459863
+      Y: 5.525373
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.711778
-      Y: 8.3277
+      X: 12.537587
+      Y: 5.6205754
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.104383
-      Y: 7.7221932
+      X: 14.497511
+      Y: 5.372006
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.571384
-      Y: 8.832663
+      X: 14.691303
+      Y: 5.2389355
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.83408
-      Y: 7.803712
+      X: 14.825638
+      Y: 4.9769464
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.110186
-      Y: 8.600173
+      X: 13.840897
+      Y: 5.2927284
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.872366
-      Y: 7.5128574
+      X: 14.080987
+      Y: 5.242819
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.49604297
-      Y: 4.727488
+      X: 15.691211
+      Y: 4.82205
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.6179285
-      Y: 7.5346737
+      X: 16.637457
+      Y: 3.9549177
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 6.966539
-      Y: 7.840744
+      X: 14.933742
+      Y: 4.7488203
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.399506
-      Y: 8.05756
+      X: 15.233561
+      Y: 4.704351
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 13.249989
-      Y: 7.5090556
+      X: 15.504522
+      Y: 4.6596627
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.403661
-      Y: 7.7621174
+      X: 17.180017
+      Y: 3.7810261
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.511397
-      Y: 8.431358
+      X: 17.024878
+      Y: 3.7584076
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.485102
-      Y: 8.568161
+      X: 25.973316
+      Y: 3.7966008
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.634925
-      Y: 7.6334324
+      X: 16.856796
+      Y: 3.8454082
     ParticleID: 3
     DynamicState: 0
+  - particlePosition:
+      X: 17.42544
+      Y: 3.8045857
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 18.167032
+      Y: 3.7895958
+    ParticleID: 3
+    DynamicState: 1
+  - particlePosition:
+      X: 17.671944
+      Y: 3.7889862
+    ParticleID: 3
+    DynamicState: 1
   - particlePosition:
-      X: 11.434495
-      Y: 8.0181875
+      X: 18.484016
+      Y: 3.7932286
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.880357
-      Y: 7.4362235
+      X: 17.920038
+      Y: 3.7892866
     ParticleID: 3
     DynamicState: 1
   - particlePosition:
-      X: 13.468287
-      Y: 7.334263
+      X: 18.730896
+      Y: 3.79027
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.360595
-      Y: 8.448309
+      X: 18.977707
+      Y: 3.7949233
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.152644
-      Y: 8.152692
+      X: 19.224058
+      Y: 3.7934356
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.421388
-      Y: 7.4861655
+      X: 19.469948
+      Y: 3.7911694
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.035358
-      Y: 7.885522
+      X: 20.17933
+      Y: 3.7963595
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.675245
-      Y: 7.8895836
+      X: 27.457838
+      Y: 3.7826183
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.136854
-      Y: 7.711351
+      X: 27.713015
+      Y: 3.7853186
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.291663
-      Y: 8.562002
+      X: 27.964859
+      Y: 3.7847407
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.111849
-      Y: 8.339117
+      X: 28.215452
+      Y: 3.7851946
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.393805
-      Y: 7.374379
+      X: 28.465504
+      Y: 3.7854722
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.153915
-      Y: 7.420256
+      X: 28.715597
+      Y: 3.7859406
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.877091
-      Y: 7.711026
+      X: 28.965796
+      Y: 3.7861912
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.513822
-      Y: 7.682082
+      X: 29.215195
+      Y: 3.7864234
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 10.474362
-      Y: 8.192839
+      X: 29.468239
+      Y: 3.7868636
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.034868
-      Y: 7.320419
+      X: 29.719753
+      Y: 3.7860727
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.271201
-      Y: 7.776187
+      X: 29.968796
+      Y: 3.787003
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.635935
-      Y: 6.6290226
+      X: 30.644148
+      Y: 4.0128727
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.706118
-      Y: 7.5013885
+      X: 30.316835
+      Y: 3.7868042
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 12.650292
-      Y: 7.340063
+      X: 30.590017
+      Y: 3.7477202
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.187135
-      Y: 8.295526
+      X: 30.859945
+      Y: 3.806036
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.793149
-      Y: 7.80959
+      X: 30.921392
+      Y: 4.06839
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.26044
-      Y: 7.1800685
+      X: 31.491364
+      Y: 4.216775
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.504609
-      Y: 7.3422666
+      X: 31.416084
+      Y: 3.9697733
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.899246
-      Y: 7.3196964
+      X: 31.733095
+      Y: 4.0915313
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.167792
-      Y: 7.206521
+      X: 31.986038
+      Y: 3.9978235
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.219793
-      Y: 8.121627
+      X: 33.040462
+      Y: 3.8722289
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.645101
-      Y: 7.9911833
+      X: 32.835976
+      Y: 3.7947776
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.141214
-      Y: 7.1557727
+      X: 33.30769
+      Y: 3.8306444
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.582823
-      Y: 8.182582
+      X: 33.458664
+      Y: 4.063166
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.703844
-      Y: 7.239039
+      X: 33.596725
+      Y: 3.830555
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.702341
-      Y: 7.213425
+      X: 33.730076
+      Y: 4.035968
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.972034
-      Y: 7.6101546
+      X: 33.867138
+      Y: 3.8341582
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.295664
-      Y: 7.531289
+      X: 34.134113
+      Y: 3.7878823
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.039386
-      Y: 6.973267
+      X: 34.42845
+      Y: 3.7783687
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.1103642
-      Y: 6.1957526
+      X: 35.290764
+      Y: 3.821149
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.135547
-      Y: 7.318164
+      X: 34.557228
+      Y: 3.9908822
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.71041
-      Y: 5.8379707
+      X: 33.165142
+      Y: 4.106906
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.081881
-      Y: 7.3725586
+      X: 32.47726
+      Y: 4.09197
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.512411
-      Y: 7.0582447
+      X: 31.808146
+      Y: 4.360125
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.138775
-      Y: 7.5702777
+      X: 30.420002
+      Y: 3.984821
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.358482
-      Y: 7.9122863
+      X: 29.339315
+      Y: 4.003272
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.198261
-      Y: 5.1711154
+      X: 28.844131
+      Y: 3.9996598
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.179108
-      Y: 6.54844
+      X: 28.320618
+      Y: 3.9678264
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.0654807
-      Y: 6.7255135
+      X: 27.593609
+      Y: 4.140235
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.950606
-      Y: 7.1127477
+      X: 27.001108
+      Y: 3.771831
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.63649
-      Y: 5.470969
+      X: 27.220974
+      Y: 3.7990499
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.923676
-      Y: 6.662807
+      X: 27.384638
+      Y: 4.0173182
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.500193
-      Y: 6.716526
+      X: 27.879702
+      Y: 4.262636
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.884758
-      Y: 5.618016
+      X: 27.808071
+      Y: 4.0221205
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.273468
-      Y: 6.917822
+      X: 28.073406
+      Y: 3.9987428
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.309152
-      Y: 7.051568
+      X: 28.547596
+      Y: 3.973825
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.391504
-      Y: 7.075044
+      X: 29.09262
+      Y: 4.0042305
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.2305727
-      Y: 7.9284797
+      X: 29.613825
+      Y: 4.038928
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 15.144937
-      Y: 6.887813
+      X: 29.970701
+      Y: 4.0269985
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.309998
-      Y: 6.956246
+      X: 31.22066
+      Y: 3.7977934
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.397469
-      Y: 7.2035384
+      X: 31.57225
+      Y: 3.807272
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 23.341946
-      Y: 4.562354
+      X: 31.810541
+      Y: 3.817062
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.801033
-      Y: 4.9470572
+      X: 32.076126
+      Y: 3.7963674
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.842503
-      Y: 7.631419
+      X: 32.336723
+      Y: 3.8024235
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.276772
-      Y: 6.3179398
+      X: 32.604137
+      Y: 3.8783367
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.946282
-      Y: 7.077691
+      X: 32.23219
+      Y: 4.0460086
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.687889
-      Y: 7.1580224
+      X: 32.055447
+      Y: 4.2465906
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.57803
-      Y: 6.1279984
+      X: 30.190342
+      Y: 3.9899678
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.371748
-      Y: 4.4274225
+      X: 30.986715
+      Y: 4.3432183
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.6795063
-      Y: 7.9327326
+      X: 31.23296
+      Y: 4.237871
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.833854
-      Y: 7.1411176
+      X: 31.370491
+      Y: 4.458011
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.785647
-      Y: 6.8411937
+      X: 31.613016
+      Y: 4.6030684
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.583856
-      Y: 7.0190034
+      X: 32.13962
+      Y: 4.4712358
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.295303
-      Y: 8.258141
+      X: 32.306355
+      Y: 4.2832665
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.074905
-      Y: 5.913201
+      X: 32.729893
+      Y: 4.231601
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.828893
-      Y: 8.5125675
+      X: 32.905537
+      Y: 4.0483546
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.586646
-      Y: 6.9799066
+      X: 33.34433
+      Y: 4.2364187
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.246677
-      Y: 6.135531
+      X: 33.613544
+      Y: 4.2465777
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.80771
-      Y: 6.8404837
+      X: 34.071945
+      Y: 4.0381994
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.451828
-      Y: 7.0149026
+      X: 33.898
+      Y: 4.2159123
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.980885
-      Y: 4.734003
+      X: 34.333004
+      Y: 4.1715736
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.483784
-      Y: 4.699267
+      X: 34.124577
+      Y: 4.3114967
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.526241
-      Y: 7.751176
+      X: 35.82951
+      Y: 3.7889724
     ParticleID: 3
     DynamicState: 0
+  - particlePosition:
+      X: 34.891136
+      Y: 3.9980726
+    ParticleID: 3
+    DynamicState: 1
   - particlePosition:
-      X: 16.811195
-      Y: 5.9602013
+      X: 34.730404
+      Y: 3.8106215
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.492517
-      Y: 6.826337
+      X: 35.05038
+      Y: 3.8093097
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.094744
-      Y: 4.4230247
+      X: 32.35617
+      Y: 4.527354
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.032449
-      Y: 6.7012033
+      X: 35.58343
+      Y: 3.810721
     ParticleID: 3
+    DynamicState: 1
+  - particlePosition:
+      X: 36.070457
+      Y: 3.8236823
+    ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.989583
-      Y: 6.362348
+      X: 36.318394
+      Y: 3.8125541
     ParticleID: 3
     DynamicState: 0
+  - particlePosition:
+      X: 36.565144
+      Y: 3.8207204
+    ParticleID: 3
+    DynamicState: 1
   - particlePosition:
-      X: 7.475441
-      Y: 7.7753143
+      X: 36.811817
+      Y: 3.8126168
     ParticleID: 3
     DynamicState: 1
+  - particlePosition:
+      X: 37.73794
+      Y: 3.7982886
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 37.999218
+      Y: 3.7963142
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 38.251083
+      Y: 3.8166554
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 38.5233
+      Y: 3.8158312
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 39.1248
+      Y: 3.815428
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 38.769962
+      Y: 3.81449
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 39.373257
+      Y: 3.8319907
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 39.62714
+      Y: 3.8368058
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 39.84819
+      Y: 3.9465504
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 40.05603
+      Y: 3.8134155
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 40.44904
+      Y: 3.8215673
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 40.687912
+      Y: 3.8207812
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 40.925022
+      Y: 3.817923
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 41.184406
+      Y: 3.840563
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 41.370316
+      Y: 3.9998944
+    ParticleID: 3
+    DynamicState: 0
   - particlePosition:
-      X: 14.733616
-      Y: 6.580845
+      X: 41.542095
+      Y: 3.8330166
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.731061
-      Y: 6.893719
+      X: 41.78313
+      Y: 3.8403735
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.269424
-      Y: 6.632848
+      X: 42.031376
+      Y: 3.8233085
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.094473
-      Y: 6.903246
+      X: 42.272675
+      Y: 3.8195763
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.307648
-      Y: 5.74259
+      X: 42.51159
+      Y: 3.8209906
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.562265
-      Y: 8.5045395
+      X: 42.810825
+      Y: 3.8203561
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.503754
-      Y: 6.5566497
+      X: 43.519676
+      Y: 3.8233836
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.292271
-      Y: 7.2036033
+      X: 43.81942
+      Y: 3.8221505
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.390819
-      Y: 6.673845
+      X: 44.273243
+      Y: 3.822476
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.5511
-      Y: 8.248761
+      X: 44.523643
+      Y: 3.8211384
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -5.0072684
-      Y: 4.338867
+      X: 45.500385
+      Y: 3.824128
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.741543
-      Y: 6.463443
+      X: 45.75166
+      Y: 3.8242838
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.910687
-      Y: 6.6832843
+      X: 45.998272
+      Y: 3.8237264
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.692349
-      Y: 7.5624895
+      X: 46.53584
+      Y: 3.824165
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.096102
-      Y: 6.0998793
+      X: 46.778572
+      Y: 3.8229923
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 23.036201
-      Y: 4.5415363
+      X: 47.24149
+      Y: 3.8249102
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.406751
-      Y: 6.444806
+      X: 47.50989
+      Y: 3.8284178
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.671661
-      Y: 6.3161936
+      X: 47.744366
+      Y: 3.8458228
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.391922
-      Y: 4.680629
+      X: 47.985947
+      Y: 3.8219733
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.905647
-      Y: 8.300366
+      X: 54.879887
+      Y: 3.7828262
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.65839
-      Y: 6.638138
+      X: 56.474022
+      Y: 3.811923
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.463236
-      Y: 6.504633
+      X: 58.060844
+      Y: 3.8108325
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.870231
-      Y: 8.241352
+      X: 59.177666
+      Y: 3.7706056
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.228767
-      Y: 4.671636
+      X: 59.896847
+      Y: 3.7995687
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.051035
-      Y: 5.4092298
+      X: 60.197624
+      Y: 3.799128
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.94191
-      Y: 6.435394
+      X: 60.493153
+      Y: 3.798635
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.30366
-      Y: 7.984788
+      X: 60.745197
+      Y: 3.7997274
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.240477
-      Y: 4.8882084
+      X: 60.999744
+      Y: 3.7923536
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.723519
-      Y: 6.5797954
+      X: 61.26121
+      Y: 3.7697086
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 20.967525
-      Y: 4.4340253
+      X: 61.560345
+      Y: 3.7738466
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.93362
-      Y: 5.1751556
+      X: 64.3076
+      Y: 3.8128376
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.504029
-      Y: 6.75974
+      X: 61.553635
+      Y: 3.988272
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.8136
-      Y: 8.024011
+      X: 61.32783
+      Y: 4.1076226
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.994043
-      Y: 6.6366806
+      X: 61.06803
+      Y: 4.066915
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.256346
-      Y: 6.6653543
+      X: 60.787483
+      Y: 4.071932
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.530155
-      Y: 4.8947763
+      X: 60.312656
+      Y: 4.0294003
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.249907
-      Y: 6.6797004
+      X: 60.56044
+      Y: 4.160805
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.12345
-      Y: 5.819847
+      X: 60.353764
+      Y: 4.310334
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.043261
-      Y: 7.954655
+      X: 60.05886
+      Y: 3.9742389
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.540471
-      Y: 6.293002
+      X: 59.67055
+      Y: 3.7966006
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.813538
-      Y: 6.951267
+      X: 58.827312
+      Y: 3.7968657
     ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 58.466434
+      Y: 3.8137157
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 57.81448
+      Y: 3.8159957
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 57.55394
+      Y: 3.8281238
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 55.75909
+      Y: 3.776499
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 54.632652
+      Y: 3.8262615
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 54.386898
+      Y: 3.816237
+    ParticleID: 3
     DynamicState: 1
   - particlePosition:
-      X: 14.207576
-      Y: 6.2681823
+      X: 54.141678
+      Y: 3.8167782
     ParticleID: 3
+    DynamicState: 1
+  - particlePosition:
+      X: 55.514725
+      Y: 3.806324
+    ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.926676
-      Y: 6.3804026
+      X: 55.228916
+      Y: 3.8084433
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 21.609554
-      Y: 4.468439
+      X: 56.236126
+      Y: 3.8162792
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.065684
-      Y: 6.8615932
+      X: 57.30941
+      Y: 3.8151574
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.684705
-      Y: 5.7648573
+      X: 58.270668
+      Y: 4.002034
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.974007
-      Y: 7.9844704
+      X: 59.028625
+      Y: 3.8522477
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.355782
-      Y: 5.9877205
+      X: 59.40696
+      Y: 3.8205447
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.207868
-      Y: 6.367907
+      X: 59.553032
+      Y: 4.0399756
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.976376
-      Y: 4.884
+      X: 59.81618
+      Y: 4.046419
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.036004
-      Y: 6.5161176
+      X: 60.11593
+      Y: 4.2472553
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.32869
-      Y: 6.10789
+      X: 60.081078
+      Y: 4.49162
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.801189
-      Y: 7.3227
+      X: 59.726208
+      Y: 4.200108
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.689257
-      Y: 5.2052436
+      X: 59.206734
+      Y: 4.023233
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.050323
-      Y: 6.4706364
+      X: 58.628525
+      Y: 4.012149
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.514872
-      Y: 5.8095927
+      X: 58.876217
+      Y: 4.045102
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.086074
-      Y: 8.030981
+      X: 59.375523
+      Y: 4.175004
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.31919
-      Y: 5.2569776
+      X: 59.912903
+      Y: 4.304356
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.288435
-      Y: 7.596051
+      X: 60.742157
+      Y: 4.3712807
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.877541
-      Y: 5.9451494
+      X: 60.9511
+      Y: 4.257096
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.305331
-      Y: 6.281955
+      X: 61.938225
+      Y: 3.8870027
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.757072
-      Y: 5.6854854
+      X: 62.157516
+      Y: 3.8045456
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.99011
-      Y: 7.120934
+      X: 62.45047
+      Y: 3.790683
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.581574
-      Y: 6.028698
+      X: 62.694576
+      Y: 3.7967675
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.462422
-      Y: 6.1542397
+      X: 62.94636
+      Y: 3.7992823
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -6.6243343
-      Y: 4.3330617
+      X: 64.06068
+      Y: 3.7980278
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.161514
-      Y: 5.89214
+      X: 64.45959
+      Y: 4.0095263
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.123199
-      Y: 7.782714
+      X: 61.78105
+      Y: 4.078798
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.420677
-      Y: 5.8211308
+      X: 63.565876
+      Y: 3.7980766
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.686772
-      Y: 6.049059
+      X: 63.81363
+      Y: 3.7975845
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.503682
-      Y: 6.4128046
+      X: 63.31806
+      Y: 3.7982712
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.186338
-      Y: 6.9466567
+      X: 64.580124
+      Y: 3.7889998
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.342877
-      Y: 8.083343
+      X: 64.84459
+      Y: 3.817027
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.203316
-      Y: 5.4817634
+      X: 65.62962
+      Y: 3.760132
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.76384
-      Y: 6.1300616
+      X: 66.18429
+      Y: 3.7590203
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.67958
-      Y: 4.4826064
+      X: 66.68611
+      Y: 3.8046234
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.784832
-      Y: 6.4024906
+      X: 66.97403
+      Y: 3.7789872
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.322777
-      Y: 5.625549
+      X: 67.269646
+      Y: 3.778554
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.463656
-      Y: 7.405283
+      X: 67.531525
+      Y: 3.7944255
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.776195
-      Y: 6.2098055
+      X: 67.37657
+      Y: 4.0131946
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.805957
-      Y: 7.781231
+      X: 68.37864
+      Y: 3.8081703
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.374206
-      Y: 5.557447
+      X: 66.85293
+      Y: 3.9679275
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.5933895
-      Y: 6.806555
+      X: 66.47804
+      Y: 3.7735164
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
+  - particlePosition:
+      X: 64.769035
+      Y: 4.052024
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 65.87866
+      Y: 3.7968802
+    ParticleID: 3
+    DynamicState: 0
   - particlePosition:
-      X: 16.962803
-      Y: 5.2001996
+      X: 65.094185
+      Y: 3.7923245
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.238618
-      Y: 6.2027574
+      X: 67.12827
+      Y: 3.9785137
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.48736
-      Y: 5.8668323
+      X: 67.22482
+      Y: 4.2094445
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.558683
-      Y: 5.503975
+      X: 68.6393
+      Y: 3.7947216
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.105884
-      Y: 5.6215024
+      X: 68.89105
+      Y: 3.8008893
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.712529
-      Y: 8.040075
+      X: 69.96603
+      Y: 3.788891
     ParticleID: 3
     DynamicState: 0
+  - particlePosition:
+      X: 70.29469
+      Y: 3.7847128
+    ParticleID: 3
+    DynamicState: 1
   - particlePosition:
-      X: 9.506428
-      Y: 7.8440166
+      X: 70.54172
+      Y: 3.7842221
     ParticleID: 3
     DynamicState: 1
   - particlePosition:
-      X: 16.60736
-      Y: 5.231272
+      X: 70.84076
+      Y: 3.7638662
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.583084
-      Y: 6.2477636
+      X: 71.11831
+      Y: 3.7381577
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.915491
-      Y: 5.632756
+      X: 72.17094
+      Y: 3.7830849
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.831018
-      Y: 6.683327
+      X: 71.43323
+      Y: 3.796424
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.376005
-      Y: 4.40966
+      X: 71.67712
+      Y: 3.8004076
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.262512
-      Y: 7.816632
+      X: 71.54727
+      Y: 4.0166516
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.375856
-      Y: 5.021218
+      X: 72.42721
+      Y: 3.7653158
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.202181
-      Y: 6.46946
+      X: 73.220604
+      Y: 3.738609
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.032333
-      Y: 6.0627613
+      X: 73.46577
+      Y: 3.7789135
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.567235
-      Y: 7.9183135
+      X: 73.71154
+      Y: 3.7753084
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.624877
-      Y: 7.61917
+      X: 76.88202
+      Y: 3.7326117
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 17.000786
-      Y: 5.656477
+      X: 79.14213
+      Y: 3.7528014
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.958691
-      Y: 6.7947345
+      X: 80.21695
+      Y: 3.769399
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.136324
-      Y: 5.416854
+      X: 80.96156
+      Y: 3.7818696
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 10.581381
-      Y: 7.161359
+      X: 81.215965
+      Y: 3.781791
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.823786
-      Y: 5.4194126
+      X: 81.69338
+      Y: 3.7446506
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.032595
-      Y: 6.1315546
+      X: 83.30329
+      Y: 3.7542465
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.872793
-      Y: 5.370252
+      X: 82.09386
+      Y: 3.7866213
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.018993
-      Y: 7.760122
+      X: 81.86703
+      Y: 3.9358582
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.94434
-      Y: 7.559659
+      X: 82.29727
+      Y: 3.969782
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.639074
-      Y: 5.5052204
+      X: 81.43254
+      Y: 3.96445
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.454434
-      Y: 5.289094
+      X: 81.6612
+      Y: 4.1159406
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.769565
-      Y: 6.9670577
+      X: 82.46559
+      Y: 3.7819774
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.612099
-      Y: 4.9679427
+      X: 82.76224
+      Y: 3.774212
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.277044
-      Y: 5.9693565
+      X: 83.02883
+      Y: 3.7865555
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.889577
-      Y: 5.8928576
+      X: 83.56799
+      Y: 3.7449608
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.762514
-      Y: 7.654164
+      X: 84.306046
+      Y: 3.7155027
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.8813
-      Y: 4.941517
+      X: 84.89029
+      Y: 3.7701051
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.141439
-      Y: 7.3687887
+      X: 85.29322
+      Y: 3.7402694
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.82659
-      Y: 5.6508684
+      X: 85.606964
+      Y: 3.7259998
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.17925
-      Y: 6.653636
+      X: 85.85466
+      Y: 3.7530494
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.936182
-      Y: 5.1188345
+      X: 85.74176
+      Y: 4.002876
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.504025
-      Y: 5.8303413
+      X: 85.49133
+      Y: 3.9290302
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.444842
-      Y: 6.0345354
+      X: 84.72725
+      Y: 3.9678674
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.350748
-      Y: 5.2811947
+      X: 84.67059
+      Y: 3.7552936
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 9.733633
-      Y: 7.379186
+      X: 83.83488
+      Y: 3.774346
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.220441
-      Y: 5.375829
+      X: 84.42708
+      Y: 3.961101
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 10.322684
-      Y: 7.1749196
+      X: 84.56195
+      Y: 4.1989503
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.05197
-      Y: 5.804894
+      X: 85.10834
+      Y: 3.9222405
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.711079
-      Y: 4.6870666
+      X: 85.54645
+      Y: 4.2049446
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.774558
-      Y: 5.863086
+      X: 86.27511
+      Y: 3.7480695
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.945378
-      Y: 6.527687
+      X: 86.531784
+      Y: 3.750378
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.329302
-      Y: 4.777014
+      X: 87.39052
+      Y: 3.837531
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.694975
-      Y: 6.0120497
+      X: 87.64877
+      Y: 3.7453892
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.777871
-      Y: 6.4043674
+      X: 88.46018
+      Y: 3.9226851
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 23.601868
-      Y: 4.5683827
+      X: 88.10365
+      Y: 3.74057
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.374762
-      Y: 7.5696216
+      X: 87.777565
+      Y: 4.002205
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.000691
-      Y: 6.238963
+      X: 87.11013
+      Y: 3.9790652
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.543748
-      Y: 6.544044
+      X: 86.84767
+      Y: 4.05642
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 8.497138
-      Y: 7.6711555
+      X: 86.4226
+      Y: 4.130378
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.584288
-      Y: 5.3042793
+      X: 86.161446
+      Y: 4.2203956
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.580019
-      Y: 5.5638943
+      X: 85.994
+      Y: 3.973069
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.490678
-      Y: 6.148238
+      X: 86.24115
+      Y: 3.9582696
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.935076
-      Y: 5.4127693
+      X: 86.51936
+      Y: 3.9782565
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 11.209561
-      Y: 6.41032
+      X: 86.77742
+      Y: 3.7926533
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.213879
-      Y: 5.932829
+      X: 87.157166
+      Y: 3.7174406
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.6
-      Y: 4.82395
+      X: 87.90025
+      Y: 3.763215
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.303488
-      Y: 5.638949
+      X: 88.28872
+      Y: 3.7046235
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.942543
-      Y: 7.1878853
+      X: 88.66345
+      Y: 3.7410078
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.404464
-      Y: 6.9356585
+      X: 89.61085
+      Y: 3.7614791
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.697372
-      Y: 6.558208
+      X: 89.81216
+      Y: 3.8912654
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.156603
-      Y: 6.990862
+      X: 88.20638
+      Y: 4.008205
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.457841
-      Y: 6.3134184
+      X: 87.228836
+      Y: 4.24097
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.082723
-      Y: 7.5134835
+      X: 86.619156
+      Y: 4.3244348
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.820644
-      Y: 4.648573
+      X: 85.70405
+      Y: 4.438437
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.468641
-      Y: 5.062982
+      X: 85.881996
+      Y: 4.2386575
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.08379
-      Y: 4.7709136
+      X: 86.15769
+      Y: 4.4759655
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.181759
-      Y: 5.0162835
+      X: 86.88106
+      Y: 4.3136206
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.58566
-      Y: 4.696855
+      X: 87.46068
+      Y: 4.10637
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.837025
-      Y: 5.195321
+      X: 89.35221
+      Y: 3.752796
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 13.790288
-      Y: 5.5925903
+      X: 90.01152
+      Y: 3.749194
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.30808
-      Y: 5.366749
+      X: 90.623955
+      Y: 3.7362735
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.1203
-      Y: 5.139015
+      X: 91.51396
+      Y: 3.7488735
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.669114
-      Y: 5.1212273
+      X: 91.8176
+      Y: 3.7485175
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.123199
-      Y: 4.8711805
+      X: 92.12394
+      Y: 3.7213078
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.109386
-      Y: 5.1482005
+      X: 93.31265
+      Y: 3.7559962
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 13.518084
-      Y: 5.614803
+      X: 92.06496
+      Y: 3.9871714
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 23.889307
-      Y: 4.592448
+      X: 91.39979
+      Y: 3.9726171
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.2252035
-      Y: 5.811416
+      X: 91.223724
+      Y: 3.761607
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.710895
-      Y: 5.6415915
+      X: 90.878784
+      Y: 3.8382528
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.153309
-      Y: 6.042765
+      X: 91.076744
+      Y: 3.994899
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.286388
-      Y: 6.083088
+      X: 91.77085
+      Y: 4.00423
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.222397
-      Y: 5.675401
+      X: 93.027534
+      Y: 3.7590156
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.932518
-      Y: 5.8936443
+      X: 92.332016
+      Y: 3.9211185
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.649719
-      Y: 6.164708
+      X: 92.66646
+      Y: 3.757565
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.522637
-      Y: 7.2910376
+      X: 93.55734
+      Y: 3.7209873
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.043722
-      Y: 5.531086
+      X: 93.89421
+      Y: 3.694881
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.437369
-      Y: 6.540178
+      X: 94.146484
+      Y: 3.6944983
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.575654
-      Y: 6.7626452
+      X: 94.39933
+      Y: 3.6940038
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.695571
-      Y: 7.099826
+      X: 94.642296
+      Y: 3.7198632
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.2632885
-      Y: 7.325042
+      X: 94.968056
+      Y: 3.743006
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.23066
-      Y: 6.728247
+      X: 94.508156
+      Y: 3.956627
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.449863
-      Y: 7.0079904
+      X: 94.04283
+      Y: 3.9114912
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.202237
-      Y: 7.036942
+      X: 93.693794
+      Y: 3.959625
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.907497
-      Y: 6.934878
+      X: 93.89772
+      Y: 4.14935
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.020818
-      Y: 7.239917
+      X: 94.27558
+      Y: 4.0307684
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 8.817298
-      Y: 7.4012823
+      X: 95.950874
+      Y: 3.737624
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.210989
-      Y: 7.718033
+      X: 94.770706
+      Y: 3.9425032
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.391078
-      Y: 6.748264
+      X: 95.19491
+      Y: 3.7573905
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.654094
-      Y: 6.8316455
+      X: 95.44131
+      Y: 3.7596147
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.316873
-      Y: 7.4455895
+      X: 95.67631
+      Y: 3.7010574
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.866665
-      Y: 7.755319
+      X: 91.787926
+      Y: -32.07677
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.551804
-      Y: 7.4054813
+      X: 96.3756
+      Y: 3.742069
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.247581
-      Y: 7.6572237
+      X: 96.63411
+      Y: 3.699877
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 8.056941
-      Y: 7.5235987
+      X: 96.885956
+      Y: 3.728381
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.365711
-      Y: 5.021899
+      X: 98.35465
+      Y: 3.9545481
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.716514
-      Y: 7.5522614
+      X: 97.39358
+      Y: 3.7524233
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.1399
-      Y: 7.2346706
+      X: 98.980286
+      Y: 3.979539
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.933452
-      Y: 7.00287
+      X: 97.65741
+      Y: 3.7425444
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 7.459187
-      Y: 7.4985294
+      X: 97.96464
+      Y: 3.7406518
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.683174
-      Y: 7.148169
+      X: 98.19908
+      Y: 3.7492461
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.272349
-      Y: 7.311629
+      X: 98.45609
+      Y: 3.6999872
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 7.8788257
-      Y: 7.317763
+      X: 98.603035
+      Y: 3.7259557
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.051057
-      Y: 7.4743013
+      X: 98.64211
+      Y: 3.9981375
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.59038
-      Y: 7.4880767
+      X: 98.82677
+      Y: 3.7049828
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.3236256
-      Y: 7.3676143
+      X: 99.04518
+      Y: 3.7165003
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.6770253
-      Y: 6.868895
+      X: 99.28202
+      Y: 3.6762261
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.06925
-      Y: 7.259
+      X: 99.54716
+      Y: 3.7265337
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.5222812
-      Y: 5.8713865
+      X: 99.81214
+      Y: 3.7429845
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.6908526
-      Y: 7.122531
+      X: 100.11998
+      Y: 3.732686
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.801492
-      Y: 7.3501883
+      X: 104.075714
+      Y: -31.896605
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.0498827
-      Y: 5.5845003
+      X: 100.555176
+      Y: 3.6735666
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.676601
-      Y: 6.5980363
+      X: 100.80171
+      Y: 3.7469819
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.693276
-      Y: 6.886514
+      X: 101.45728
+      Y: 3.722498
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 5.4670258
-      Y: 6.958625
+      X: 101.19246
+      Y: 3.6740346
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.0210657
-      Y: 6.4370656
+      X: 101.03808
+      Y: 3.883162
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.6062613
-      Y: 7.2565346
+      X: 100.35612
+      Y: 3.8565094
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 4.476328
-      Y: 6.7196836
+      X: 101.8302
+      Y: 3.7283778
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.966495
-      Y: 6.1698427
+      X: 102.054886
+      Y: 3.9146838
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.118038
-      Y: 6.8048716
+      X: 102.101494
+      Y: 3.6583076
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.952614
-      Y: 6.9046617
+      X: 102.36937
+      Y: 3.7392418
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.261565
-      Y: 6.5350013
+      X: 102.6124
+      Y: 3.6871738
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.936958
-      Y: 6.9966764
+      X: 103.25375
+      Y: 3.7299259
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.396455
-      Y: 6.8781667
+      X: 103.94765
+      Y: 3.675001
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.8659115
-      Y: 6.6308746
+      X: 104.60114
+      Y: 3.7284102
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.0245385
-      Y: 7.1936483
+      X: 105.06722
+      Y: 3.7303956
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.6591947
-      Y: 5.264784
+      X: 105.410736
+      Y: 3.7125707
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.414328
-      Y: 7.1675324
+      X: 105.66647
+      Y: 3.7121956
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.8670063
-      Y: 6.5933275
+      X: 105.91805
+      Y: 3.7406662
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.797293
-      Y: 6.3152947
+      X: 106.46479
+      Y: 3.7088513
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.6435256
-      Y: 6.4825463
+      X: 106.9348
+      Y: 3.6438808
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.342466
-      Y: 7.0849557
+      X: 106.1896
+      Y: 3.7129922
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.713465
-      Y: 6.829896
+      X: 106.31216
+      Y: 3.977022
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.417316
-      Y: 6.47802
+      X: 106.58066
+      Y: 3.918737
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.1885304
-      Y: 6.9820766
+      X: 106.82935
+      Y: 3.8877487
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.9170423
-      Y: 7.0520625
+      X: 107.22661
+      Y: 3.7080147
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.3653371
-      Y: 4.518978
+      X: 107.670425
+      Y: 3.6950884
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.547827
-      Y: 6.6626296
+      X: 108.2127
+      Y: 3.6778998
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 6.565325
-      Y: 7.22319
+      X: 108.752426
+      Y: 3.7086437
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.6906118
-      Y: 6.1187983
+      X: 109.25313
+      Y: 3.7263715
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.920336
-      Y: 5.734076
+      X: 109.591965
+      Y: 3.6934943
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.3720064
-      Y: 6.282977
+      X: 109.846176
+      Y: 3.693125
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.943113
-      Y: 6.6933866
+      X: 110.1147
+      Y: 3.6927383
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.115459
-      Y: 6.848496
+      X: 111.54748
+      Y: 3.8654351
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.7886267
-      Y: 7.068407
+      X: 110.362526
+      Y: 3.6905558
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.18633205
-      Y: 4.307457
+      X: 110.18832
+      Y: 3.8973808
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.1705
-      Y: 6.475458
+      X: 109.64779
+      Y: 3.9542546
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.502281
-      Y: 6.694837
+      X: 109.92481
+      Y: 3.939321
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.667989
-      Y: 6.9897423
+      X: 111.30496
+      Y: 3.8218033
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.482612
-      Y: 5.9221005
+      X: 110.59409
+      Y: 3.7080941
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.403231
-      Y: 7.0846233
+      X: 111.08282
+      Y: 3.6640573
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 14.37351
-      Y: 5.112284
+      X: 111.7646
+      Y: 3.6941743
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.8765545
-      Y: 6.247803
+      X: 112.64816
+      Y: 3.6636596
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.522062
-      Y: 6.283311
+      X: 113.68273
+      Y: 3.6981606
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.5719876
-      Y: 6.9380703
+      X: 114.50687
+      Y: 3.6972024
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.28815
-      Y: 6.6477394
+      X: 115.24674
+      Y: 3.7161067
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.2153075
-      Y: 5.8460307
+      X: 115.606575
+      Y: 3.6948667
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.301983
-      Y: 5.5469904
+      X: 115.84958
+      Y: 3.7017057
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.21433
-      Y: 6.681933
+      X: 117.10619
+      Y: 3.7031705
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.869334
-      Y: 6.6631813
+      X: 116.37903
+      Y: 3.6921048
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: -0.037919536
-      Y: 4.45622
+      X: 116.6631
+      Y: 3.692383
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.03502
-      Y: 6.23386
+      X: 116.11652
+      Y: 3.7740242
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.690692
-      Y: 5.661417
+      X: 115.72667
+      Y: 3.934385
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.3115673
-      Y: 6.798441
+      X: 115.980064
+      Y: 4.0014153
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.174613
-      Y: 6.956472
+      X: 116.51804
+      Y: 3.8972423
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 13.91932
-      Y: 5.3174605
+      X: 116.89159
+      Y: 3.8707538
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.599743
-      Y: 6.2215085
+      X: 117.32695
+      Y: 3.8112118
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 10.316316
-      Y: 6.1348944
+      X: 117.57159
+      Y: 3.6956565
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.3312774
-      Y: 6.4129295
+      X: 118.411934
+      Y: 3.6944015
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.718796
-      Y: 6.704621
+      X: 119.49256
+      Y: 3.6440234
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.9013276
-      Y: 5.353452
+      X: 119.98211
+      Y: 3.7012649
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.880125
-      Y: 6.4319086
+      X: 120.27323
+      Y: 3.7009828
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.475628
-      Y: 5.7692037
+      X: 120.57281
+      Y: 3.6991308
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.215241
-      Y: 6.292026
+      X: 122.163315
+      Y: 3.6961317
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.9544418
-      Y: 6.183876
+      X: 120.40605
+      Y: 3.8774047
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.937015
-      Y: 5.9985585
+      X: 120.13838
+      Y: 3.8772013
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.417646
-      Y: 6.828063
+      X: 119.74256
+      Y: 3.6778638
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 9.150361
-      Y: 6.5536895
+      X: 118.64829
+      Y: 3.7712963
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.9614725
-      Y: 5.740332
+      X: 119.63
+      Y: 3.6581247
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.967972
-      Y: 5.6349306
+      X: 118.88405
+      Y: 3.6921537
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.9759083
-      Y: 6.643807
+      X: 120.98326
+      Y: 3.693955
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.714165
-      Y: 6.4515233
+      X: 121.25943
+      Y: 3.6638114
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 5.0470266
-      Y: 6.4610286
+      X: 122.430305
+      Y: 3.6823575
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.623276
-      Y: 5.3769827
+      X: 123.23216
+      Y: 3.658883
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.068913
-      Y: 6.7601914
+      X: 123.715515
+      Y: 3.6774788
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -0.27762723
-      Y: 4.3004847
+      X: 123.48252
+      Y: 3.704787
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.9601226
-      Y: 6.7961
+      X: 122.70127
+      Y: 3.682599
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.696785
-      Y: 6.683053
+      X: 123.94774
+      Y: 3.6802492
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.928976
-      Y: 6.3060575
+      X: 123.93861
+      Y: 3.927138
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.634963
-      Y: 5.8532867
+      X: 122.9857
+      Y: 3.6998365
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.474975
-      Y: 6.588006
+      X: 123.61252
+      Y: 3.9276478
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.34898
-      Y: 5.4223037
+      X: 122.68345
+      Y: 3.9452813
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.4295905
-      Y: 6.042903
+      X: 123.984344
+      Y: 4.1988864
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.048029
-      Y: 6.1944027
+      X: 124.210976
+      Y: 4.0029445
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.625669
-      Y: 6.450047
+      X: 125.647415
+      Y: 3.8969295
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.729871
-      Y: 6.431824
+      X: 129.12648
+      Y: 3.6844385
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.2172894
-      Y: 6.0201178
+      X: 125.590485
+      Y: 3.6540518
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.559934
-      Y: 5.4430985
+      X: 126.08528
+      Y: 3.650971
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.1873097
-      Y: 6.6451626
+      X: 126.34001
+      Y: 3.6742477
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.2366697
-      Y: 5.00651
+      X: 126.67253
+      Y: 3.6411614
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.9942894
-      Y: 6.3879976
+      X: 126.958435
+      Y: 3.6444674
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.1318684
-      Y: 6.49544
+      X: 126.82438
+      Y: 3.8211358
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.645075
-      Y: 5.7261896
+      X: 126.53012
+      Y: 3.8476944
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.876043
-      Y: 6.0050282
+      X: 126.15025
+      Y: 3.86814
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.1770544
-      Y: 6.3796983
+      X: 125.83613
+      Y: 3.674204
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.21068
-      Y: 5.10137
+      X: 125.925415
+      Y: 3.8512545
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.444898
-      Y: 5.16222
+      X: 126.05148
+      Y: 4.099971
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.240619
-      Y: 5.3670783
+      X: 124.68378
+      Y: 4.0699673
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.062809
-      Y: 5.3647504
+      X: 124.12961
+      Y: 3.751014
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.6934073
-      Y: 5.3849306
+      X: 124.352455
+      Y: 3.662779
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.505557
-      Y: 6.276032
+      X: 125.26501
+      Y: 3.6895535
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.3969755
-      Y: 6.522672
+      X: 124.65185
+      Y: 3.6736176
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.678502
-      Y: 5.166961
+      X: 124.934616
+      Y: 3.6459188
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -6.9003344
-      Y: 4.3544054
+      X: 125.3657
+      Y: 3.956122
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.734909
-      Y: 6.1231904
+      X: 125.09812
+      Y: 3.8966472
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.508653
-      Y: 6.2429247
+      X: 124.846085
+      Y: 3.8824408
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.4713032
-      Y: 5.5312448
+      X: 124.47068
+      Y: 3.9043958
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.9585927
-      Y: 5.482288
+      X: 124.42976
+      Y: 4.1935234
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.824226
-      Y: 5.381874
+      X: 124.63548
+      Y: 4.3633866
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.223449
-      Y: 5.8258023
+      X: 125.26861
+      Y: 4.1591506
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.4381754
-      Y: 5.6903033
+      X: 124.91958
+      Y: 4.2020493
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.265219
-      Y: 6.3795156
+      X: 125.100975
+      Y: 4.3861375
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.2025752
-      Y: 5.581989
+      X: 125.26707
+      Y: 4.6076164
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.937716
-      Y: 5.480815
+      X: 125.45213
+      Y: 4.8199434
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.232616
-      Y: 6.118809
+      X: 127.348434
+      Y: 3.6946914
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.572984
-      Y: 6.0237074
+      X: 126.47811
+      Y: 4.523951
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.0155487
-      Y: 6.0110064
+      X: 127.94999
+      Y: 3.6817415
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.910576
-      Y: 5.2094393
+      X: 126.29361
+      Y: 4.325212
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.4968133
-      Y: 6.211071
+      X: 125.3946
+      Y: 4.375908
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.684226
-      Y: 6.150933
+      X: 125.97243
+      Y: 4.338687
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.0486321
-      Y: 4.7977366
+      X: 125.80079
+      Y: 4.0932097
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.20151
-      Y: 5.134181
+      X: 126.3415
+      Y: 4.061193
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.958639
-      Y: 5.922435
+      X: 126.76871
+      Y: 4.067828
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.3825516
-      Y: 4.7767124
+      X: 128.22247
+      Y: 3.6829453
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.9310694
-      Y: 6.2928095
+      X: 126.57145
+      Y: 4.2620187
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.6309264
-      Y: 5.5006986
+      X: 125.61259
+      Y: 4.2539024
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.76835
-      Y: 6.190757
+      X: 126.1999
+      Y: 4.5645204
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.2958004
-      Y: 5.7234154
+      X: 125.56847
+      Y: 4.583465
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.772151
-      Y: 5.994272
+      X: 127.79533
+      Y: 3.9059806
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.142418
-      Y: 5.0766234
+      X: 128.75488
+      Y: 3.6759756
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.9251539
-      Y: 5.075595
+      X: 127.624825
+      Y: 3.6787598
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.029979
-      Y: 6.0452094
+      X: 128.48212
+      Y: 3.6366796
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.8438618
-      Y: 5.679304
+      X: 129.36485
+      Y: 3.652711
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.112779
-      Y: 5.585305
+      X: 130.14352
+      Y: 3.6708093
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.946537
-      Y: 6.53801
+      X: 130.82672
+      Y: 3.6484041
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.9228277
-      Y: 5.7693105
+      X: 131.32541
+      Y: 3.6476734
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.708102
-      Y: 5.7930417
+      X: 132.05952
+      Y: 3.657846
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.925503
-      Y: 5.146798
+      X: 132.8394
+      Y: 3.6367848
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.6739001
-      Y: 4.791379
+      X: 133.6881
+      Y: 3.6290498
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.615472
-      Y: 5.9964557
+      X: 134.26015
+      Y: 3.6427236
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.318735
-      Y: 6.274205
+      X: 134.41916
+      Y: 3.7588995
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 9.860678
-      Y: 5.8490386
+      X: 134.59515
+      Y: 3.901291
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.295542
-      Y: 6.065022
+      X: 134.40567
+      Y: 4.04298
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.733359
-      Y: 6.116532
+      X: 133.73914
+      Y: 3.912919
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.305614
-      Y: 5.8047967
+      X: 133.94872
+      Y: 3.6499965
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.390999
-      Y: 5.2001214
+      X: 134.55286
+      Y: 3.671417
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.828291
-      Y: 6.0565124
+      X: 136.14903
+      Y: 3.6588395
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.451396
-      Y: 5.522514
+      X: 136.41225
+      Y: 3.654297
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.688381
-      Y: 5.835294
+      X: 137.33994
+      Y: 3.630777
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.2734246
-      Y: 6.1007895
+      X: 138.16974
+      Y: 3.6294222
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.973294
-      Y: 5.816154
+      X: 139.01675
+      Y: 3.624155
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.078945
-      Y: 5.974843
+      X: 139.99683
+      Y: 3.60726
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.5077999
-      Y: 5.033169
+      X: 140.87262
+      Y: 3.592924
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.686872
-      Y: 5.359446
+      X: 141.4306
+      Y: 3.5817633
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.5410907
-      Y: 5.189726
+      X: 142.29597
+      Y: 3.6171954
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.939374
-      Y: 5.78079
+      X: 141.15158
+      Y: 3.622956
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.4737678
-      Y: 6.3095646
+      X: 139.77121
+      Y: 3.7409222
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.286213
-      Y: 5.795924
+      X: 139.3169
+      Y: 3.6220539
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.3897126
-      Y: 5.398701
+      X: 139.53825
+      Y: 3.5796428
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.4137259
-      Y: 4.957922
+      X: 140.27579
+      Y: 3.6319036
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.890772
-      Y: 4.8643503
+      X: 142.6311
+      Y: 3.6019258
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.144493
-      Y: 5.3400707
+      X: 144.33496
+      Y: -31.158684
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.522736
-      Y: 5.9193163
+      X: 146.43889
+      Y: -31.118216
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.120011
-      Y: 5.9106445
+      X: 146.70609
+      Y: -31.058006
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.508153
-      Y: 5.614818
+      X: 147.05699
+      Y: 3.5741854
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.765288
-      Y: 5.5461893
+      X: 144.14786
+      Y: 3.549871
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.936947
-      Y: 5.3675237
+      X: 142.48694
+      Y: 3.8280644
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.400759
-      Y: 4.9690337
+      X: 141.90665
+      Y: 3.8365128
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.901832
-      Y: 5.4008045
+      X: 141.52757
+      Y: 3.797293
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.049984
-      Y: 5.660375
+      X: 141.74496
+      Y: 3.61358
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.564998
-      Y: 5.7354693
+      X: 142.04662
+      Y: 3.600754
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.637973
-      Y: 4.9035473
+      X: 143.75523
+      Y: 3.5843105
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.16043
-      Y: 5.2830067
+      X: 146.00603
+      Y: 3.5779574
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.393781
-      Y: 4.935739
+      X: 148.625
+      Y: 3.5622246
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.6046846
-      Y: 5.2153854
+      X: 150.68225
+      Y: 3.531341
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.462186
-      Y: 5.1956935
+      X: 153.22078
+      Y: 3.4788873
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.778634
-      Y: 5.5757165
+      X: 155.27188
+      Y: 3.479346
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.161633
-      Y: 5.086976
+      X: 156.41899
+      Y: 3.4489036
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.9392853
-      Y: 6.1075325
+      X: 160.08311
+      Y: 3.468364
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.366023
-      Y: 5.538574
+      X: 155.98236
+      Y: 3.485356
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.49032
-      Y: 6.0114837
+      X: 153.98586
+      Y: 3.4682136
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.271401
-      Y: 5.5349073
+      X: 151.85321
+      Y: 3.4780905
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.331602
-      Y: 5.761614
+      X: 150.19853
+      Y: 3.5105696
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.3039055
-      Y: 5.766654
+      X: 149.37277
+      Y: 3.5560405
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.111325
-      Y: 5.5755177
+      X: 148.86002
+      Y: 3.5664787
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.549985
-      Y: 5.5931716
+      X: 149.0478
+      Y: 3.504314
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.473511
-      Y: 5.1484365
+      X: 149.97447
+      Y: 3.6008751
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.911686
-      Y: 6.2648726
+      X: 150.44006
+      Y: 3.668399
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.165445
-      Y: 4.850922
+      X: 152.44992
+      Y: 3.5164647
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.716539
-      Y: 5.1187606
+      X: 154.79137
+      Y: 3.4476616
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.4470897
-      Y: 5.509872
+      X: 155.03014
+      Y: 3.5705748
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.838456
-      Y: 5.551174
+      X: 155.54936
+      Y: 3.4930043
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.265182
-      Y: 6.1460633
+      X: 154.3506
+      Y: 3.457579
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.609701
-      Y: 5.381879
+      X: 151.60294
+      Y: 3.5288284
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.6848464
-      Y: 5.626935
+      X: 147.90149
+      Y: 3.5318398
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.536308
-      Y: 4.9736204
+      X: 144.01224
+      Y: 3.5634532
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.3631504
-      Y: 5.1273513
+      X: 140.10077
+      Y: 3.857958
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.187715
-      Y: 4.817584
+      X: 141.73045
+      Y: 3.8865585
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.242078
-      Y: 5.3503914
+      X: 142.27252
+      Y: 3.9019628
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.259026
-      Y: 5.3077803
+      X: 143.95094
+      Y: 3.577904
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.6794024
-      Y: 6.427102
+      X: 146.27167
+      Y: 3.5444305
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.954754
-      Y: 5.3734837
+      X: 149.6491
+      Y: 3.5609941
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.053328
-      Y: 5.528993
+      X: 151.32553
+      Y: 3.5503411
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.39517
-      Y: 5.29009
+      X: 151.9515
+      Y: 3.7448926
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.895095
-      Y: 5.1061277
+      X: 153.00728
+      Y: 3.4981682
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.312001
-      Y: 5.4877405
+      X: 152.72713
+      Y: 3.509183
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.460982
-      Y: 5.980078
+      X: 152.12637
+      Y: 3.5175161
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.940969
-      Y: 4.9392695
+      X: 150.99042
+      Y: 3.5480266
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.503998
-      Y: 5.30993
+      X: 149.79546
+      Y: 3.531584
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 7.6870337
-      Y: 5.891222
+      X: 149.17647
+      Y: 3.743297
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.212807
-      Y: 5.8757997
+      X: 149.84305
+      Y: 3.7658184
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.011012
-      Y: 6.0497093
+      X: 151.16321
+      Y: 3.7498653
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.390918
-      Y: 6.254281
+      X: 152.86328
+      Y: 3.7435827
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.896935
-      Y: 5.7317305
+      X: 156.224
+      Y: 3.5037086
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.561797
-      Y: 5.892915
+      X: 160.34645
+      Y: 3.4738977
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.7372947
-      Y: 5.939211
+      X: 162.3131
+      Y: 3.442322
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.2977414
-      Y: 5.840281
+      X: 164.65308
+      Y: 3.398241
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.9711013
-      Y: 5.801212
+      X: 165.91986
+      Y: 3.3865786
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 6.6627617
-      Y: 6.1855283
+      X: 166.35342
+      Y: 3.3916588
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.7431836
-      Y: 5.7007227
+      X: 166.12137
+      Y: 3.4050198
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.4395447
-      Y: 6.0135775
+      X: 160.93831
+      Y: 3.4176571
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.369085
-      Y: 5.68824
+      X: 158.62575
+      Y: 3.4471486
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.9297705
-      Y: 5.1390834
+      X: 157.81615
+      Y: 3.451474
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.671454
-      Y: 5.008718
+      X: 158.08803
+      Y: -30.910055
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.138224
-      Y: 5.6035166
+      X: 160.60437
+      Y: 3.4452083
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.639251
-      Y: 5.211686
+      X: 164.96707
+      Y: 3.3910613
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.143256
-      Y: 6.1375346
+      X: 170.02496
+      Y: 3.3293319
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.235154
-      Y: 5.224129
+      X: 175.5284
+      Y: 3.2764935
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.7072158
-      Y: 4.9691935
+      X: 180.25316
+      Y: 3.2481625
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.2809925
-      Y: 5.056918
+      X: 183.1317
+      Y: 3.2308967
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.417406
-      Y: 5.7393556
+      X: 184.16966
+      Y: 3.2246158
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.763281
-      Y: 5.173282
+      X: 184.53625
+      Y: 3.2151294
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.1196666
-      Y: 5.5996075
+      X: 184.35194
+      Y: 3.2856445
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 6.192719
-      Y: 5.884085
+      X: 183.34013
+      Y: 3.262557
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.628871
-      Y: 5.636092
+      X: 180.49844
+      Y: 3.2681026
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.8992033
-      Y: 5.4789176
+      X: 167.1386
+      Y: 3.3785052
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.1387577
-      Y: 5.5372214
+      X: 163.31708
+      Y: 3.4275613
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.5858855
-      Y: 5.503698
+      X: 158.32202
+      Y: -30.86469
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.230565
-      Y: 5.552086
+      X: 154.64679
+      Y: 3.6667554
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.7950325
-      Y: 5.4240165
+      X: 154.19371
+      Y: 3.4920936
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.755847
-      Y: 5.2867146
+      X: 154.37833
+      Y: 3.628554
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 5.9466968
-      Y: 5.9569354
+      X: 155.17793
+      Y: 3.6960816
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.898531
-      Y: 5.459905
+      X: 157.37585
+      Y: 3.4447389
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.015839
-      Y: 5.1142235
+      X: 161.18584
+      Y: 3.4218857
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.2933626
-      Y: 5.444553
+      X: 165.43456
+      Y: 3.3963623
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.5436325
-      Y: 5.412622
+      X: 169.82516
+      Y: 3.3502417
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.3734813
-      Y: 5.2042036
+      X: 171.37643
+      Y: 3.4371603
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.652097
-      Y: 5.170307
+      X: 179.9908
+      Y: 3.3084443
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.951194
-      Y: 5.2320733
+      X: 171.71828
+      Y: 3.6905777
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.9932
-      Y: 5.329289
+      X: 170.90256
+      Y: 3.3622715
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.460382
-      Y: 5.0384965
+      X: 170.00139
+      Y: 3.550188
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 8.100019
-      Y: 5.0248055
+      X: 169.32161
+      Y: 3.6388662
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.27728
-      Y: 4.848102
+      X: 168.78386
+      Y: 3.3934453
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 8.7955885
-      Y: 5.022277
+      X: 169.2945
+      Y: 3.3624756
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.063747
-      Y: 5.069442
+      X: 169.49243
+      Y: 3.3723197
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.537383
-      Y: 4.865182
+      X: 170.56755
+      Y: 3.3528678
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.275148
-      Y: 4.939439
+      X: 171.115
+      Y: 3.3496995
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.764959
-      Y: 4.850058
+      X: 171.65234
+      Y: 3.3464744
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.064343
-      Y: 4.8340464
+      X: 172.8233
+      Y: 3.3691595
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.040166
-      Y: 4.849212
+      X: 171.7911
+      Y: 3.5470243
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.780469
-      Y: 4.5698957
+      X: 170.35335
+      Y: 3.3721235
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.015296
-      Y: 4.628016
+      X: 168.10696
+      Y: 3.3962529
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.772769
-      Y: 4.7589965
+      X: 165.8381
+      Y: 3.5974953
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.36455
-      Y: 4.6265025
+      X: 164.47571
+      Y: 3.5239599
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.918274
-      Y: 4.9627805
+      X: 164.05426
+      Y: 3.4421778
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.274339
-      Y: 4.5917087
+      X: 164.30304
+      Y: 3.4361224
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.767611
-      Y: 4.723716
+      X: 164.81624
+      Y: 3.4993703
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 14.248613
-      Y: 4.8615456
+      X: 165.68245
+      Y: 3.4199798
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.610756
-      Y: 5.0271006
+      X: 166.8908
+      Y: 3.424743
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.921452
-      Y: 4.6781955
+      X: 167.88055
+      Y: 3.3901606
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 15.57848
-      Y: 4.864134
+      X: 166.82994
+      Y: -30.680347
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.846644
-      Y: 4.85599
+      X: 168.23425
+      Y: 3.3902116
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.864083
-      Y: 4.9258866
+      X: 169.05357
+      Y: 3.3529868
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 16.864128
-      Y: 4.6129065
+      X: 169.14352
+      Y: 3.542208
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.316868
-      Y: 4.3988743
+      X: 174.84827
+      Y: 3.3106656
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.623363
-      Y: 4.4194126
+      X: 173.55292
+      Y: 3.3662555
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.103518
-      Y: 4.645932
+      X: 174.07695
+      Y: 3.342985
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.892654
-      Y: 4.465982
+      X: 173.80142
+      Y: 3.3418412
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.316399
-      Y: 4.7355137
+      X: 173.17744
+      Y: 3.3353624
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 18.063534
-      Y: 4.3875155
+      X: 173.00864
+      Y: 3.559775
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.129292
-      Y: 4.937207
+      X: 172.10197
+      Y: 3.3496063
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 24.148443
-      Y: 4.611828
+      X: 172.70384
+      Y: 3.6096306
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 24.398287
-      Y: 4.64816
+      X: 172.57115
+      Y: 3.3570158
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.519361
-      Y: 4.568183
+      X: 179.7227
+      Y: 3.3053224
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.492765
-      Y: 4.4771256
+      X: 171.26088
+      Y: 3.817082
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.421648
-      Y: 4.4172034
+      X: 171.46996
+      Y: 3.6789613
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 19.1401
-      Y: 4.4250917
+      X: 170.9064
+      Y: 3.5923357
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.077675
-      Y: 4.6206827
+      X: 171.1648
+      Y: 3.6025252
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.966122
-      Y: 4.38021
+      X: 171.00414
+      Y: 3.7810671
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.80588
-      Y: 4.6106305
+      X: 170.76378
+      Y: 3.8429587
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.04282
-      Y: 4.386575
+      X: 171.08481
+      Y: 3.9702113
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.749134
-      Y: 4.4016657
+      X: 170.98099
+      Y: 4.091717
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.74947
-      Y: 4.372748
+      X: 170.4169
+      Y: 3.6707203
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 16.22093
-      Y: 4.3886094
+      X: 170.2094
+      Y: 3.5404518
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.529862
-      Y: 4.5684757
+      X: 174.59338
+      Y: 3.3645084
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.683702
-      Y: 4.3562617
+      X: 170.15215
+      Y: 3.7750888
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.329346
-      Y: 4.352196
+      X: 169.74442
+      Y: 3.6051345
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.356412
-      Y: 4.753261
+      X: 171.11366
+      Y: 4.2168694
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 15.15888
-      Y: 4.542866
+      X: 170.66382
+      Y: 3.6243365
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.712879
-      Y: 4.5863233
+      X: 170.35059
+      Y: 3.9391003
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.504086
-      Y: 4.7717557
+      X: 172.33702
+      Y: 3.499356
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.297076
-      Y: 4.5917144
+      X: 171.60579
+      Y: 3.8804595
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.679674
-      Y: 4.3170204
+      X: 170.27687
+      Y: 4.655577
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.411346
-      Y: 4.3448143
+      X: 170.00363
+      Y: 3.9726725
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.054927
-      Y: 4.7125554
+      X: 169.55428
+      Y: 3.7821333
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.147225
-      Y: 4.3616467
+      X: 170.51358
+      Y: 4.460496
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.909307
-      Y: 4.4806857
+      X: 171.40236
+      Y: 3.9601803
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 13.688421
-      Y: 4.3545914
+      X: 170.57236
+      Y: 3.861281
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.438993
-      Y: 4.3635774
+      X: 171.34879
+      Y: 4.4604793
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.168301
-      Y: 4.3420935
+      X: 170.73158
+      Y: 4.09591
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.9208145
-      Y: 4.3577213
+      X: 170.80138
+      Y: 4.2960234
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.669879
-      Y: 4.355251
+      X: 170.47118
+      Y: 4.1710534
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 12.621569
-      Y: 4.6238966
+      X: 170.19218
+      Y: 4.1301737
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.425352
-      Y: 4.3562093
+      X: 170.27408
+      Y: 4.3948417
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 12.185442
-      Y: 4.4087906
+      X: 169.78021
+      Y: 4.4118624
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
+  - particlePosition:
+      X: 170.03993
+      Y: 4.5224175
+    ParticleID: 3
+    DynamicState: 0
   - particlePosition:
-      X: 11.948743
-      Y: 4.346276
+      X: 169.77922
+      Y: 3.8710523
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 13.528819
-      Y: 4.6863236
+      X: 169.52133
+      Y: 4.0451875
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 12.001571
-      Y: 4.5940323
+      X: 169.7685
+      Y: 4.1146016
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.711866
-      Y: 4.462653
+      X: 167.4749
+      Y: 3.6494598
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.47784
-      Y: 4.341789
+      X: 169.22168
+      Y: 3.815604
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.539248
-      Y: 4.6637497
+      X: 168.95544
+      Y: 3.6634192
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.28085
-      Y: 4.7020645
+      X: 168.69353
+      Y: 3.6341414
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.547007
-      Y: 4.6126122
+      X: 168.56491
+      Y: 3.3746407
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.531578
-      Y: 4.3387055
+      X: 168.41704
+      Y: 3.5516381
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.338125
-      Y: 4.7695036
+      X: 168.16454
+      Y: 3.6737783
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.2964115
-      Y: 4.502177
+      X: 167.88705
+      Y: 3.6238987
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.790587
-      Y: 4.6107802
+      X: 167.6288
+      Y: 3.3990989
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.044733
-      Y: 4.5823503
+      X: 167.40987
+      Y: 3.4012208
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.503395
-      Y: 4.6095686
+      X: 167.2239
+      Y: 3.588355
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.158229
-      Y: 4.333694
+      X: 166.99295
+      Y: 3.6884391
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.791618
-      Y: 4.890031
+      X: 166.62267
+      Y: 3.3633761
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.228053
-      Y: 4.591623
+      X: 166.20161
+      Y: 3.565218
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.967002
-      Y: 4.526102
+      X: 165.73665
+      Y: 3.7394183
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.633914
-      Y: 4.557068
+      X: 165.19601
+      Y: 3.503548
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.053475
-      Y: 4.7940664
+      X: 165.00034
+      Y: 3.6058857
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.791413
-      Y: 4.7513433
+      X: 165.44212
+      Y: 3.6523712
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.091523
-      Y: 4.3340135
+      X: 164.15195
+      Y: 3.4348483
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.43541
-      Y: 4.3344254
+      X: 163.81076
+      Y: 3.6802197
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.325653
-      Y: 4.5744605
+      X: 163.76047
+      Y: 3.42512
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.919722
-      Y: 4.777583
+      X: 163.55597
+      Y: 3.5702565
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.816384
-      Y: 4.990136
+      X: 162.87616
+      Y: 3.4345257
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.462642
-      Y: 4.9694533
+      X: 162.5797
+      Y: 3.4273946
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.1874046
-      Y: 4.998546
+      X: 162.92319
+      Y: 3.7681034
     ParticleID: 3
     DynamicState: 1
   - particlePosition:
-      X: 7.2964306
-      Y: 4.7380443
+      X: 163.18558
+      Y: 3.965512
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.0892234
-      Y: 5.2555714
+      X: 161.34236
+      Y: 4.1170764
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.9112096
-      Y: 5.076351
+      X: 161.00633
+      Y: 4.134057
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.4451537
-      Y: 5.3106894
+      X: 161.50693
+      Y: 3.4264913
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.766531
-      Y: 5.72845
+      X: 161.5108
+      Y: 3.907061
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.550314
-      Y: 5.048874
+      X: 160.81699
+      Y: 3.9455347
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.724551
-      Y: 5.260185
+      X: 161.9578
+      Y: 3.6948936
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.020823
-      Y: 5.675917
+      X: 161.67085
+      Y: 3.4577491
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.540763
-      Y: 4.7988505
+      X: 162.45497
+      Y: 3.663769
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
+  - particlePosition:
+      X: 162.36375
+      Y: 3.916252
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 162.18758
+      Y: 3.7087207
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 161.90875
+      Y: 3.4209054
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 161.69838
+      Y: 3.7263842
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 161.33134
+      Y: 3.5996368
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 160.88155
+      Y: 3.6550586
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 161.04607
+      Y: 3.8636365
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 161.25754
+      Y: 3.832847
+    ParticleID: 3
+    DynamicState: 0
   - particlePosition:
-      X: 5.5121245
-      Y: 5.622561
+      X: 160.39221
+      Y: 3.7628698
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.153021
-      Y: 5.0036793
+      X: 160.66359
+      Y: 3.7534878
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.1977243
-      Y: 5.284897
+      X: 158.90073
+      Y: 3.4639964
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.9833984
-      Y: 5.425249
+      X: 160.20245
+      Y: 3.604119
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.8168197
-      Y: 5.225454
+      X: 160.51424
+      Y: 3.576624
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.494971
-      Y: 4.310086
+      X: 160.78581
+      Y: 3.441868
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.9377344
-      Y: 4.782675
+      X: 161.09808
+      Y: 3.6257
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.0340333
-      Y: 4.8222566
+      X: 162.11798
+      Y: 3.454918
     ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 162.71748
+      Y: 3.6321075
+    ParticleID: 3
     DynamicState: 1
+  - particlePosition:
+      X: 163.10678
+      Y: 3.6029892
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 163.33559
+      Y: 3.7299287
+    ParticleID: 3
+    DynamicState: 0
+  - particlePosition:
+      X: 163.5807
+      Y: 3.8265567
+    ParticleID: 3
+    DynamicState: 0
   - particlePosition:
-      X: 4.532738
-      Y: 5.264465
+      X: 164.06706
+      Y: 3.6765406
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.7362432
-      Y: 4.8737135
+      X: 164.16797
+      Y: 3.9216554
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.6974015
-      Y: 5.460395
+      X: 164.42616
+      Y: 3.7767673
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.195516
-      Y: 4.4947724
+      X: 164.58516
+      Y: 3.63886
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.2055116
-      Y: 4.794307
+      X: 164.69966
+      Y: 3.6558828
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.4287195
-      Y: 4.860249
+      X: 164.6394
+      Y: 3.9295495
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.7621446
-      Y: 4.5406327
+      X: 164.90387
+      Y: 3.8442664
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.9115667
-      Y: 4.5885463
+      X: 165.19365
+      Y: 3.7957647
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.0413375
-      Y: 5.162961
+      X: 165.51997
+      Y: 3.888833
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 9.749276
-      Y: 4.330089
+      X: 165.78465
+      Y: 3.8921745
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.3456955
-      Y: 5.426209
+      X: 165.99266
+      Y: 3.7737107
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.169271
-      Y: 4.926879
+      X: 166.19565
+      Y: 3.8291962
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.035688
-      Y: 4.543736
+      X: 166.43689
+      Y: 3.575285
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.2554774
-      Y: 5.2819295
+      X: 166.54076
+      Y: 3.7168565
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.299059
-      Y: 5.032242
+      X: 166.71965
+      Y: 3.6897852
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.82013
-      Y: 5.2146354
+      X: 167.12283
+      Y: 3.7998633
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.802583
-      Y: 5.030436
+      X: 167.32812
+      Y: 3.8922698
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.786874
-      Y: 4.326196
+      X: 167.50822
+      Y: 3.8923903
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.9854496
-      Y: 4.71457
+      X: 167.72765
+      Y: 3.794968
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.038186
-      Y: 4.577003
+      X: 167.95485
+      Y: 3.8826034
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.850271
-      Y: 4.7526555
+      X: 168.1774
+      Y: 3.8609405
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.018893
-      Y: 5.06837
+      X: 168.40233
+      Y: 3.8021796
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.102345
-      Y: 5.2999825
+      X: 168.60954
+      Y: 3.8588405
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.4915366
-      Y: 4.5480456
+      X: 168.83813
+      Y: 3.8569858
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.69026864
-      Y: 4.514968
+      X: 169.02556
+      Y: 3.836782
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.5317926
-      Y: 5.224993
+      X: 169.25534
+      Y: 4.0819807
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.414507
-      Y: 5.0503616
+      X: 168.07411
+      Y: 4.111959
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.722157
-      Y: 4.753539
+      X: 168.96933
+      Y: 4.10241
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.293323
-      Y: 5.1010303
+      X: 169.53593
+      Y: 4.3232746
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.766707
-      Y: 4.943569
+      X: 168.72687
+      Y: 4.1109476
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.5342442
-      Y: 4.5597672
+      X: 170.52118
+      Y: 4.73957
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.5079
-      Y: 4.9038315
+      X: 171.14134
+      Y: 4.6269608
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.0148215
-      Y: 5.0356116
+      X: 170.70164
+      Y: 4.5426455
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.648572
-      Y: 4.3064766
+      X: 170.88052
+      Y: 4.490342
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.357628
-      Y: 4.561188
+      X: 170.8709
+      Y: 4.729873
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.263584
-      Y: 4.8171782
+      X: 171.77072
+      Y: 4.359666
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.1960683
-      Y: 4.748072
+      X: 171.43106
+      Y: 4.225574
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 11.219765
-      Y: 4.3467894
+      X: 172.32271
+      Y: 3.7562134
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.6469107
-      Y: 4.7928014
+      X: 172.09908
+      Y: 3.6090615
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.0013347
-      Y: 4.555699
+      X: 173.26547
+      Y: 3.5833879
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.7473645
-      Y: 4.9796743
+      X: 171.79153
+      Y: 4.606529
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.6545925
-      Y: 4.6783533
+      X: 172.04556
+      Y: 4.366257
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.5599396
-      Y: 4.744563
+      X: 172.77599
+      Y: 4.248378
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.144164
-      Y: 4.8321533
+      X: 171.94463
+      Y: 4.14188
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.404305
-      Y: 4.7715383
+      X: 171.93217
+      Y: 3.874998
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.0663471
-      Y: 4.5489445
+      X: 171.69218
+      Y: 4.1230974
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.451455
-      Y: 4.5521955
+      X: 172.59009
+      Y: 3.8455703
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.7165947
-      Y: 4.5265865
+      X: 172.0703
+      Y: 4.604672
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.896258
-      Y: 4.690217
+      X: 172.44992
+      Y: 4.082674
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.8799179
-      Y: 4.3150167
+      X: 172.1801
+      Y: 3.9966853
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.0001435
-      Y: 4.7695975
+      X: 173.01413
+      Y: 4.306388
     ParticleID: 3
     DynamicState: 0
+  - particlePosition:
+      X: 172.92862
+      Y: 3.7963173
+    ParticleID: 3
+    DynamicState: 1
   - particlePosition:
-      X: 1.8182498
-      Y: 4.5520487
+      X: 173.93016
+      Y: 3.9290354
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.4997275
-      Y: 4.58144
+      X: 172.26479
+      Y: 4.2418165
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.1582313
-      Y: 4.2984977
+      X: 172.78883
+      Y: 3.9999502
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.8061366
-      Y: 4.4398685
+      X: 173.14153
+      Y: 4.1039104
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.2435617
-      Y: 4.3120685
+      X: 173.24501
+      Y: 3.8585303
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.6486864
-      Y: 4.6199875
+      X: 175.07869
+      Y: 3.4715471
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.191413
-      Y: 4.559527
+      X: 173.68243
+      Y: 3.9457262
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.4447684
-      Y: 4.307488
+      X: 173.5202
+      Y: 3.7075303
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.2569064
-      Y: 4.543795
+      X: 174.18675
+      Y: 3.8454385
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.8383656
-      Y: 4.2998576
+      X: 173.77765
+      Y: 3.696126
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.7300825
-      Y: 4.7139864
+      X: 173.99606
+      Y: 3.5528228
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 2.5201964
-      Y: 4.321935
+      X: 174.34499
+      Y: 3.3233569
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.240718
-      Y: 4.5701556
+      X: 174.25674
+      Y: 3.5904505
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.387377
-      Y: 4.318935
+      X: 175.28835
+      Y: 3.3574595
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.6792202
-      Y: 4.301143
+      X: 173.41937
+      Y: 4.063286
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.5223675
-      Y: 4.54915
+      X: 173.31078
+      Y: 4.286272
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.1366767
-      Y: 4.306718
+      X: 169.1283
+      Y: 4.2953377
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.4070728
-      Y: 4.30542
+      X: 168.53017
+      Y: 4.321378
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -7.615254
-      Y: 4.344348
+      X: 168.42781
+      Y: 4.076115
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.9489279
-      Y: 4.4458733
+      X: 168.2549
+      Y: 4.296834
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.4559116
-      Y: 4.306111
+      X: 167.43309
+      Y: 4.146576
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 3.7205455
-      Y: 4.312045
+      X: 167.16502
+      Y: 4.0662603
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 0.5272774
-      Y: 4.298489
+      X: 166.90092
+      Y: 3.9148872
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.1740212
-      Y: 4.3164177
+      X: 166.66011
+      Y: 3.923433
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.4394436
-      Y: 4.80783
+      X: 166.5023
+      Y: 4.089103
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.909747
-      Y: 4.5064917
+      X: 166.39973
+      Y: 3.878919
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: -15.810236
-      Y: 4.5019364
+      X: 166.03873
+      Y: 3.9783032
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.9439027
-      Y: 4.3061585
+      X: 165.85287
+      Y: 4.1714497
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 1.0067304
-      Y: 4.527219
+      X: 165.61082
+      Y: 4.013683
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 4.7212844
-      Y: 4.320268
+      X: 165.33228
+      Y: 3.9177427
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.057915
-      Y: 4.317439
+      X: 165.08823
+      Y: 3.9621112
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.3124504
-      Y: 4.3280416
+      X: 164.86757
+      Y: 4.037939
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 5.5595846
-      Y: 4.3194356
+      X: 164.69472
+      Y: 4.083315
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.1358094
-      Y: 4.559044
+      X: 164.38435
+      Y: 4.033025
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.018682
-      Y: 4.3159695
+      X: 163.63226
+      Y: 4.1212974
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.4883966
-      Y: 4.311049
+      X: 164.32448
+      Y: 4.27767
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.007694
-      Y: 4.3241343
+      X: 165.26608
+      Y: 4.1544566
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 8.222127
-      Y: 4.3300695
+      X: 163.41727
+      Y: 4.0120907
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 7.9361663
-      Y: 4.321362
+      X: 162.62425
+      Y: 3.928197
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 14.966532
-      Y: 4.358522
+      X: 163.83644
+      Y: 4.577893
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.3761287
-      Y: 4.553431
+      X: 163.81877
+      Y: 4.306787
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 10.929456
-      Y: 4.3257174
+      X: 163.90271
+      Y: 3.9184732
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 6.257855
-      Y: 4.3159103
+      X: 164.06332
+      Y: 4.1733794
     ParticleID: 3
     DynamicState: 0
-  LevelID: 2
+  LevelID: 3
   WinCondition:
     WinConditionType: 0
     FinishPoint:
-      X: 285
-      Y: 17.4
+      X: 201.95
+      Y: 5.46
     PointPassPositiveDirection: 1
     TimeLimit: 0
-  CoinRewardPerStar: 200
+  CoinRewardPerStar: 300
   StartingPosition:
     X: -11.5
     Y: 7
+  AlwaysUnlocked: 1

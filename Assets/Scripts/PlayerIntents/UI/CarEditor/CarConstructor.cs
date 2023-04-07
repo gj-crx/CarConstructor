@@ -132,7 +132,7 @@ namespace Cars.CarEditor {
                 }
             }
         }
-        public static Car LoadCar(Car.CarData carDataToLoad)
+        public static Car LoadCar(CarData carDataToLoad)
         {
             Car loadedCar = GameObject.Instantiate(PrefabManager.CarPartsPrefabs[carDataToLoad.FrameID], Vector3.zero, Quaternion.identity).GetComponent<Car>();
 

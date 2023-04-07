@@ -9,7 +9,7 @@ namespace UI.Buttons
     [RequireComponent(typeof(Button))]
     public class ButtonSelectCar : MonoBehaviour
     {
-        public Cars.Car.CarData representedCarData;
+        public Cars.CarEditor.CarData representedCarData;
         public string CarDataDirectory;
         void Start()
         {

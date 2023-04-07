@@ -65,7 +65,7 @@ public static class GameScenarioController
 
                 lastCheckPositionX = carTransform.position.x;
                 
-                if (accumulatedStuckMarkers > 7)
+                if (accumulatedStuckMarkers > 5)
                 {
                     UI.UIManager.Singleton.ShowDialogue("CarStuck", null, true);
                     accumulatedStuckMarkers = 0;

@@ -25,7 +25,7 @@ namespace Cars.CarEditor
 
             if (PlayerRepresentation.LocalPlayer != null) PlayerRepresentation.LocalPlayer.Money -= CarConstructor.CurrentConstructedCar.TotalCost;
 
-            SerializationManager.SaveObject(CarConstructor.CurrentConstructedCar.CarName, Application.persistentDataPath + "/Cars/", new Car.CarData(CarConstructor.CurrentConstructedCar));
+            SerializationManager.SaveObject(CarConstructor.CurrentConstructedCar.CarName, Application.persistentDataPath + "/Cars/", new CarData(CarConstructor.CurrentConstructedCar));
         }
     }
 }

@@ -28,6 +28,8 @@ public class CameraFollowing : MonoBehaviour
         else
         {
             transform.Translate(new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * manualSpeed * Time.deltaTime);
+
+            if (Input.mouseScrollDelta.y != 0) Camera.main.orthographicSize -= Input.mouseScrollDelta.y * Time.deltaTime * 25;
         }
     }
 }

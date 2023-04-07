@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using Cars;
+using Cars.CarEditor;
 using UnityEngine;
 
 public class CarListFormer : MonoBehaviour
@@ -42,19 +43,22 @@ public class CarListFormer : MonoBehaviour
 
         foreach (string carPath in Directory.GetFiles(Application.persistentDataPath + static_carDirectory)) 
         {
-            var carItem = Instantiate(static_carItemPrefab);
-            carItem.transform.SetParent(static_carListContent.transform);
-            carItem.transform.localScale = Vector3.one;
+            CarData carData = (CarData)SaveLoadSystem.SerializationManager.LoadObject(carPath);
+            if (carData == null) File.Delete(carPath);
+            else
+            {
+                var carItem = Instantiate(static_carItemPrefab);
+                carItem.transform.SetParent(static_carListContent.transform);
+                carItem.transform.localScale = Vector3.one;
 
-            Car.CarData carData = (Car.CarData)SaveLoadSystem.SerializationManager.LoadObject(carPath);
+                carItem.GetComponent<UI.Buttons.ButtonSelectCar>().representedCarData = carData;
+                carItem.GetComponent<UI.Buttons.ButtonSelectCar>().CarDataDirectory = carPath;
 
-            carItem.GetComponent<UI.Buttons.ButtonSelectCar>().representedCarData = carData;
-            carItem.GetComponent<UI.Buttons.ButtonSelectCar>().CarDataDirectory = carPath;
+                carItem.transform.Find("CarIcon").Find("CarName").GetComponent<TMPro.TMP_Text>().text = carData.CarName;
+                carItem.transform.Find("IconCost").Find("CostValue").GetComponent<TMPro.TMP_Text>().text = carData.TotalCost.ToString();
 
-            carItem.transform.Find("CarIcon").Find("CarName").GetComponent<TMPro.TMP_Text>().text = carData.CarName;
-            carItem.transform.Find("IconCost").Find("CostValue").GetComponent<TMPro.TMP_Text>().text = carData.TotalCost.ToString();
-
-            spawnedCarItems.Add(carItem);
+                spawnedCarItems.Add(carItem);
+            }
         }
 
     }

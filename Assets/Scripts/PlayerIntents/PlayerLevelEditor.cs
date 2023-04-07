@@ -58,7 +58,7 @@ public class PlayerLevelEditor : MonoBehaviour
 
                 SaveLoadSystem.GameLevelSaverLoader.SaveNewLevel(newLevelToSave, newLevelToSave.LevelName);
             }
-            if (Input.GetKeyDown(KeyCode.R)) GoToLevelEditorMode();
+            if (Input.GetKeyDown(KeyCode.R) || Input.GetKey(KeyCode.Alpha6)) GoToLevelEditorMode(Input.GetKey(KeyCode.Alpha5));
         }
         else
         {
@@ -70,14 +70,15 @@ public class PlayerLevelEditor : MonoBehaviour
             }
         }
     }
-    private void GoToLevelEditorMode()
+    private void GoToLevelEditorMode(bool clearMap = true)
     {
     #if UNITY_EDITOR
 
         if (PlayerRepresentation.LocalPlayer.SelectedCar != null) PlayerRepresentation.LocalPlayer.SelectedCar.gameObject.SetActive(false);
         Camera.main.orthographicSize = cameraDistance;
         Camera.main.gameObject.GetComponent<CameraFollowing>().ManualControl = true;
-        MapEditor.ClearMap(false);
+
+        if (clearMap) MapEditor.ClearMap(false);
 
     #endif
     }

@@ -33,7 +33,6 @@ namespace UI.Buttons
 
             if (gameObject.tag == "DialogueButton")
             {
-                //close dialogue
 
             }
             else

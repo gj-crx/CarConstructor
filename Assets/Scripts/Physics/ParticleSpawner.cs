@@ -8,11 +8,8 @@ public static class ParticleSpawner
 
     public static void SpawnParticle(Vector3 positionToSpawn, int particleToSpawnID)
     {
-        if (positionToSpawn.y > 0)
-        {
-            GameObject newParticle = GameObject.Instantiate(PrefabManager.ParticlesPrefabs[particleToSpawnID], new Vector3(positionToSpawn.x, positionToSpawn.y, 0), Quaternion.identity);
-            newParticle.transform.SetParent(PrefabManager.ParticlesParentObject.transform);
-            newParticle.SetActive(true);
-        }
+        GameObject newParticle = GameObject.Instantiate(PrefabManager.ParticlesPrefabs[particleToSpawnID], new Vector3(positionToSpawn.x, positionToSpawn.y, 0), Quaternion.identity);
+        newParticle.transform.SetParent(PrefabManager.ParticlesParentObject.transform);
+        newParticle.SetActive(true);
     }
 }
