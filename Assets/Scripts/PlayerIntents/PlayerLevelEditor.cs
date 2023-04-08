@@ -66,8 +66,8 @@ public class PlayerLevelEditor : MonoBehaviour
             if (Input.touchCount > 0)
             {
                 if (placedLastSecond < spawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.touches[0].position), selectedParticle);
-                placedLastSecond++;
-            }
+            }                placedLastSecond++;
+
         }
     }
     private void GoToLevelEditorMode(bool clearMap = true)
