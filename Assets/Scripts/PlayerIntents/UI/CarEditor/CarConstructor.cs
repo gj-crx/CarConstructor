@@ -14,6 +14,8 @@ namespace Cars.CarEditor {
         public GameObject ContentAviableCarPartsList;
         public GameObject PrefabUICarPart;
 
+        public static int OldCarCost = 0;
+
         public static TMP_Text TotalCostTextIndicator;
         public static Car CurrentConstructedCar {
             get { return currentConstructedCar; }
@@ -161,6 +163,8 @@ namespace Cars.CarEditor {
                 loadedCarPart.transform.localPosition = carPartData.CarPartPlacementPosition.ToVector3();
                 loadedCarPart.GetComponent<PrePlacedCarPart>().ForcePlaceToCar(loadedCar, carPartData);
             }
+
+            OldCarCost = loadedCar.TotalCost;
 
             return loadedCar;
         }

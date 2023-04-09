@@ -14,6 +14,9 @@ public class PlayerLevelEditor : MonoBehaviour
     private int selectedSecondParticle = 0;
 
     [SerializeField]
+    private short selectedCollectibleID = 0;
+
+    [SerializeField]
     private int spawningSpeed = 6;
     [SerializeField]
     private int secondParticleSpawningSpeed = 1;
@@ -38,37 +41,34 @@ public class PlayerLevelEditor : MonoBehaviour
     }
     void Update()
     {
-        if (Application.isMobilePlatform == false)
+        if (Application.isMobilePlatform) return;
+
+        if (Input.GetKey(KeyCode.Q))
         {
-            if (Input.GetKey(KeyCode.Q))
-            {
-                if (placedLastSecond < spawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedParticle);
-                placedLastSecond++;
-            }
-            if (Input.GetKey(KeyCode.F))
-            {
-                if (placedLastSecond < secondParticleSpawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedSecondParticle);
-                placedLastSecond++;
-            }
-
-            if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.E))
-            {
-                if (StartFlag != null) newLevelToSave.StartingPosition = new Position(StartFlag.transform.position + MapEditor.StartingPointOffset);
-                if (FinishFlag != null) newLevelToSave.WinCondition.FinishPoint = new Position(FinishFlag.transform.position);
-
-                SaveLoadSystem.GameLevelSaverLoader.SaveNewLevel(newLevelToSave, newLevelToSave.LevelName);
-            }
-            if (Input.GetKeyDown(KeyCode.R) || Input.GetKey(KeyCode.Alpha6)) GoToLevelEditorMode(Input.GetKey(KeyCode.Alpha5));
+            if (placedLastSecond < spawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedParticle);
+            placedLastSecond++;
         }
-        else
+        if (Input.GetKey(KeyCode.F))
         {
-            return;
-            if (Input.touchCount > 0)
-            {
-                if (placedLastSecond < spawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.touches[0].position), selectedParticle);
-            }                placedLastSecond++;
-
+            if (placedLastSecond < secondParticleSpawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedSecondParticle);
+            placedLastSecond++;
         }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            ParticleSpawner.SpawnCollectible(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedCollectibleID);
+
+            newLevelToSave.Collectibles.Add(new GameLevelData.CollectibleData(selectedCollectibleID, Camera.main.ScreenToWorldPoint(Input.mousePosition)));
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.E))
+        {
+            if (StartFlag != null) newLevelToSave.StartingPosition = new Position(StartFlag.transform.position + MapEditor.StartingPointOffset);
+            if (FinishFlag != null) newLevelToSave.WinCondition.FinishPoint = new Position(FinishFlag.transform.position);
+
+            SaveLoadSystem.GameLevelSaverLoader.SaveNewLevel(newLevelToSave, newLevelToSave.LevelName);
+        }
+        if (Input.GetKeyDown(KeyCode.R) || Input.GetKey(KeyCode.Alpha6)) GoToLevelEditorMode(Input.GetKey(KeyCode.Alpha5));
     }
     private void GoToLevelEditorMode(bool clearMap = true)
     {

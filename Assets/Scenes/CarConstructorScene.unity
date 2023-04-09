@@ -1111,8 +1111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9f189a589167c041b366c0f4764bf56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HintTotalLifeTime: 4
-  HintFullVisibilityTime: 2
+  HintTotalLifeTime: 3
+  HintFullVisibilityTime: 1.5
+  AlternativeColor: {r: 0.1082285, g: 0.5566038, b: 0, a: 1}
 --- !u!224 &290315062 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8137576088347989087, guid: 529de0072b39e44d39bee1b9f1d769ae, type: 3}
@@ -1677,7 +1678,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 237884201}
   m_HandleRect: {fileID: 237884200}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

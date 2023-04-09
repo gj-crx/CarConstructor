@@ -18,6 +18,9 @@ public class PrefabManager : MonoBehaviour
     [SerializeField]
     private GameObject[] wallsPrefabs;
     [SerializeField]
+    private GameObject[] collectiblesPrefabs;
+
+    [SerializeField]
     private GameObject[] carPartsPrefabs;
 
     [SerializeField]
@@ -29,6 +32,10 @@ public class PrefabManager : MonoBehaviour
     [SerializeField]
     private GameObject[] gameLevelItemPrefabs;
 
+
+   //-----------
+   //public static copies
+    
     public static GameObject WallsParentObject;
     public static GameObject ParticlesParentObject;
 
@@ -37,6 +44,7 @@ public class PrefabManager : MonoBehaviour
 
     public static GameObject[] ParticlesPrefabs;
     public static GameObject[] WallsPrefabs;
+    public static GameObject[] CollectiblesPrefabs;
     public static GameObject[] CarPartsPrefabs;
     public static GameObject[] PreCreatedCars;
     /// <summary>
@@ -54,6 +62,7 @@ public class PrefabManager : MonoBehaviour
         ParticlesParentObject = particlesParentObject;
         WallsPrefabs = wallsPrefabs;
         ParticlesPrefabs = particlesPrefabs;
+        CollectiblesPrefabs = collectiblesPrefabs;
 
         StartFlag = startFlag;
         FinishFlag = finishFlag;

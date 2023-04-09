@@ -10,6 +10,7 @@ namespace SaveLoadSystem
     {
         public string LevelName = "TestLevel";
         public List<ParticleData> BasicParticles;
+        public List<CollectibleData> Collectibles;
 
         public bool LevelIsActive { get; set; } = false;
 
@@ -28,6 +29,7 @@ namespace SaveLoadSystem
             Resources.UnloadUnusedAssets();
             MapEditor.SpawnLevelWalls(Resources.LoadAll<GameObject>("Levels/" + LevelName + "/Walls"));
             MapEditor.SpawnParticles(BasicParticles);
+            MapEditor.SpawnCollectibles(Collectibles);
             MapEditor.SpawnFlags(StartingPosition.ToVector3() - MapEditor.StartingPointOffset, WinCondition.FinishPoint.ToVector3());
 
             GameLevelSaverLoader.CurrentLoadedLevel = this;
@@ -68,6 +70,19 @@ namespace SaveLoadSystem
                 ScaleY = wall.transform.localScale.y;
                 RotationZ = wall.transform.eulerAngles.z;
             }
+        }
+        [System.Serializable]
+        public class CollectibleData
+        {
+            public Position decorationPosition;
+            public short PrefabID = 0;
+
+            public CollectibleData(short prefabID, Vector3 position)
+            {
+                decorationPosition = new Position(position);
+                PrefabID = prefabID;
+            }
+
         }
         [System.Serializable]
         public enum MissionWinConditionType : byte

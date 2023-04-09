@@ -6,10 +6,16 @@ public static class ParticleSpawner
 {
     public static System.Random physicsRandom = new System.Random(); //no seed needed
 
-    public static void SpawnParticle(Vector3 positionToSpawn, int particleToSpawnID)
+    public static void SpawnParticle(Vector3 positionToSpawn, int prefabID)
     {
-        GameObject newParticle = GameObject.Instantiate(PrefabManager.ParticlesPrefabs[particleToSpawnID], new Vector3(positionToSpawn.x, positionToSpawn.y, 0), Quaternion.identity);
+        GameObject newParticle = GameObject.Instantiate(PrefabManager.ParticlesPrefabs[prefabID], new Vector3(positionToSpawn.x, positionToSpawn.y, 0), Quaternion.identity);
         newParticle.transform.SetParent(PrefabManager.ParticlesParentObject.transform);
         newParticle.SetActive(true);
+    }
+    public static void SpawnCollectible(Vector3 positionToSpawn, int prefabID)
+    {
+        GameObject newCollectible = GameObject.Instantiate(PrefabManager.CollectiblesPrefabs[prefabID], new Vector3(positionToSpawn.x, positionToSpawn.y, 0), Quaternion.identity);
+        newCollectible.transform.SetParent(PrefabManager.WallsParentObject.transform);
+        newCollectible.SetActive(true);
     }
 }

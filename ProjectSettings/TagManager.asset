@@ -10,7 +10,7 @@ TagManager:
   - DialogueButton
   - ParticleKiller
   - TriggerColliderParts
-  - Coin
+  - Collectible
   layers:
   - Default
   - TransparentFX

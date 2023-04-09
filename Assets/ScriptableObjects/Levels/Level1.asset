@@ -50,35 +50,35 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 200.56424
-      Y: 19.203457
+      X: 200.5808
+      Y: 19.169968
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 200.80783
       Y: 19.27779
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 200.30981
-      Y: 19.260405
+      X: 200.34042
+      Y: 19.219078
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 201.01538
-      Y: 19.446966
+      X: 201.01027
+      Y: 19.419119
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 200.44218
       Y: 18.965445
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 193.98718
-      Y: 16.428823
+      X: 193.97905
+      Y: 16.386904
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 194.12999
       Y: 16.189745
@@ -90,10 +90,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 193.82916
-      Y: 16.20119
+      X: 193.82887
+      Y: 16.189457
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 194.24394
       Y: 16.392479
@@ -730,10 +730,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 17.560392
-      Y: -6.4700913
+      X: 17.56043
+      Y: -6.470111
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 19.86279
       Y: -6.251664
@@ -848,7 +848,7 @@ MonoBehaviour:
       X: 17.302137
       Y: -6.042702
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 16.860283
       Y: -6.2413616
@@ -2425,10 +2425,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 46.353474
-      Y: 0.5065005
+      X: 46.353466
+      Y: 0.5065004
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 45.48737
       Y: 0.7383959
@@ -2445,10 +2445,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 46.10682
-      Y: 0.4936843
+      X: 46.10681
+      Y: 0.493681
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 45.858852
       Y: 0.49739635
@@ -2478,7 +2478,7 @@ MonoBehaviour:
       X: 47.84602
       Y: 0.22597848
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 47.2145
       Y: -0.04144682
@@ -3360,10 +3360,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 62.151276
-      Y: -3.249253
+      X: 62.15182
+      Y: -3.2498732
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 60.994938
       Y: -3.3128707
@@ -3535,15 +3535,15 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 55.717335
-      Y: -1.4839834
+      X: 55.717472
+      Y: -1.484017
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 55.929585
-      Y: -1.6128476
+      X: 55.929565
+      Y: -1.6129606
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 56.296616
       Y: -1.499805
@@ -3590,10 +3590,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 62.252197
-      Y: -3.490221
+      X: 62.25238
+      Y: -3.4907944
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 63.13565
       Y: -3.5472796
@@ -4025,35 +4025,35 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 64.65496
-      Y: -3.5208192
+      X: 64.65508
+      Y: -3.5207593
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 64.80355
-      Y: -3.2506146
+      X: 64.80317
+      Y: -3.2507312
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 64.09152
       Y: -3.9069405
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 64.56346
-      Y: -3.2970548
+      X: 64.56338
+      Y: -3.2981904
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 64.27592
       Y: -3.7431765
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 64.408325
-      Y: -3.532388
+      X: 64.40823
+      Y: -3.5323315
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 63.898014
       Y: -3.33897
@@ -4095,20 +4095,20 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 62.396744
-      Y: -3.2842095
+      X: 62.396496
+      Y: -3.2846465
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 62.8357
       Y: -2.579785
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 64.357735
-      Y: -3.1707077
+      X: 64.35804
+      Y: -3.171605
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 63.398605
       Y: -3.1564398
@@ -4170,10 +4170,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 62.270348
-      Y: -3.0312915
+      X: 62.27082
+      Y: -3.0320406
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 62.577133
       Y: -2.643853
@@ -4281,9 +4281,9 @@ MonoBehaviour:
     DynamicState: 0
   - particlePosition:
       X: 58.999893
-      Y: -2.1715589
+      Y: -2.1715584
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 61.154545
       Y: -2.3317678
@@ -5065,45 +5065,45 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 64.61905
-      Y: -2.791004
+      X: 64.61881
+      Y: -2.791386
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 64.03335
       Y: -2.8049731
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 64.17112
       Y: -3.0104
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 64.41987
-      Y: -2.934565
+      X: 64.42026
+      Y: -2.9357994
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 64.640305
-      Y: -3.0639489
+      X: 64.6391
+      Y: -3.0643845
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 64.83402
       Y: -2.9118443
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 65.16015
-      Y: -2.9132605
+      X: 65.1602
+      Y: -2.9132993
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 65.38121
-      Y: -3.022248
+      X: 65.38118
+      Y: -3.0223825
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 65.66455
       Y: -2.9506273
@@ -5535,10 +5535,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 70.75736
-      Y: -1.6855065
+      X: 70.75733
+      Y: -1.6855301
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 70.567955
       Y: -1.8440092
@@ -5560,10 +5560,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 71.02337
-      Y: -1.6570106
+      X: 71.02342
+      Y: -1.6572851
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 72.58694
       Y: -1.7493134
@@ -5620,10 +5620,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 71.24279
-      Y: -1.5446103
+      X: 71.242836
+      Y: -1.5449247
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 72.44952
       Y: -1.2277557
@@ -5640,20 +5640,20 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 71.07818
-      Y: -1.360792
+      X: 71.07799
+      Y: -1.3616312
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 71.46516
-      Y: -1.3690386
+      X: 71.46513
+      Y: -1.3690351
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 70.85072
-      Y: -1.4569098
+      X: 70.85047
+      Y: -1.4572713
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 72.63493
       Y: -1.0475702
@@ -5965,10 +5965,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 71.27738
-      Y: -1.2089922
+      X: 71.27686
+      Y: -1.2095624
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 77.20328
       Y: 1.8263785
@@ -7950,10 +7950,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 152.51169
-      Y: 7.6888742
+      X: 152.52287
+      Y: 7.676863
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 154.77167
       Y: 7.3544345
@@ -8065,10 +8065,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 152.66986
-      Y: 7.8777404
+      X: 152.67023
+      Y: 7.876671
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 153.57379
       Y: 7.8649054
@@ -8100,15 +8100,15 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 152.42827
-      Y: 7.927641
+      X: 152.42891
+      Y: 7.926938
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 152.33351
-      Y: 7.518904
+      Y: 7.518926
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 151.84505
       Y: 7.5620933
@@ -8201,9 +8201,9 @@ MonoBehaviour:
     DynamicState: 0
   - particlePosition:
       X: 149.92807
-      Y: 6.7669635
+      Y: 6.7669644
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 147.58876
       Y: 6.7179446
@@ -9025,10 +9025,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 160.91748
-      Y: 9.448373
+      X: 160.91747
+      Y: 9.448378
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 160.6594
       Y: 9.578986
@@ -9160,10 +9160,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 154.68477
-      Y: 8.351928
+      X: 154.68478
+      Y: 8.351929
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 154.46365
       Y: 8.225224
@@ -9210,10 +9210,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 152.53754
-      Y: 8.149007
+      X: 152.53761
+      Y: 8.1482
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 153.69026
       Y: 8.3590145
@@ -9225,10 +9225,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 152.77962
-      Y: 8.098774
+      X: 152.77988
+      Y: 8.098948
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 153.26608
       Y: 8.233676
@@ -9236,9 +9236,9 @@ MonoBehaviour:
     DynamicState: 0
   - particlePosition:
       X: 154.55667
-      Y: 8.563106
+      Y: 8.563105
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 154.93636
       Y: 8.469591
@@ -9556,9 +9556,9 @@ MonoBehaviour:
     DynamicState: 0
   - particlePosition:
       X: 170.5822
-      Y: 9.505539
+      Y: 9.50552
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 170.85376
       Y: 9.328043
@@ -9670,15 +9670,15 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 173.76733
-      Y: 9.621486
+      X: 173.76732
+      Y: 9.621468
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 170.81975
-      Y: 9.57263
+      X: 170.81973
+      Y: 9.572631
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 174.48878
       Y: 9.414113
@@ -9710,15 +9710,15 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 171.64441
-      Y: 10.028914
+      X: 171.64444
+      Y: 10.028917
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
-      X: 171.42455
-      Y: 9.917234
+      X: 171.42459
+      Y: 9.917252
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 171.9405
       Y: 9.992067
@@ -9735,20 +9735,20 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 173.52164
-      Y: 9.596656
+      X: 173.5216
+      Y: 9.596674
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 173.21638
       Y: 9.578654
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 174.01317
-      Y: 9.584976
+      X: 174.01314
+      Y: 9.584948
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 178.05917
       Y: 9.315781
@@ -9820,10 +9820,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 176.6901
-      Y: 9.602983
+      X: 176.69046
+      Y: 9.603069
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 176.69246
       Y: 9.178736
@@ -10500,10 +10500,10 @@ MonoBehaviour:
     ParticleID: 3
     DynamicState: 0
   - particlePosition:
-      X: 151.52177
-      Y: -26.9755
+      X: 151.52173
+      Y: -26.975496
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 216.94312
       Y: -25.75057
@@ -10646,9 +10646,9 @@ MonoBehaviour:
     DynamicState: 0
   - particlePosition:
       X: 215.3954
-      Y: 25.000355
+      Y: 25.000357
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 215.83136
       Y: 24.63958
@@ -13791,9 +13791,9 @@ MonoBehaviour:
     DynamicState: 0
   - particlePosition:
       X: 322.4883
-      Y: 9.35003
+      Y: 9.350032
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 322.95868
       Y: 9.159171
@@ -15341,14 +15341,14 @@ MonoBehaviour:
     DynamicState: 0
   - particlePosition:
       X: 446.91772
-      Y: 14.8052225
+      Y: 14.805219
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 447.11746
-      Y: 14.659961
+      Y: 14.659956
     ParticleID: 3
-    DynamicState: 1
+    DynamicState: 0
   - particlePosition:
       X: 447.36316
       Y: 14.622689
@@ -16549,6 +16549,47 @@ MonoBehaviour:
       Y: 12.179007
     ParticleID: 3
     DynamicState: 0
+  Collectibles:
+  - decorationPosition:
+      X: -6.9161215
+      Y: -1.1094407
+    PrefabID: 0
+  - decorationPosition:
+      X: -10.043158
+      Y: -1.1094407
+    PrefabID: 0
+  - decorationPosition:
+      X: -12.241854
+      Y: -0.9628607
+    PrefabID: 0
+  - decorationPosition:
+      X: -4.912865
+      Y: -1.50032
+    PrefabID: 0
+  - decorationPosition:
+      X: -1.5415311
+      Y: -2.8683984
+    PrefabID: 0
+  - decorationPosition:
+      X: -1.7273965
+      Y: -0.19692016
+    PrefabID: 0
+  - decorationPosition:
+      X: -3.1039805
+      Y: -1.5874473
+    PrefabID: 0
+  - decorationPosition:
+      X: -3.7392836
+      Y: -1.5875698
+    PrefabID: 0
+  - decorationPosition:
+      X: -4.8346634
+      Y: -1.2680843
+    PrefabID: 0
+  - decorationPosition:
+      X: -5.455644
+      Y: -1.1312
+    PrefabID: 0
   LevelID: 0
   WinCondition:
     WinConditionType: 0
@@ -16561,3 +16602,4 @@ MonoBehaviour:
   StartingPosition:
     X: -20.53
     Y: 0.5
+  AlwaysUnlocked: 1

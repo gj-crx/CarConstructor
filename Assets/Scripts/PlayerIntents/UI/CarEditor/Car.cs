@@ -148,7 +148,7 @@ namespace Cars
         }
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.gameObject.CompareTag("Coin"))
+            if (collision.gameObject.CompareTag("Collectible"))
             {
                 if (PlayerRepresentation.LocalPlayer != null) PlayerRepresentation.LocalPlayer.Money += collision.gameObject.GetComponent<Coin>().Value;
                 Destroy(collision.gameObject);

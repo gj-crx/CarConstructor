@@ -26,6 +26,8 @@ namespace SaveLoadSystem
             Directory.CreateDirectory("Assets/Resources/Levels/" + fileSaveName);
             if (levelToSave.LevelName == "") levelToSave.LevelName = fileSaveName;
 
+            
+            //particles
             levelToSave.BasicParticles = new List<GameLevelData.ParticleData>();
             CustomParticle[] allParticles = (CustomParticle[])Resources.FindObjectsOfTypeAll(typeof(CustomParticle));
             foreach (var particle in allParticles)
@@ -33,6 +35,7 @@ namespace SaveLoadSystem
                 if (particle.gameObject.activeInHierarchy) levelToSave.BasicParticles.Add(new GameLevelData.ParticleData(particle));
             }
 
+            //walls
             int wallsCount = 0;
             Wall[] allWalls = (Wall[])Resources.FindObjectsOfTypeAll(typeof(Wall));
             foreach (var wall in allWalls)
@@ -44,7 +47,14 @@ namespace SaveLoadSystem
                     wallsCount++;
                 }
             }
-           EditorUtility.SetDirty(levelToSave);
+
+            //decorations
+            levelToSave.Collectibles = new List<GameLevelData.CollectibleData>();
+            foreach (var collectible in GameObject.FindGameObjectsWithTag("Collectible"))
+                levelToSave.Collectibles.Add(new GameLevelData.CollectibleData(collectible.GetComponent<ICollectible>().CollectibleID, collectible.transform.position));
+
+
+            EditorUtility.SetDirty(levelToSave);
            AllLoadedGameLevels.Add(levelToSave);
 
         #endif

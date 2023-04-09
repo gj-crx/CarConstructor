@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -45,6 +46,17 @@ namespace SaveLoadSystem
                 SpawnedPhysicalObjects.Push(newParticle);
             }
         }
+
+        public static void SpawnCollectibles(List<GameLevelData.CollectibleData> collectibles)
+        {
+            foreach (var collectible in collectibles)
+            {
+                var spawnedCollectible = GameObject.Instantiate(PrefabManager.CollectiblesPrefabs[collectible.PrefabID], collectible.decorationPosition.ToVector3(), Quaternion.identity);
+                spawnedCollectible.transform.SetParent(PrefabManager.WallsParentObject.transform);
+                MapEditor.SpawnedDecorations.Push(spawnedCollectible);
+            }
+        }
+
         public static void SpawnLevelWalls(GameObject[] walls)
         {
             foreach (GameObject newWall in walls)

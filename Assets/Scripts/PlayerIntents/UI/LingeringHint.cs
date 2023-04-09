@@ -12,20 +12,28 @@ namespace UI
         private TMP_Text hintText;
         private Color normalColor;
 
+        [SerializeField]
+        private Color AlternativeColor;
+
         private float timer_Lingering = 0;
 
         private void Awake()
         {
             hintText = GetComponent<TMP_Text>();
             normalColor = hintText.color;
+
+            Debug.Log("nigro");
         }
 
-        public void ShowError(string errorText)
+        public void ShowError(string errorText, bool alternativeColor = false)
         {
             gameObject.SetActive(true);
             if (hintText == null) hintText = GetComponent<TMP_Text>();
             hintText.text = errorText;
-            hintText.color = normalColor;
+
+            if (alternativeColor == false) hintText.color = normalColor;
+            else hintText.color = AlternativeColor;
+
 
             StartCoroutine(HintLingeringCoroutine());
         }
@@ -34,14 +42,18 @@ namespace UI
         {
             while (gameObject.activeInHierarchy)
             {
-                if (timer_Lingering < HintFullVisibilityTime)
+                if (timer_Lingering < HintTotalLifeTime)
                 {
-                    hintText.color = new Color(hintText.color.r, hintText.color.g, hintText.color.b, hintText.color.a * (1 - timer_Lingering / (HintTotalLifeTime - HintFullVisibilityTime)));
+                    if (timer_Lingering > HintFullVisibilityTime)
+                    {
+
+                    }
                     timer_Lingering += Time.deltaTime;
                 }
                 else
                 {
                     timer_Lingering = 0;
+                    hintText.color = normalColor;
                     gameObject.SetActive(false);
                 }
                 yield return null;
