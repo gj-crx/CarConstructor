@@ -9,9 +9,19 @@ public class Coin : MonoBehaviour, ICollectible
     [SerializeField]
     private short collectibleID = 0;
 
+    [SerializeField]
+    private Animator animator;
+
     public short CollectibleID
     {
         get { return collectibleID; }
         set { collectibleID = value; }
+    }
+
+    public int OnCollected()
+    {
+        animator.Play("Collected");
+
+        return Value;
     }
 }

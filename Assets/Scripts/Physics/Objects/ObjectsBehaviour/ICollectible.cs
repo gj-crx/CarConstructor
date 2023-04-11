@@ -5,4 +5,6 @@ using UnityEngine;
 public interface ICollectible
 {
     public short CollectibleID { get; set; }
+
+    public int OnCollected();
 }

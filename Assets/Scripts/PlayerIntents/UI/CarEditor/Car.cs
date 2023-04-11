@@ -150,8 +150,7 @@ namespace Cars
         {
             if (collision.gameObject.CompareTag("Collectible"))
             {
-                if (PlayerRepresentation.LocalPlayer != null) PlayerRepresentation.LocalPlayer.Money += collision.gameObject.GetComponent<Coin>().Value;
-                Destroy(collision.gameObject);
+                if (PlayerRepresentation.LocalPlayer != null) PlayerRepresentation.LocalPlayer.Money += collision.gameObject.GetComponent<Coin>().OnCollected();
             }
         }
     }
