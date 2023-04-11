@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Cars.CarEditor;
 
 namespace Cars
 {
@@ -32,12 +31,12 @@ namespace Cars
             {
                 totalCost = value;
 
-                if (gameObject.scene.name == "CarConstructorScene")
-                {
-                    CarConstructor.TotalCostTextIndicator.text = totalCost.ToString();
-                    if (PlayerRepresentation.LocalPlayer.Money < totalCost) CarConstructor.TotalCostTextIndicator.color = new Color(0.85f, 0, 0);
-                    else CarConstructor.TotalCostTextIndicator.color = new Color(0, 0.65f, 0);
-                }
+            //    if (gameObject.scene.name == "CarConstructorScene")
+          //      {
+        //            CarConstructor.TotalCostTextIndicator.text = totalCost.ToString();
+      //              if (PlayerRepresentation.LocalPlayer.Money < totalCost) CarConstructor.TotalCostTextIndicator.color = new Color(0.85f, 0, 0);
+    //                else CarConstructor.TotalCostTextIndicator.color = new Color(0, 0.65f, 0);
+  //              }
             }
         }
 
@@ -49,7 +48,6 @@ namespace Cars
             {
                 GameStateController.GameStateChangesEvent += OnGameStateChanges;
                 OnGameStateChanges(); //initial invoke to get correct state
-                CameraFollowing.ObjectToFollow = gameObject;
             }
             else
             {
@@ -149,13 +147,6 @@ namespace Cars
         private void OnDestroy()
         {
             GameStateController.GameStateChangesEvent -= OnGameStateChanges;
-        }
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-            if (collision.gameObject.CompareTag("Collectible"))
-            {
-                if (PlayerRepresentation.LocalPlayer != null) PlayerRepresentation.LocalPlayer.Money += collision.gameObject.GetComponent<Coin>().OnCollected();
-            }
         }
     }
 }

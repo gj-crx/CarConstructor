@@ -48,10 +48,10 @@ namespace SaveLoadSystem
                 }
             }
 
-            //decorations
-            levelToSave.Collectibles = new List<GameLevelData.CollectibleData>();
-            foreach (var collectible in GameObject.FindGameObjectsWithTag("Collectible"))
-                levelToSave.Collectibles.Add(new GameLevelData.CollectibleData(collectible.GetComponent<ICollectible>().CollectibleID, collectible.transform.position));
+            //decorations --- CURRENTLY BEING SAVED AUTOMATICALLY!
+   //         levelToSave.Collectibles = new List<GameLevelData.CollectibleData>();
+   //         foreach (var collectible in GameObject.FindGameObjectsWithTag("Collectible"))
+   //             levelToSave.Collectibles.Add(new GameLevelData.CollectibleData(collectible.GetComponent<ICollectible>().CollectibleID, collectible.transform.position));
 
 
             EditorUtility.SetDirty(levelToSave);

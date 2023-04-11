@@ -1,13 +1,9 @@
 {
-    "name": "PlayerIntents",
+    "name": "Cars",
     "rootNamespace": "",
     "references": [
         "GUID:65321977a84bee74ebb7ff27c7d00936",
-        "GUID:920fc72170e117f44af7e523908d1b0f",
-        "GUID:510f3ffa8c54b2040abf5d285669b84e",
-        "GUID:4a65a19f5b24ad24cb3a74db2eebb5e5",
-        "GUID:6055be8ebefd69e48b49212b09b47b2f",
-        "GUID:6546d7765b4165b40850b3667f981c26"
+        "GUID:920fc72170e117f44af7e523908d1b0f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

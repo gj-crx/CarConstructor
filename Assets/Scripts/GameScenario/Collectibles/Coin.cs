@@ -24,4 +24,12 @@ public class Coin : MonoBehaviour, ICollectible
 
         return Value;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Car"))
+        {
+
+            Destroy(gameObject);
+        }
+    }
 }

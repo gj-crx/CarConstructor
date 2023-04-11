@@ -31,8 +31,6 @@ namespace Cars
             transform.localEulerAngles = new Vector3(0, 0, Angle);
 
             joint.dampingRatio = DampingRatio;
-
-            Debug.Log(transform.localEulerAngles + " last ");
         }
 
         
