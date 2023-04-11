@@ -111,7 +111,11 @@ namespace Cars
                 if (Wheels[i].DrivableWheel) //torque applies only to drivable wheels
                 {
                     JointMotor2D wheelMotor = Wheels[i].wheelJoint.motor;
-                    wheelMotor.motorSpeed = powerPerWheel;
+
+                    if (powerPerWheel > Wheels[i].powerLimit) wheelMotor.motorSpeed = Wheels[i].powerLimit; //positive power limit exceded
+                    else if (powerPerWheel < Wheels[i].powerLimit) wheelMotor.motorSpeed = -Wheels[i].powerLimit; //negative power limit exceded
+                    else wheelMotor.motorSpeed = powerPerWheel; //limits are not exceded
+
                     Wheels[i].wheelJoint.motor = wheelMotor;
                 }
             }
