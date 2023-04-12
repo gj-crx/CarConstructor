@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -2802579031660730333}
   m_Layer: 8
   m_Name: JeepFrame
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -217,7 +217,6 @@ MonoBehaviour:
   Wheels: []
   FrameParts: []
   Engine: {fileID: 3080031739741713512}
-  Brakes: {fileID: 6907525922225532432}
   DragRatePerMass: 15
   ContiniousAcceleration: 0
   totalCost: 0
@@ -388,14 +387,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4133167296947015296, guid: 38b67e7ab5e7def4c82cd2e8023f1ec5, type: 3}
   m_PrefabInstance: {fileID: 7178612556773467080}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6907525922225532432 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4342587336356924888, guid: 38b67e7ab5e7def4c82cd2e8023f1ec5, type: 3}
-  m_PrefabInstance: {fileID: 7178612556773467080}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b907f89f17ae4947b4e863310b60054, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

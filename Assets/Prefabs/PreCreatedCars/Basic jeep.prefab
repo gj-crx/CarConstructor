@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2853572118089512775}
   m_Layer: 0
   m_Name: Basic jeep
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -239,7 +239,6 @@ MonoBehaviour:
   - {fileID: 6753727277791944836}
   FrameParts: []
   Engine: {fileID: 3967908395363493853}
-  Brakes: {fileID: 5897323313394422576}
   DragRatePerMass: 5
   ContiniousAcceleration: 0
   totalCost: 125
@@ -563,17 +562,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6105468954329096650, guid: 38b67e7ab5e7def4c82cd2e8023f1ec5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 38b67e7ab5e7def4c82cd2e8023f1ec5, type: 3}
---- !u!114 &5897323313394422576 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4342587336356924888, guid: 38b67e7ab5e7def4c82cd2e8023f1ec5, type: 3}
-  m_PrefabInstance: {fileID: 7896068410082795240}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b907f89f17ae4947b4e863310b60054, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &6111258939089932392 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4133167296947015296, guid: 38b67e7ab5e7def4c82cd2e8023f1ec5, type: 3}

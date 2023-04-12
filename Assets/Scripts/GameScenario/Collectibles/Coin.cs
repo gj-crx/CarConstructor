@@ -24,12 +24,13 @@ public class Coin : MonoBehaviour, ICollectible
 
         return Value;
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Car"))
         {
-
-            Destroy(gameObject);
+            if (PlayerRepresentation.LocalPlayer != null) PlayerRepresentation.LocalPlayer.Money += Value;
+            animator.Play("Collected");
         }
     }
 }

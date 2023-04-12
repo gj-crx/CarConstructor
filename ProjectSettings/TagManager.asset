@@ -11,6 +11,7 @@ TagManager:
   - ParticleKiller
   - TriggerColliderParts
   - Collectible
+  - Car
   layers:
   - Default
   - TransparentFX

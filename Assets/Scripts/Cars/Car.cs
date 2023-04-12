@@ -74,7 +74,7 @@ namespace Cars
             else if (inertialPower < 0 && PowerInput > 0) inertialPower = 0;
 
             if (PowerInput > 0 && inertialPower < Engine.MaxPower) inertialPower += Engine.AccelerationRate * PowerInput * Time.deltaTime; 
-            if (PowerInput < 0 && inertialPower > -Engine.MaxPower) inertialPower += Engine.AccelerationRate * PowerInput * Time.deltaTime; 
+            if (PowerInput < 0 && inertialPower > -Engine.MaxPower) inertialPower += Engine.AccelerationRate * PowerInput * Time.deltaTime;
 
             ResetWheelStatus(true);
             ApplyTorqueOnWheels();
@@ -111,7 +111,7 @@ namespace Cars
                     JointMotor2D wheelMotor = Wheels[i].wheelJoint.motor;
 
                     if (powerPerWheel > Wheels[i].powerLimit) wheelMotor.motorSpeed = Wheels[i].powerLimit; //positive power limit exceded
-                    else if (powerPerWheel < Wheels[i].powerLimit) wheelMotor.motorSpeed = -Wheels[i].powerLimit; //negative power limit exceded
+                    else if (inertialPower < 0 && powerPerWheel < Wheels[i].powerLimit) wheelMotor.motorSpeed = -Wheels[i].powerLimit; //negative power limit exceded
                     else wheelMotor.motorSpeed = powerPerWheel; //limits are not exceded
 
                     Wheels[i].wheelJoint.motor = wheelMotor;

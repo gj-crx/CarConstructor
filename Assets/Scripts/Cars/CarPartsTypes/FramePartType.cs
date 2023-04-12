@@ -21,13 +21,12 @@ namespace Cars
 
             await Task.Delay(100);
 
-            Debug.Log(transform.localEulerAngles);
             transform.localEulerAngles = new Vector3(0, 0, Angle);
-            Debug.Log(transform.localEulerAngles);
 
             FixedJoint2D joint = gameObject.AddComponent<FixedJoint2D>();
             transform.localEulerAngles = new Vector3(0, 0, Angle);
             joint.connectedBody = transform.parent.GetComponent<Rigidbody2D>();
+
             transform.localEulerAngles = new Vector3(0, 0, Angle);
 
             joint.dampingRatio = DampingRatio;

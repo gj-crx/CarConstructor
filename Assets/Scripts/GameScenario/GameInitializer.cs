@@ -12,8 +12,11 @@ public class GameInitializer : MonoBehaviour
     {
         if (GameStateController.GameInitted) return;
 
+        
+        //Events setup
         GameStateController.GameStateChangesEvent += GameScenarioController.LevelWinConditionCheckAsync;
         GameStateController.GameStateChangesEvent += GameScenarioController.CarStuckCheck;
+        GameStateController.GameStateChangesEvent += GameScenarioController.LevelBegunEvent;
 
         StartCoroutine(PostInitialization());
     }
