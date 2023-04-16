@@ -27,18 +27,15 @@ namespace Cars
         public int TotalCost
         {
             get { return totalCost; }
-            set
-            {
+            set 
+            { 
                 totalCost = value;
-
-            //    if (gameObject.scene.name == "CarConstructorScene")
-          //      {
-        //            CarConstructor.TotalCostTextIndicator.text = totalCost.ToString();
-      //              if (PlayerRepresentation.LocalPlayer.Money < totalCost) CarConstructor.TotalCostTextIndicator.color = new Color(0.85f, 0, 0);
-    //                else CarConstructor.TotalCostTextIndicator.color = new Color(0, 0.65f, 0);
-  //              }
+                if (CarCostChangesEvent != null) CarCostChangesEvent.Invoke(); 
             }
         }
+
+        public CarCostChanges CarCostChangesEvent;
+        public delegate void CarCostChanges();
 
         private void Start()
         {
@@ -68,6 +65,7 @@ namespace Cars
             if (GameStateController.CurrentGameState == GameStateController.GameState.Live) ChangeCarState(true);
             else ChangeCarState(false);
         }
+        
         public void AccelerateCar()
         {
             if (inertialPower > 0 && PowerInput < 0) inertialPower = 0;
@@ -81,7 +79,9 @@ namespace Cars
         }
         private void ResetWheelStatus(bool newStatus)
         {
-            foreach (var wheel in Wheels) wheel.wheelJoint.useMotor = newStatus;
+            foreach (var wheel in Wheels)
+                if (wheel.DrivableWheel) wheel.wheelJoint.useMotor = newStatus;
+                else wheel.wheelJoint.useMotor = false;
         }
         private void DragDeceleration()
         {
@@ -111,7 +111,7 @@ namespace Cars
                     JointMotor2D wheelMotor = Wheels[i].wheelJoint.motor;
 
                     if (powerPerWheel > Wheels[i].powerLimit) wheelMotor.motorSpeed = Wheels[i].powerLimit; //positive power limit exceded
-                    else if (inertialPower < 0 && powerPerWheel < Wheels[i].powerLimit) wheelMotor.motorSpeed = -Wheels[i].powerLimit; //negative power limit exceded
+                    else if (inertialPower < 0 && powerPerWheel < -Wheels[i].powerLimit) wheelMotor.motorSpeed = -Wheels[i].powerLimit; //negative power limit exceded
                     else wheelMotor.motorSpeed = powerPerWheel; //limits are not exceded
 
                     Wheels[i].wheelJoint.motor = wheelMotor;

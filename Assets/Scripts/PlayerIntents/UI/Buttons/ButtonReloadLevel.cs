@@ -20,8 +20,9 @@ namespace UI.Buttons
         private async void ExecuteButton()
         {
             UIManager.Singleton.LoadingPanel.SetActive(true);
-            await Task.Delay(50);
+            await Task.Delay(25);
             await GameLevelSaverLoader.CurrentLoadedLevel.GenerateLevel();
+            await Task.Delay(25);
             UIManager.Singleton.LoadingPanel.SetActive(false);
 
 

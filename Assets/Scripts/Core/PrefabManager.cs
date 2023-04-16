@@ -9,6 +9,8 @@ public class PrefabManager : MonoBehaviour
     private GameObject wallsParentObject;
     [SerializeField]
     private GameObject particlesParentObject;
+    [SerializeField]
+    private MeshRenderer backgroundObject;
 
     [Header("---  Regular prefabs")]
     [SerializeField]
@@ -38,6 +40,7 @@ public class PrefabManager : MonoBehaviour
     
     public static GameObject WallsParentObject;
     public static GameObject ParticlesParentObject;
+    public static MeshRenderer BackgroundObject;
 
     public static GameObject StartFlag;
     public static GameObject FinishFlag;
@@ -60,6 +63,9 @@ public class PrefabManager : MonoBehaviour
 
         WallsParentObject = wallsParentObject;
         ParticlesParentObject = particlesParentObject;
+        BackgroundObject = backgroundObject;
+
+
         WallsPrefabs = wallsPrefabs;
         ParticlesPrefabs = particlesPrefabs;
         CollectiblesPrefabs = collectiblesPrefabs;

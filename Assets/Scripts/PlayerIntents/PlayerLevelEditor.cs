@@ -34,6 +34,7 @@ public class PlayerLevelEditor : MonoBehaviour
     }
 
     private int placedLastSecond = 0;
+    private bool editorModeActivated = false;
 
     private void Start()
     {
@@ -43,17 +44,17 @@ public class PlayerLevelEditor : MonoBehaviour
     {
         if (Application.isMobilePlatform) return;
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.Q) && editorModeActivated)
         {
             if (placedLastSecond < spawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedParticle);
             placedLastSecond++;
         }
-        if (Input.GetKey(KeyCode.F))
+        if (Input.GetKey(KeyCode.F) && editorModeActivated)
         {
             if (placedLastSecond < secondParticleSpawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedSecondParticle);
             placedLastSecond++;
         }
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.T) && editorModeActivated)
         {
             ParticleSpawner.SpawnCollectible(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedCollectibleID);
 
@@ -63,17 +64,20 @@ public class PlayerLevelEditor : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.E))
         {
+            //Initializing new level properties
             if (StartFlag != null) newLevelToSave.StartingPosition = new Position(StartFlag.transform.position + MapEditor.StartingPointOffset);
             if (FinishFlag != null) newLevelToSave.WinCondition.FinishPoint = new Position(FinishFlag.transform.position);
 
+            newLevelToSave.BackgroundMaterial = PrefabManager.BackgroundObject.material;
+
             SaveLoadSystem.GameLevelSaverLoader.SaveNewLevel(newLevelToSave, newLevelToSave.LevelName);
         }
-        if (Input.GetKeyDown(KeyCode.R) || Input.GetKey(KeyCode.Alpha6)) GoToLevelEditorMode(Input.GetKey(KeyCode.Alpha5));
+        if (Input.GetKeyDown(KeyCode.R) && Input.GetKey(KeyCode.Alpha6)) GoToLevelEditorMode(Input.GetKey(KeyCode.Alpha5));
     }
     private void GoToLevelEditorMode(bool clearMap = true)
     {
     #if UNITY_EDITOR
-
+        editorModeActivated = true;
         if (PlayerRepresentation.LocalPlayer.SelectedCar != null) PlayerRepresentation.LocalPlayer.SelectedCar.gameObject.SetActive(false);
         Camera.main.orthographicSize = cameraDistance;
         Camera.main.gameObject.GetComponent<CameraFollowing>().ManualControl = true;

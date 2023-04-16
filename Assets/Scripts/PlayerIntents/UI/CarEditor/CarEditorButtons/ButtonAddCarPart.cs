@@ -42,7 +42,9 @@ namespace Cars.CarEditor
                 Destroy(CarConstructor.CurrentConstructedCar.gameObject);
                 CarConstructor.CurrentConstructedCar = GameObject.Instantiate(CarPartPrefabToPlace.gameObject, Vector3.zero, Quaternion.identity).GetComponent<Car>();
                 CarConstructor.CurrentConstructedCar.CarName = oldCarName;
+                CarConstructor.CurrentConstructedCar.CarCostChangesEvent += CarConstructor.CarCostUpdate;
                 CarConstructor.CurrentConstructedCar.TotalCost = CarPartPrefabToPlace.Cost;
+                Debug.Log("n " + CarConstructor.CurrentConstructedCar.TotalCost);
             }
         }
     }

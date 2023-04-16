@@ -16598,6 +16598,7 @@ MonoBehaviour:
       Y: 9.96
     PointPassPositiveDirection: 1
     TimeLimit: 0
+  BackgroundMaterial: {fileID: 2100000, guid: cf5fcfdab5b92154e8b8587201c17c57, type: 2}
   CoinRewardPerStar: 250
   StartingPosition:
     X: -20.53

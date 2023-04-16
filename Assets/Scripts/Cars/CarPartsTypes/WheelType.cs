@@ -17,6 +17,7 @@ namespace Cars
         private void Awake()
         {
             wheelJoint = GetComponent<WheelJoint2D>();
+            if (DrivableWheel == false) wheelJoint.useMotor = false;
         }
     }
 }

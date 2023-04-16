@@ -23,6 +23,8 @@ namespace Cars.CarEditor {
             {
                 currentConstructedCar = value;
                 if (currentConstructedCar != null) TotalCostTextIndicator.text = currentConstructedCar.TotalCost.ToString();
+                Debug.Log(currentConstructedCar.TotalCost);
+                Debug.Log("car cost changes 2");
             }
         }
         public static bool RemoverToolsIsOn
@@ -44,7 +46,6 @@ namespace Cars.CarEditor {
             }
         }
         public static CarPartType.CarPartTypes CurrentSelectedCategory = CarPartType.CarPartTypes.Wheel;
-        public static CarConstructorStatus CurrentStatus = CarConstructorStatus.ReadyToBuild;
         public static GameObject RemoverToolLabel;
         public static LingeringHint CarEditorErrorHint;
         public static Joystick PartPlacementJoystick;
@@ -103,6 +104,11 @@ namespace Cars.CarEditor {
                 }
                 else Task.Run(ReactiveManualCarPartPlacement);
             }
+        }
+        public static void CarCostUpdate()
+        {
+            Debug.Log("car cost changes 1");
+            if (CurrentConstructedCar.gameObject.activeInHierarchy) TotalCostTextIndicator.text = CurrentConstructedCar.TotalCost.ToString();
         }
         private async Task ReactiveManualCarPartPlacement()
         {

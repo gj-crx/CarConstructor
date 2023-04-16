@@ -5769,6 +5769,7 @@ MonoBehaviour:
       Y: 4.1733794
     ParticleID: 3
     DynamicState: 0
+  Collectibles: []
   LevelID: 3
   WinCondition:
     WinConditionType: 0
@@ -5777,6 +5778,7 @@ MonoBehaviour:
       Y: 5.46
     PointPassPositiveDirection: 1
     TimeLimit: 0
+  BackgroundMaterial: {fileID: 2100000, guid: cf5fcfdab5b92154e8b8587201c17c57, type: 2}
   CoinRewardPerStar: 300
   StartingPosition:
     X: -11.5

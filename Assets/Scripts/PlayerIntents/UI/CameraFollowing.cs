@@ -8,6 +8,8 @@ public class CameraFollowing : MonoBehaviour
     public static GameObject ObjectToFollow = null;
 
     [SerializeField]
+    private float offsetY = 2;
+    [SerializeField]
     private float staticZCord = 0;
     [SerializeField]
     private float manualSpeed = 4;
@@ -22,7 +24,7 @@ public class CameraFollowing : MonoBehaviour
         {
             if (ObjectToFollow != null && ObjectToFollow.activeInHierarchy)
             {
-                transform.position = new Vector3(ObjectToFollow.transform.position.x, ObjectToFollow.transform.position.y, staticZCord);
+                transform.position = new Vector3(ObjectToFollow.transform.position.x, ObjectToFollow.transform.position.y + offsetY, staticZCord);
             }
         }
         else

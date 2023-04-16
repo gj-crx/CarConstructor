@@ -16,6 +16,7 @@ namespace SaveLoadSystem
 
         public short LevelID = 0;
         public LevelWinCondition WinCondition = new LevelWinCondition();
+        public Material BackgroundMaterial;
         public int CoinRewardPerStar = 100;
         public Position StartingPosition;
 
@@ -31,6 +32,8 @@ namespace SaveLoadSystem
             MapEditor.SpawnParticles(BasicParticles);
             MapEditor.SpawnCollectibles(Collectibles);
             MapEditor.SpawnFlags(StartingPosition.ToVector3() - MapEditor.StartingPointOffset, WinCondition.FinishPoint.ToVector3());
+
+            if (BackgroundMaterial != null) PrefabManager.BackgroundObject.material = BackgroundMaterial;
 
             GameLevelSaverLoader.CurrentLoadedLevel = this;
             LevelIsActive = true;

@@ -28,6 +28,8 @@ namespace UI.Buttons
             {
                 if (CarConstructor.CurrentConstructedCar != null) Destroy(CarConstructor.CurrentConstructedCar.gameObject);
                 CarConstructor.CurrentConstructedCar = CarConstructor.LoadCar(representedCarData);
+                CarConstructor.CurrentConstructedCar.CarCostChangesEvent += CarConstructor.CarCostUpdate;
+                CarConstructor.CurrentConstructedCar.CarCostChangesEvent.Invoke();
             }
         }
     }

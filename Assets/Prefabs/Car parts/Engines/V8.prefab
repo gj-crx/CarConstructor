@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 4133167296947015303}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.3020105, y: 0.18966904, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 3.4, y: 3.4, z: 3.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -50,12 +50,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b785068999fc8f4193588c333a40244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarPartName: V8
+  CarPartName: V8 Engine
   CarPartTypeID: 7
   ConnectedFramePartID: -1
   Type: 1
   Icon: {fileID: 21300000, guid: 24ed3476432b2374caeed53e8ddf1001, type: 3}
-  Cost: 200
+  Cost: 650
 --- !u!114 &6105468954329096650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,8 +82,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eddb5485ba9750142968970d09822c4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxPower: 3000
-  AccelerationRate: 1250
+  MaxPower: 5000
+  AccelerationRate: 2000
 --- !u!212 &3610444475862542449
 SpriteRenderer:
   m_ObjectHideFlags: 0
