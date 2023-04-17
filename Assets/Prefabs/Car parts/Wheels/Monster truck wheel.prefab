@@ -183,6 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DrivableWheel: 1
   powerLimit: 2000
+  wheelPowerEfficiency: 0.4
   wheelJoint: {fileID: 0}
 --- !u!114 &-6468121311403022551
 MonoBehaviour:

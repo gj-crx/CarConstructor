@@ -84,6 +84,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxPower: 5000
   AccelerationRate: 2000
+  DragMaxPowerPerMassReduction: 8
 --- !u!212 &3610444475862542449
 SpriteRenderer:
   m_ObjectHideFlags: 0

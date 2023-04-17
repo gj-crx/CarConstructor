@@ -57,10 +57,21 @@ public class CustomParticle : MonoBehaviour
     {
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         float randomNumber = Random.Range(-colorRandomizationFactor, colorRandomizationFactor);
-        spriteRenderer.color = new Color(
-            spriteRenderer.color.r + randomNumber,
-            spriteRenderer.color.g + randomNumber,
-            spriteRenderer.color.b + randomNumber);
+
+        if (randomNumber > 0)
+        {
+            spriteRenderer.color = new Color(
+                spriteRenderer.color.r + randomNumber,
+                spriteRenderer.color.g - randomNumber,
+                spriteRenderer.color.b + randomNumber);
+        }
+        else
+        {
+            spriteRenderer.color = new Color(
+               spriteRenderer.color.r - randomNumber,
+               spriteRenderer.color.g + randomNumber,
+               spriteRenderer.color.b - randomNumber);
+        }
 
         return randomNumber;
     }

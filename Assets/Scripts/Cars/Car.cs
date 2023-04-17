@@ -12,17 +12,23 @@ namespace Cars
 
         public EngineType Engine = null;
 
-        public float DragRatePerMass = 15;
-
         public float PowerInput { private get; set; } = 0;
         public bool ContiniousAcceleration = false;
 
         [SerializeField]
         private int totalCost = 0;
 
+
+        [SerializeField]
+        private float dragRatePerMass = 15;
+        [SerializeField]
+        private float dragStaticModifier = 3;
+
+        private float dragActualModifier = 1;
         private int drivableWheelsCount = 0;
         private float inertialPower = 0;
         private Rigidbody2D frameRigidbody;
+        private float totalMass = 0;
 
         public int TotalCost
         {
@@ -58,7 +64,7 @@ namespace Cars
             if (GameStateController.CurrentGameState != GameStateController.GameState.Live) return;
 
             if (ContiniousAcceleration) AccelerateCar();
-            else DragDeceleration();
+            DragDeceleration(ContiniousAcceleration);
         }
         public void OnGameStateChanges()
         { //put car in static mode for game pausing or activate it
@@ -83,21 +89,24 @@ namespace Cars
                 if (wheel.DrivableWheel) wheel.wheelJoint.useMotor = newStatus;
                 else wheel.wheelJoint.useMotor = false;
         }
-        private void DragDeceleration()
+        private void DragDeceleration(bool acceleratingSimultaneously)
         {
+            if (acceleratingSimultaneously == false) dragActualModifier = dragStaticModifier;
+            else dragActualModifier = 1;
+
             if (inertialPower > 0)
             {
-                if (inertialPower < 15) inertialPower = 0;
-                else inertialPower -= DragRatePerMass * frameRigidbody.mass * Time.deltaTime;
+                if (inertialPower < 15 && acceleratingSimultaneously == false) inertialPower = 0;
+                else inertialPower -= dragRatePerMass * dragActualModifier * totalMass * Time.deltaTime;
             }
             else if (inertialPower < 0)
             {
-                if (inertialPower > -15) inertialPower = 0;
-                else inertialPower += DragRatePerMass * frameRigidbody.mass * Time.deltaTime;
+                if (inertialPower > -15 && acceleratingSimultaneously == false) inertialPower = 0;
+                else inertialPower += dragRatePerMass * dragActualModifier * totalMass * Time.deltaTime;
             }
 
             ApplyTorqueOnWheels();
-            ResetWheelStatus(false);
+            if (acceleratingSimultaneously == false) ResetWheelStatus(false);
         }
 
         private void ApplyTorqueOnWheels()
@@ -110,9 +119,9 @@ namespace Cars
                 {
                     JointMotor2D wheelMotor = Wheels[i].wheelJoint.motor;
 
-                    if (powerPerWheel > Wheels[i].powerLimit) wheelMotor.motorSpeed = Wheels[i].powerLimit; //positive power limit exceded
-                    else if (inertialPower < 0 && powerPerWheel < -Wheels[i].powerLimit) wheelMotor.motorSpeed = -Wheels[i].powerLimit; //negative power limit exceded
-                    else wheelMotor.motorSpeed = powerPerWheel; //limits are not exceded
+                    if (powerPerWheel * Wheels[i].wheelPowerEfficiency > Wheels[i].powerLimit) wheelMotor.motorSpeed = Wheels[i].powerLimit; //positive power limit exceded
+                    else if (powerPerWheel * Wheels[i].wheelPowerEfficiency < 0 && powerPerWheel < -Wheels[i].powerLimit) wheelMotor.motorSpeed = -Wheels[i].powerLimit; //negative power limit exceded
+                    else wheelMotor.motorSpeed = powerPerWheel * Wheels[i].wheelPowerEfficiency; //limits are not exceded
 
                     Wheels[i].wheelJoint.motor = wheelMotor;
                 }
@@ -140,9 +149,18 @@ namespace Cars
         }
         private void RecalculateCarValues()
         {
+            //mass calculation
+            totalMass = frameRigidbody.mass;
+            foreach (var wheel in Wheels) totalMass += wheel.gameObject.GetComponent<Rigidbody2D>().mass;
+            foreach (var framePart in FrameParts) totalMass += framePart.attachedRigidbody.mass;
+            totalMass += Engine.gameObject.GetComponent<Rigidbody2D>().mass;
+
             //drivable wheels
             drivableWheelsCount = 0;
             foreach (var wheel in Wheels) if (wheel.DrivableWheel) drivableWheelsCount++;
+
+            //engine powers
+            Engine.MaxPower -= Engine.DragMaxPowerPerMassReduction * totalMass;
         }
         private void OnDestroy()
         {

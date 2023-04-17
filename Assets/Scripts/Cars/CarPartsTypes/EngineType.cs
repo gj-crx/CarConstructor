@@ -9,5 +9,6 @@ namespace Cars
     {
         public float MaxPower = 400;
         public float AccelerationRate = 1;
+        public float DragMaxPowerPerMassReduction = 4;
     }
 }

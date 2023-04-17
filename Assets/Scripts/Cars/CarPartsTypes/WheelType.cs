@@ -10,6 +10,7 @@ namespace Cars
         public bool DrivableWheel = true;
 
         public float powerLimit = 2000;
+        public float wheelPowerEfficiency = 1.0f;
 
         [HideInInspector]
         public WheelJoint2D wheelJoint;

@@ -26,6 +26,9 @@ public class PlayerLevelEditor : MonoBehaviour
     [SerializeField]
     private float cameraDistance = 15;
 
+    [SerializeField]
+    private bool clearMapOnEditorMode = false;
+
     private static GameLevelData newLevelToSave;
 
     public static GameLevelData NewLevelToSave
@@ -72,7 +75,7 @@ public class PlayerLevelEditor : MonoBehaviour
 
             SaveLoadSystem.GameLevelSaverLoader.SaveNewLevel(newLevelToSave, newLevelToSave.LevelName);
         }
-        if (Input.GetKeyDown(KeyCode.R) && Input.GetKey(KeyCode.Alpha6)) GoToLevelEditorMode(Input.GetKey(KeyCode.Alpha5));
+        if (Input.GetKeyDown(KeyCode.R) && Input.GetKey(KeyCode.Alpha6)) GoToLevelEditorMode(clearMapOnEditorMode);
     }
     private void GoToLevelEditorMode(bool clearMap = true)
     {
@@ -81,6 +84,7 @@ public class PlayerLevelEditor : MonoBehaviour
         if (PlayerRepresentation.LocalPlayer.SelectedCar != null) PlayerRepresentation.LocalPlayer.SelectedCar.gameObject.SetActive(false);
         Camera.main.orthographicSize = cameraDistance;
         Camera.main.gameObject.GetComponent<CameraFollowing>().ManualControl = true;
+        PrefabManager.BackgroundObject.gameObject.SetActive(false);
 
         if (clearMap) MapEditor.ClearMap(false);
 
