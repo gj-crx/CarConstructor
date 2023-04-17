@@ -124,7 +124,7 @@ namespace Cars
             if (gamePlayState)
             {
                 frameRigidbody.bodyType = RigidbodyType2D.Dynamic;
-                GetComponent<PolygonCollider2D>().isTrigger = false;
+                GetComponent<Collider2D>().isTrigger = false;
                 foreach (Rigidbody2D carPartRigidbody in gameObject.GetComponentsInChildren<Rigidbody2D>()) carPartRigidbody.bodyType = RigidbodyType2D.Dynamic;
 
                 foreach (var carPartCollider in gameObject.GetComponentsInChildren<CircleCollider2D>()) carPartCollider.isTrigger = false;

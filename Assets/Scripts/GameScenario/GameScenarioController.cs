@@ -28,8 +28,8 @@ public static class GameScenarioController
     {
         while (GameStateController.CurrentGameState == GameStateController.GameState.Live && PlayerRepresentation.LocalPlayer != null)
         {
-            if (GameLevelSaverLoader.CurrentLoadedLevel != null && UI.UIManager.Singleton.LoadingPanel.activeInHierarchy == false &&      //loading panel should not be active to check win condition
-                GameLevelSaverLoader.CurrentLoadedLevel.LevelIsActive && PlayerRepresentation.LocalPlayer.SelectedCar != null
+            if (GameLevelSaverLoader.CurrentLoadedLevel != null && PlayerRepresentation.LocalPlayer.SelectedCar != null &&      //loading panel should not be active to check win condition
+                GameLevelSaverLoader.CurrentLoadedLevel.LevelIsActive && UI.UIManager.Singleton.LoadingPanel.activeInHierarchy == false 
                && GameLevelSaverLoader.CurrentLoadedLevel.WinCondition.CheckWinCondition(PlayerRepresentation.LocalPlayer.SelectedCar.transform.position))
             {
                 int achievedStarDifference = CurrentAchievedStarsAmount - (int)PlayerRepresentation.LocalPlayer.LevelProgressData[GameLevelSaverLoader.CurrentLoadedLevel.LevelID];

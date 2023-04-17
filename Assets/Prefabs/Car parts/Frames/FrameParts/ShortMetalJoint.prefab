@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 246694122816136724}
   - component: {fileID: -1806323521343436981}
   m_Layer: 8
-  m_Name: MetalJoint 1
+  m_Name: ShortMetalJoint
   m_TagString: TriggerColliderParts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
