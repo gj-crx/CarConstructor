@@ -594,10 +594,14 @@ MonoBehaviour:
   - {fileID: 3282215451871854553, guid: f7fc7eca4f0eb0749884b246f08f53dd, type: 3}
   - {fileID: 8235255312593465590, guid: 25b455b0dba52464f9407dce846e7266, type: 3}
   - {fileID: 8235255312593465590, guid: 5afe58f7d747b4d4889bc1832c6d67c5, type: 3}
+  - {fileID: 3084139431101247401, guid: b0d1219a73fbfc54da9d53463d90fc6f, type: 3}
   wallsPrefabs:
   - {fileID: 3172203306245100471, guid: 3adb1130726b3004bae0999655f8a36b, type: 3}
   collectiblesPrefabs:
+  - {fileID: 9061159677557045399, guid: ae23500ac192a944fba1545e997d02e5, type: 3}
   - {fileID: 4667207740895213658, guid: 639ddf0ed80472a4abf6d18428847651, type: 3}
+  - {fileID: 4416175783410110105, guid: 10ba9b4b709e6b34f8f2d3c789b4508e, type: 3}
+  - {fileID: 8228239603700598508, guid: de4c51053afa0784b80833d291a405a3, type: 3}
   carPartsPrefabs:
   - {fileID: 8739269728922878953, guid: 631a970d75f3df6478f0445b383838ce, type: 3}
   - {fileID: 8739269728922878953, guid: f31df5fb96a06434dbd51b482cbaba3f, type: 3}
@@ -1586,13 +1590,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 637f25ac388fa854e8d6a6acba899ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedParticle: 4
-  selectedSecondParticle: 5
+  selectedParticle: 3
+  selectedSecondParticle: 6
   selectedCollectibleID: 0
   spawningSpeed: 6
   secondParticleSpawningSpeed: 1
   spawningTimeInterval: 0.05
   cameraDistance: 15
+  clearMapOnEditorMode: 0
 --- !u!1 &1130418525
 GameObject:
   m_ObjectHideFlags: 0

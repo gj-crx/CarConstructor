@@ -82,8 +82,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eddb5485ba9750142968970d09822c4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxPower: 5000
-  AccelerationRate: 2000
+  MaxPower: 6000
+  AccelerationRate: 4000
   DragMaxPowerPerMassReduction: 8
 --- !u!212 &3610444475862542449
 SpriteRenderer:

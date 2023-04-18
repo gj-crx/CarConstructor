@@ -41,6 +41,7 @@ namespace SaveLoadSystem
                 }
 
                 newParticle.transform.SetParent(PrefabManager.ParticlesParentObject.transform);
+                newParticle.transform.localScale = new Vector3(particleData.ScaleSize, particleData.ScaleSize, particleData.ScaleSize);
                 newParticle.gameObject.SetActive(true);
 
                 SpawnedPhysicalObjects.Push(newParticle);

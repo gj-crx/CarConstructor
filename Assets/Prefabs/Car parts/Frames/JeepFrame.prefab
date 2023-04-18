@@ -216,9 +216,10 @@ MonoBehaviour:
   Wheels: []
   FrameParts: []
   Engine: {fileID: 3080031739741713512}
-  DragRatePerMass: 15
   ContiniousAcceleration: 0
   totalCost: 0
+  dragRatePerMass: 8
+  dragStaticModifier: 5
 --- !u!114 &-2802579031660730333
 MonoBehaviour:
   m_ObjectHideFlags: 0

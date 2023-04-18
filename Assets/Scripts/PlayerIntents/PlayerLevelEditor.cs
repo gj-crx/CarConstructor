@@ -49,12 +49,12 @@ public class PlayerLevelEditor : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Q) && editorModeActivated)
         {
-            if (placedLastSecond < spawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedParticle);
+            if (placedLastSecond < spawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedParticle, true);
             placedLastSecond++;
         }
         if (Input.GetKey(KeyCode.F) && editorModeActivated)
         {
-            if (placedLastSecond < secondParticleSpawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedSecondParticle);
+            if (placedLastSecond < secondParticleSpawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedSecondParticle, true);
             placedLastSecond++;
         }
         if (Input.GetKeyDown(KeyCode.T) && editorModeActivated)
@@ -86,7 +86,11 @@ public class PlayerLevelEditor : MonoBehaviour
         Camera.main.gameObject.GetComponent<CameraFollowing>().ManualControl = true;
         PrefabManager.BackgroundObject.gameObject.SetActive(false);
 
-        if (clearMap) MapEditor.ClearMap(false);
+        if (clearMap)
+        {
+            MapEditor.ClearMap(false);
+            newLevelToSave.Collectibles.Clear();
+        }
 
     #endif
     }

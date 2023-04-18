@@ -47,11 +47,14 @@ namespace SaveLoadSystem
             public Position particlePosition;
             public byte ParticleID = 0;
             public bool DynamicState = false;
+            public float ScaleSize = 1;
 
             public ParticleData(CustomParticle particle)
             {
                 particlePosition = new Position(particle.transform.position);
                 ParticleID = particle.ParticleTypeID;
+                ScaleSize = particle.transform.localScale.x;
+
                 DynamicState = particle.gameObject.CompareTag("Static") == false;
             }
         }

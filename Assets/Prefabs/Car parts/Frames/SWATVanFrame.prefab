@@ -69,6 +69,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxPower: 1600
   AccelerationRate: 1000
+  DragMaxPowerPerMassReduction: 4
 --- !u!212 &1973986251587758352
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -312,9 +313,10 @@ MonoBehaviour:
   Wheels: []
   FrameParts: []
   Engine: {fileID: 1531444083215580402}
-  DragRatePerMass: 15
   ContiniousAcceleration: 0
   totalCost: 0
+  dragRatePerMass: 8
+  dragStaticModifier: 5
 --- !u!114 &7414488439701954745
 MonoBehaviour:
   m_ObjectHideFlags: 0
