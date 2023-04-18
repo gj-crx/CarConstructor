@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e8809f7e47ffa4aaa71a3e27ff4f2e, type: 3}
-  m_Name: Level4
+  m_Name: Level6
   m_EditorClassIdentifier: 
   LevelName: Level 4
   BasicParticles:
@@ -13237,7 +13237,7 @@ MonoBehaviour:
       X: 143.71169
       Y: 5.611051
     PrefabID: 3
-  LevelID: 3
+  LevelID: 5
   WinCondition:
     WinConditionType: 0
     FinishPoint:
@@ -13246,7 +13246,7 @@ MonoBehaviour:
     PointPassPositiveDirection: 1
     TimeLimit: 0
   BackgroundMaterial: {fileID: 2100000, guid: cf5fcfdab5b92154e8b8587201c17c57, type: 2}
-  CoinRewardPerStar: 300
+  CoinRewardPerStar: 350
   StartingPosition:
     X: -11.5
     Y: 7

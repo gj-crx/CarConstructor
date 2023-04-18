@@ -27,7 +27,7 @@ public class Coin : MonoBehaviour, ICollectible
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Car"))
+        if (collision.gameObject.CompareTag("Car") || collision.gameObject.layer == 9)
         {
             if (PlayerRepresentation.LocalPlayer != null) PlayerRepresentation.LocalPlayer.Money += Value;
             animator.Play("Collected");

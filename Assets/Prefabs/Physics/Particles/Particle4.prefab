@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6074420404137218407}
   - component: {fileID: 4612782899375155809}
+  - component: {fileID: 8142971655653396638}
   - component: {fileID: 941933569585406092}
   - component: {fileID: 3806439992664864409}
-  - component: {fileID: 8142971655653396638}
   m_Layer: 7
   m_Name: Particle4
   m_TagString: Particle
@@ -87,6 +87,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8142971655653396638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8235255312593465590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82fe60b52cee05c4e9bdaf2492ac3406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParticleTypeID: 4
+  rigidbody: {fileID: 3806439992664864409}
+  onStayCollisionCheckInterval: 1
+  stoppingForce: 0.15
+  breakForce: 3
+  accelerationAfterBreaking: 1
+  colorRandomizationFactor: 0.05
+  scaleRandomizationFactor: 1
 --- !u!70 &941933569585406092
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -124,22 +144,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8142971655653396638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8235255312593465590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82fe60b52cee05c4e9bdaf2492ac3406, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ParticleTypeID: 4
-  rigidbody: {fileID: 3806439992664864409}
-  onStayCollisionCheckInterval: 1
-  stoppingForce: 0.15
-  breakForce: 3
-  accelerationAfterBreaking: 1
-  colorRandomizationFactor: 0.05

@@ -8,6 +8,9 @@ namespace UI
 {
     public static class GameLevelsListFormer
     {
+        public static int totalStarsAchievedThisStage = 0;
+        public static int totalStarsThisStage = 0;
+
         private static List<GameObject> levelPanels = new List<GameObject>();
 
         public static void FormList()
@@ -18,8 +21,14 @@ namespace UI
             if (PlayerRepresentation.LocalPlayer.LevelProgressData.Count < GameLevelSaverLoader.AllLoadedGameLevels.Count) 
                 PlayerRepresentation.LocalPlayer.ExpandLevelsProgressData(GameLevelSaverLoader.AllLoadedGameLevels.Count);
 
+            totalStarsAchievedThisStage = 0;
+            totalStarsThisStage = 0;
+
             foreach (var gameLevel in GameLevelSaverLoader.AllLoadedGameLevels)
             {
+                totalStarsThisStage += 3;
+                totalStarsAchievedThisStage += (int)PlayerRepresentation.LocalPlayer.LevelProgressData[gameLevel.LevelID];
+
                 GameObject gameLevelPanel = null;
 
                 if (gameLevel.AlwaysUnlocked == false 
@@ -39,6 +48,8 @@ namespace UI
                 gameLevelPanel.transform.SetParent(UIManager.Singleton.contentGameLevels.transform);
                 gameLevelPanel.transform.localScale = Vector3.one;
                 levelPanels.Add(gameLevelPanel);
+
+                UIManager.Singleton.StarStatusIndicator.text = totalStarsAchievedThisStage.ToString() + "/" + totalStarsThisStage.ToString();
             }
         }
     }

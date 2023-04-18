@@ -659,6 +659,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8c5e38042c0cde94ab3a86bd47fb4121, type: 2}
   - {fileID: 11400000, guid: 0cf669c56edf80044a96b29d9d516329, type: 2}
   - {fileID: 11400000, guid: 3b3b2ca3d54e57d448e21ea995114413, type: 2}
+  - {fileID: 11400000, guid: 4496e4e22df65724fb6b8ddc37eb9e1f, type: 2}
+  - {fileID: 11400000, guid: 7ea99da7afc1bfc43a5970eb16c3fcb7, type: 2}
 --- !u!114 &294742030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2834,6 +2836,7 @@ MonoBehaviour:
   LoadingPanel: {fileID: 3691511575396293382}
   PausePopup: {fileID: 7725545004060731260}
   contentGameLevels: {fileID: 4940055175047931186}
+  StarStatusIndicator: {fileID: 4940055175897861170}
 --- !u!114 &139228722453101317
 MonoBehaviour:
   m_ObjectHideFlags: 0

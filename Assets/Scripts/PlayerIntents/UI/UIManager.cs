@@ -28,6 +28,9 @@ namespace UI
         [Header("List contents")]
         public GameObject contentGameLevels;
 
+        [Header("Indicators")]
+        public TMP_Text StarStatusIndicator;
+
 
         private void Awake()
         {

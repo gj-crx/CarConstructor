@@ -57,6 +57,10 @@ public class PlayerLevelEditor : MonoBehaviour
             if (placedLastSecond < secondParticleSpawningSpeed) ParticleSpawner.SpawnParticle(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedSecondParticle, true);
             placedLastSecond++;
         }
+        if (Input.GetKeyDown(KeyCode.Y) && editorModeActivated)
+        {
+            RemoveParticle(new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0));
+        }
         if (Input.GetKeyDown(KeyCode.T) && editorModeActivated)
         {
             ParticleSpawner.SpawnCollectible(Camera.main.ScreenToWorldPoint(Input.mousePosition), selectedCollectibleID);
@@ -92,6 +96,21 @@ public class PlayerLevelEditor : MonoBehaviour
             newLevelToSave.Collectibles.Clear();
         }
 
+    #endif
+    }
+    /// <summary>
+    /// very slow function but okay for editor only mode
+    /// </summary>
+    public static void RemoveParticle(Vector3 removalPosition, float removalRadius = 3f)
+    {
+    #if UNITY_EDITOR
+        foreach (var particle in MapEditor.SpawnedPhysicalObjects)
+        {
+            if (particle != null && Vector3.Distance(removalPosition, particle.transform.position) < removalRadius)
+            {
+                Destroy(particle);
+            }
+        }
     #endif
     }
     private IEnumerator RecountPlacedParticles()
