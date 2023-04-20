@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SaveLoadSystem;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 namespace UI
 {
@@ -15,6 +16,16 @@ namespace UI
 
         public static void FormList()
         {
+            if (CarListFormer.GetLoadedCarsCount() == false) //no cars to load
+            {
+                if (SceneManager.GetActiveScene().name != "CarConstructorScene")
+                {
+                    UIManager.Singleton.LoadingPanel.gameObject.SetActive(true);
+                    SceneManager.LoadSceneAsync("CarConstructorScene", LoadSceneMode.Single);
+                    return;
+                }
+            }
+
             for (int i = 0; i < levelPanels.Count; i++) GameObject.Destroy(levelPanels[i]);
             levelPanels.Clear();
 
@@ -52,5 +63,7 @@ namespace UI
                 UIManager.Singleton.StarStatusIndicator.text = totalStarsAchievedThisStage.ToString() + "/" + totalStarsThisStage.ToString();
             }
         }
+
+        
     }
 }

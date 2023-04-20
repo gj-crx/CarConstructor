@@ -103,7 +103,7 @@ MonoBehaviour:
   rigidbody: {fileID: 3806439992664864409}
   onStayCollisionCheckInterval: 1
   stoppingForce: 0.15
-  breakForce: 3
+  breakForce: 4
   accelerationAfterBreaking: 1
   colorRandomizationFactor: 0.05
   scaleRandomizationFactor: 1
