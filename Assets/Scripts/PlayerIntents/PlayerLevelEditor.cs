@@ -77,7 +77,7 @@ public class PlayerLevelEditor : MonoBehaviour
 
             newLevelToSave.BackgroundMaterial = PrefabManager.BackgroundObject.material;
 
-            SaveLoadSystem.GameLevelSaverLoader.SaveNewLevel(newLevelToSave, newLevelToSave.LevelName);
+            SaveLoadSystem.GameLevelSaverLoader.SaveNewLevel(newLevelToSave, newLevelToSave.name);
         }
         if (Input.GetKeyDown(KeyCode.R) && Input.GetKey(KeyCode.Alpha6)) GoToLevelEditorMode(clearMapOnEditorMode);
     }

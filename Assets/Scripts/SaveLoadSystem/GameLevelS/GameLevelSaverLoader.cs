@@ -24,7 +24,6 @@ namespace SaveLoadSystem
         #if UNITY_EDITOR
 
             Directory.CreateDirectory("Assets/Resources/Levels/" + fileSaveName);
-            if (levelToSave.LevelName == "") levelToSave.LevelName = fileSaveName;
 
             
             //particles

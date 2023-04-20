@@ -23448,4 +23448,4 @@ MonoBehaviour:
   StartingPosition:
     X: -11.5
     Y: 7
-  AlwaysUnlocked: 1
+  AlwaysUnlocked: 0

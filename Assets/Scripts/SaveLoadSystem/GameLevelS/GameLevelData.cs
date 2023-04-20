@@ -8,7 +8,6 @@ namespace SaveLoadSystem
     [CreateAssetMenu(fileName = "New level", menuName = "Game level", order = 51)]
     public class GameLevelData : ScriptableObject
     {
-        public string LevelName = "TestLevel";
         public List<ParticleData> BasicParticles;
         public List<CollectibleData> Collectibles;
 
@@ -28,7 +27,7 @@ namespace SaveLoadSystem
             MapEditor.ClearMap();
 
             Resources.UnloadUnusedAssets();
-            MapEditor.SpawnLevelWalls(Resources.LoadAll<GameObject>("Levels/" + LevelName + "/Walls"));
+            MapEditor.SpawnLevelWalls(Resources.LoadAll<GameObject>("Levels/" + name + "/Walls"));
             MapEditor.SpawnParticles(BasicParticles);
             MapEditor.SpawnCollectibles(Collectibles);
             MapEditor.SpawnFlags(StartingPosition.ToVector3() - MapEditor.StartingPointOffset, WinCondition.FinishPoint.ToVector3());
