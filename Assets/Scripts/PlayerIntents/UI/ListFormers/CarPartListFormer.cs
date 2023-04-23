@@ -27,8 +27,11 @@ namespace Cars.CarEditor
                     visualizedCarParts.Add(newListObject);
 
                     newListObject.transform.Find("Icon").GetComponent<Image>().sprite = currentCarPartType.Icon;
+                    newListObject.transform.Find("Icon").GetComponent<Image>().color = PrefabManager.CarPartsPrefabs[i].GetComponent<SpriteRenderer>().color;
+
                     newListObject.transform.Find("CostPanel").Find("CostText").GetComponent<TMPro.TMP_Text>().text = currentCarPartType.Cost.ToString();
                     newListObject.transform.Find("PartName").GetComponent<TMPro.TMP_Text>().text = currentCarPartType.CarPartName;
+
                     newListObject.GetComponent<ButtonAddCarPart>().CarPartPrefabToPlace = currentCarPartType;
                 }
             }
