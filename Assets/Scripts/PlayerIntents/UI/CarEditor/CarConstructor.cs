@@ -11,13 +11,53 @@ using System.Threading.Tasks;
 namespace Cars.CarEditor {
     public class CarConstructor : MonoBehaviour
     {
-        public GameObject ContentAviableCarPartsList;
-        public GameObject PrefabUICarPart;
-
         public static int OldCarCost = 0;
-
         public static TMP_Text TotalCostTextIndicator;
-        public static Car CurrentConstructedCar {
+        
+        public static CarPartType.CarPartTypes CurrentSelectedCategory = CarPartType.CarPartTypes.Wheel;
+        public static GameObject RemoverToolLabel;
+        public static LingeringHint CarEditorErrorHint;
+        public static Joystick PartPlacementJoystick;
+        public static RectTransform ClickPlaceArea;
+        public static GameObject NoCarsLoadedHint;
+        public static GameObject ContentAviableCarPartsList;
+        public static GameObject PrefabUICarPart;
+        public static bool ManualCarPartPlacementActive = true;
+
+        private static CarPartType currentPlacedCarPart;
+        private static bool removerToolStatus = false;
+        private static GameObject PlaceCarPartButton;
+
+
+        [SerializeField]
+        private LingeringHint carEditorErrorHint;
+        [SerializeField]
+        private TMP_Text totalCostTextIndicator;
+        [SerializeField]
+        private GameObject carSelectionPanel;
+        [SerializeField]
+        private GameObject buttonPlaceCarPart;
+        [SerializeField]
+        private GameObject removerToolLabel;
+        [SerializeField]
+        private GameObject noCarsLoadedHint;
+        [SerializeField]
+        private RectTransform clickPlaceArea;
+        [SerializeField]
+        private Joystick joystick;
+        [SerializeField]
+        private GameObject contentAviableCarPartsList;
+        [SerializeField]
+        private GameObject prefabUICarPart;
+
+        [SerializeField]
+        private float carPartTranslationSpeed = 0.75f;
+
+        private static Car currentConstructedCar = null;
+       
+
+        public static Car CurrentConstructedCar
+        {
             get { return currentConstructedCar; }
             set
             {
@@ -45,47 +85,18 @@ namespace Cars.CarEditor {
                 PlaceCarPartButton.SetActive(value != null);
             }
         }
-        public static CarPartType.CarPartTypes CurrentSelectedCategory = CarPartType.CarPartTypes.Wheel;
-        public static GameObject RemoverToolLabel;
-        public static LingeringHint CarEditorErrorHint;
-        public static Joystick PartPlacementJoystick;
-        public static RectTransform ClickPlaceArea;
-        public static bool ManualCarPartPlacementActive = true;
-
-        private static CarPartType currentPlacedCarPart;
-        private static bool removerToolStatus = false;
-        private static GameObject PlaceCarPartButton;
-
-
-        [SerializeField]
-        private LingeringHint carEditorErrorHint;
-        [SerializeField]
-        private TMP_Text totalCostTextIndicator;
-        [SerializeField]
-        private GameObject carSelectionPanel;
-        [SerializeField]
-        private GameObject buttonPlaceCarPart;
-        [SerializeField]
-        private GameObject removerToolLabel;
-        [SerializeField]
-        private RectTransform clickPlaceArea;
-        [SerializeField]
-        private Joystick joystick;
-
-        private List<GameObject> visualizedCarParts = new List<GameObject>();
-        private static Car currentConstructedCar = null;
-        
-        [SerializeField]
-        private float carPartTranslationSpeed = 0.75f;
 
         private void Awake()
         {
             TotalCostTextIndicator = totalCostTextIndicator;
             CarEditorErrorHint = carEditorErrorHint;
             RemoverToolLabel = removerToolLabel;
+            NoCarsLoadedHint = noCarsLoadedHint;
             PartPlacementJoystick = joystick;
             PlaceCarPartButton = buttonPlaceCarPart;
             ClickPlaceArea = clickPlaceArea;
+            ContentAviableCarPartsList = contentAviableCarPartsList;
+            PrefabUICarPart = prefabUICarPart;
 
             GetIDsForCarParts();
         }
@@ -105,6 +116,11 @@ namespace Cars.CarEditor {
                 else Task.Run(ReactiveManualCarPartPlacement);
             }
         }
+        public void SetNewSelectedCategory(int newCategoryID)
+        {
+            CurrentSelectedCategory = (CarPartType.CarPartTypes)newCategoryID;
+            CarPartListFormer.GenerateAviableCarPartsList(newCategoryID);
+        }
         public static void CarCostUpdate()
         {
             Debug.Log("car cost changes 1");
@@ -116,30 +132,7 @@ namespace Cars.CarEditor {
             ManualCarPartPlacementActive = true;
         }
 
-        public void GenerateAviableCarPartsList(int shownCategoryID)
-        {
-            CurrentSelectedCategory = (CarPartType.CarPartTypes)shownCategoryID;
-            //clearing previously visualized car parts
-            for (int i = 0; i < visualizedCarParts.Count; i++) Destroy(visualizedCarParts[i]);
-            visualizedCarParts = new List<GameObject>();
-
-            for (int i = 0; i < PrefabManager.CarPartsPrefabs.Length; i++)
-            {
-                CarPartType currentCarPartType = PrefabManager.CarPartsPrefabs[i].GetComponent<CarPartType>();
-                if (currentCarPartType.Type == CurrentSelectedCategory)
-                {
-                    var newListObject = Instantiate(PrefabUICarPart);
-                    newListObject.transform.SetParent(ContentAviableCarPartsList.transform);
-                    newListObject.transform.localScale = Vector3.one;
-                    visualizedCarParts.Add(newListObject);
-
-                    newListObject.transform.Find("Icon").GetComponent<Image>().sprite = currentCarPartType.Icon;
-                    newListObject.transform.Find("CostPanel").Find("CostText").GetComponent<TMPro.TMP_Text>().text = currentCarPartType.Cost.ToString();
-                    newListObject.transform.Find("PartName").GetComponent<TMPro.TMP_Text>().text = currentCarPartType.CarPartName;
-                    newListObject.GetComponent<ButtonAddCarPart>().CarPartPrefabToPlace = currentCarPartType;
-                }
-            }
-        }
+        
         public static Car LoadCar(CarData carDataToLoad)
         {
             Car loadedCar = GameObject.Instantiate(PrefabManager.CarPartsPrefabs[carDataToLoad.FrameID], Vector3.zero, Quaternion.identity).GetComponent<Car>();
@@ -177,7 +170,7 @@ namespace Cars.CarEditor {
 
         private void OnEnable()
         {
-            GenerateAviableCarPartsList((int)CurrentSelectedCategory);
+            CarPartListFormer.GenerateAviableCarPartsList((int)CurrentSelectedCategory);
             carSelectionPanel.SetActive(true);
         }
 

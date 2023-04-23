@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 25
+  m_Mass: 50
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -238,9 +238,10 @@ MonoBehaviour:
   - {fileID: 6753727277791944836}
   FrameParts: []
   Engine: {fileID: 3967908395363493853}
-  DragRatePerMass: 5
   ContiniousAcceleration: 0
   totalCost: 125
+  dragRatePerMass: 15
+  dragStaticModifier: 3
 --- !u!1001 &806142102331464270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -402,6 +403,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5244547411026308043, guid: 4b2fb02c3e7a2bc4892fb40d6262ccd7, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5244547411026308043, guid: 4b2fb02c3e7a2bc4892fb40d6262ccd7, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5244547411026308047, guid: 4b2fb02c3e7a2bc4892fb40d6262ccd7, type: 3}
       propertyPath: m_Name
       value: JeepWheel (1)
@@ -493,6 +502,14 @@ PrefabInstance:
     - target: {fileID: 5244547411026308041, guid: 4b2fb02c3e7a2bc4892fb40d6262ccd7, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5244547411026308043, guid: 4b2fb02c3e7a2bc4892fb40d6262ccd7, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5244547411026308043, guid: 4b2fb02c3e7a2bc4892fb40d6262ccd7, type: 3}
+      propertyPath: m_BodyType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5244547411026308047, guid: 4b2fb02c3e7a2bc4892fb40d6262ccd7, type: 3}
       propertyPath: m_Name

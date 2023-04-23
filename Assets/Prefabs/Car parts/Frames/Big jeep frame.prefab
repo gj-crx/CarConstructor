@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8739269728922878962}
   - component: {fileID: -2802579031660730333}
   m_Layer: 8
-  m_Name: TruckFrame
+  m_Name: Big jeep frame
   m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3b7504fac8a4dc647b44ac9ddc9281a7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5377358, g: 0.4895425, b: 0.4895425, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -101,7 +101,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 25
+  m_Mass: 50
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -232,12 +232,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b785068999fc8f4193588c333a40244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarPartName: Truck frame
+  CarPartName: Big jeep frame
   CarPartTypeID: 1
   ConnectedFramePartID: -1
   Type: 2
   Icon: {fileID: 21300000, guid: d1b1aa60c12f7fb4bb0182f4b48b5062, type: 3}
-  Cost: 250
+  Cost: 750
 --- !u!1001 &864697237062341757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -245,6 +245,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8739269728922878957}
     m_Modifications:
+    - target: {fileID: -7373076637289328754, guid: e7570443af28621479018fb5159b55c5, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -21.842487
+      objectReference: {fileID: 0}
+    - target: {fileID: -7373076637289328754, guid: e7570443af28621479018fb5159b55c5, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -5.029543
+      objectReference: {fileID: 0}
     - target: {fileID: 4133167296947015296, guid: e7570443af28621479018fb5159b55c5, type: 3}
       propertyPath: m_RootOrder
       value: 0

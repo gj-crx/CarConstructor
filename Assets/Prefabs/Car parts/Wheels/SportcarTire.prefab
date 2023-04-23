@@ -122,7 +122,7 @@ WheelJoint2D:
   serializedVersion: 4
   m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: Infinity
+  m_BreakForce: 25000
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarPartName: Sportcar wheel
-  CarPartTypeID: 11
+  CarPartTypeID: 12
   ConnectedFramePartID: -1
   Type: 0
   Icon: {fileID: 21300000, guid: 0413c4ff097963a4ca54ff56c2d1bb26, type: 3}
@@ -167,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DrivableWheel: 1
   powerLimit: 3000
+  wheelPowerEfficiency: 1
   wheelJoint: {fileID: 0}
 --- !u!114 &-6468121311403022551
 MonoBehaviour:

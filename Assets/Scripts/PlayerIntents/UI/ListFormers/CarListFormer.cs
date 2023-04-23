@@ -16,18 +16,15 @@ namespace UI
         [SerializeField]
         private GameObject carsListContent;
 
-        private string carDirectory = "/Cars/";
-
         private static List<GameObject> spawnedCarItems = new List<GameObject>();
         private static GameObject static_carItemPrefab;
         private static GameObject static_carListContent;
-        private static string static_carDirectory;
+        private static string static_carDirectory = "/Cars/";
 
         private void Awake()
         {
             static_carItemPrefab = carItemPrefab;
             static_carListContent = carsListContent;
-            static_carDirectory = carDirectory;
         }
         private void OnEnable()
         {
@@ -36,6 +33,12 @@ namespace UI
 
         public static void LoadAndEnlistCars()
         {
+            if (SceneManager.GetActiveScene().name == "CarConstructorScene")
+            {
+                if (HasAnyCarsToLoad() == false) CarConstructor.NoCarsLoadedHint.SetActive(true);
+                else CarConstructor.NoCarsLoadedHint.SetActive(false);
+            }
+
             if (Directory.Exists(Application.persistentDataPath + static_carDirectory) == false)
             {
                 Directory.CreateDirectory(Application.persistentDataPath + static_carDirectory);
@@ -73,7 +76,7 @@ namespace UI
         /// <summary>
         /// Return true if at least 1 car is ready to be loaded
         /// </summary>
-        public static bool GetLoadedCarsCount()
+        public static bool HasAnyCarsToLoad()
         {
             if (Directory.Exists(Application.persistentDataPath + static_carDirectory) == false) return false;
             if (Directory.GetFiles(Application.persistentDataPath + static_carDirectory).Length <= 0) return false;

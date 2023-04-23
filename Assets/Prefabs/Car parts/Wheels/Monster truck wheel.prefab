@@ -138,7 +138,7 @@ WheelJoint2D:
   serializedVersion: 4
   m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: Infinity
+  m_BreakForce: 75000
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarPartName: Monster truck wheel
-  CarPartTypeID: 15
+  CarPartTypeID: 16
   ConnectedFramePartID: -1
   Type: 0
   Icon: {fileID: 21300000, guid: de30bb66c6bdf764f8897b07032bc4d9, type: 3}

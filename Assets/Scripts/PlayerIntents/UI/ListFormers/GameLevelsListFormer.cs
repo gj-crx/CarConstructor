@@ -4,6 +4,7 @@ using UnityEngine;
 using SaveLoadSystem;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Threading.Tasks;
 
 namespace UI
 {
@@ -16,14 +17,12 @@ namespace UI
 
         public static void FormList()
         {
-            if (CarListFormer.GetLoadedCarsCount() == false) //no cars to load
-            {
-                if (SceneManager.GetActiveScene().name != "CarConstructorScene")
-                {
-                    UIManager.Singleton.LoadingPanel.gameObject.SetActive(true);
-                    SceneManager.LoadSceneAsync("CarConstructorScene", LoadSceneMode.Single);
-                    return;
-                }
+            if (CarListFormer.HasAnyCarsToLoad() == false) //no cars to load
+            {  //sending player right into car constructor scene to actually build some cars
+                Debug.Log("no cars to load");
+                UIManager.Singleton.LoadingPanel.gameObject.SetActive(true);
+                SceneManager.LoadSceneAsync("CarConstructorScene", LoadSceneMode.Single);
+                return;
             }
 
             for (int i = 0; i < levelPanels.Count; i++) GameObject.Destroy(levelPanels[i]);

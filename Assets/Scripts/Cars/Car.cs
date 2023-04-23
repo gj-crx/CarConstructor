@@ -63,6 +63,7 @@ namespace Cars
         {
             if (GameStateController.CurrentGameState != GameStateController.GameState.Live) return;
 
+            //Car object is only reacts to an input, not actually recieving it
             if (ContiniousAcceleration) AccelerateCar();
             DragDeceleration(ContiniousAcceleration);
         }
