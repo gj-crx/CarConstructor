@@ -620,6 +620,7 @@ MonoBehaviour:
   - {fileID: 3152149151000000513, guid: 5b29e0b74ade6b5498c816922fd6196a, type: 3}
   - {fileID: 6268534504908537719, guid: 0ca306080d937d3458e57ffb38bbd22c, type: 3}
   - {fileID: 5244547411026308047, guid: 114c6a28c1e15f444b105d15110c83a4, type: 3}
+  - {fileID: 8996269561448170442, guid: e9ecd9af1bc8599429748469d9875ea4, type: 3}
   startFlag: {fileID: 3011582530396877566, guid: 8367dde6cfd9e38459c82db996e7497d, type: 3}
   finishFlag: {fileID: 1975118838320113636, guid: eafc33c8242b8ab4d8ab0d36c6245e7b, type: 3}
   gameLevelItemPrefabs:
