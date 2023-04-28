@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SaveLoadSystem;
 using System.Threading.Tasks;
+using UnityEngine.Analytics;
 
 public static class GameScenarioController
 {
@@ -44,6 +45,9 @@ public static class GameScenarioController
                 arguments[1] = (GameLevelSaverLoader.CurrentLoadedLevel.CoinRewardPerStar * achievedStarDifference).ToString(); //players gets rewards only once
 
                 UI.UIManager.Singleton.ShowDialogue("MissionCompleted", arguments);
+
+                //sending an event via analytics
+                Analytics.CustomEvent("MissionCompleted" + GameLevelSaverLoader.CurrentLoadedLevel.LevelID);
 
                 GameLevelSaverLoader.CurrentLoadedLevel.LevelIsActive = false;
             }

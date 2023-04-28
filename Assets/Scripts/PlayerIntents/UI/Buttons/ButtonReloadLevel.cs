@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using SaveLoadSystem;
 using System.Threading.Tasks;
+using UnityEngine.Analytics;
 
 namespace UI.Buttons
 {

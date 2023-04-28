@@ -74,6 +74,8 @@ public class PlayerRepresentation : MonoBehaviour
             LevelProgressData.Add(0);
 
             Money = startingMoney;
+
+            
         }
 
         public void ExpandLevelsProgressData(int totalLevelsCount)
