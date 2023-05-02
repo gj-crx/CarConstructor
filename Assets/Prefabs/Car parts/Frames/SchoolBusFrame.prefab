@@ -288,7 +288,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 80
+  m_Mass: 110
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarPartName: School bus frame
-  CarPartTypeID: 14
+  CarPartTypeID: 15
   ConnectedFramePartID: -1
   Type: 2
   Icon: {fileID: 21300000, guid: 3594f5936c25f0b4db216681645c37ff, type: 3}

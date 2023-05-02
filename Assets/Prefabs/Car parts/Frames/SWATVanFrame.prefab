@@ -288,7 +288,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 55
+  m_Mass: 80
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarPartName: S.W.A.T. van frame
-  CarPartTypeID: 12
+  CarPartTypeID: 13
   ConnectedFramePartID: -1
   Type: 2
   Icon: {fileID: 21300000, guid: 24e5a00e62109b645bc683211eef09a8, type: 3}
@@ -352,7 +352,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2792857, y: 0.5714286}
+    oldSize: {x: 1.4328, y: 0.64}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

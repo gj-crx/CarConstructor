@@ -590,7 +590,7 @@ MonoBehaviour:
   particlesPrefabs:
   - {fileID: 8658378934907510288, guid: 7ede2fbc37e75654da5c16ed8a36b075, type: 3}
   - {fileID: 5611953785120504116, guid: 0639ec6c62391034db0e336403b413b6, type: 3}
-  - {fileID: 8870333954496063559, guid: 24c500fc659fe45458fe4c876eab9461, type: 3}
+  - {fileID: 3292011651181101481, guid: 24c500fc659fe45458fe4c876eab9461, type: 3}
   - {fileID: 3282215451871854553, guid: f7fc7eca4f0eb0749884b246f08f53dd, type: 3}
   - {fileID: 8235255312593465590, guid: 25b455b0dba52464f9407dce846e7266, type: 3}
   - {fileID: 8235255312593465590, guid: 5afe58f7d747b4d4889bc1832c6d67c5, type: 3}
@@ -620,6 +620,9 @@ MonoBehaviour:
   - {fileID: 3152149151000000513, guid: 5b29e0b74ade6b5498c816922fd6196a, type: 3}
   - {fileID: 6268534504908537719, guid: 0ca306080d937d3458e57ffb38bbd22c, type: 3}
   - {fileID: 5244547411026308047, guid: 114c6a28c1e15f444b105d15110c83a4, type: 3}
+  - {fileID: 6211094359526039057, guid: e1cf13b5fb04c8b47a40a14ef331ce47, type: 3}
+  - {fileID: 2389624082369468780, guid: ca10a0eeff3281541b0648eff4f3e037, type: 3}
+  - {fileID: 3319479345373432325, guid: 41bc77cac83b8ab42b06e33e2b2f9bef, type: 3}
   startFlag: {fileID: 3011582530396877566, guid: 8367dde6cfd9e38459c82db996e7497d, type: 3}
   finishFlag: {fileID: 1975118838320113636, guid: eafc33c8242b8ab4d8ab0d36c6245e7b, type: 3}
   gameLevelItemPrefabs:
@@ -1899,6 +1902,7 @@ GameObject:
   - component: {fileID: 1372592238}
   - component: {fileID: 1372592237}
   - component: {fileID: 1372592239}
+  - component: {fileID: 1372592240}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1946,6 +1950,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logWritingPath: Logs.txt
+--- !u!114 &1372592240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372592236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0481a6f594c3334c9c30106e33475ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BannerAd:
+    position: 1
+    androidID: 5265283
+    IOSID: 5265283
+  androidGameID: 5265283
+  IOSGameID: 5265283
+  testMode: 0
 --- !u!1 &1392980842
 GameObject:
   m_ObjectHideFlags: 0

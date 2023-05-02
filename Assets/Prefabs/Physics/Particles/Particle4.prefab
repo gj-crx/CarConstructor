@@ -104,7 +104,7 @@ MonoBehaviour:
   onStayCollisionCheckInterval: 1
   stoppingForce: 0.15
   breakForce: 4
-  accelerationAfterBreaking: 1
+  accelerationAfterBreaking: 0.8
   colorRandomizationFactor: 0.05
   scaleRandomizationFactor: 1
 --- !u!70 &941933569585406092

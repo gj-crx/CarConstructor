@@ -69,7 +69,7 @@ public class PlayerLevelEditor : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.W) && Input.GetKey(KeyCode.E) && GameStateController.CurrentGameState == GameStateController.GameState.Live)
         {
             //Initializing new level properties
             if (StartFlag != null) newLevelToSave.StartingPosition = new Position(StartFlag.transform.position + MapEditor.StartingPointOffset);

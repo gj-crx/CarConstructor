@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5244547411026308047
+--- !u!1 &3319479345373432325
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,43 +8,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5244547411026308040}
-  - component: {fileID: 5244547411026308036}
-  - component: {fileID: 5244547411026308043}
-  - component: {fileID: 699626854795814260}
-  - component: {fileID: -2262432183710031486}
-  - component: {fileID: -1540242039802040518}
-  - component: {fileID: -6468121311403022551}
-  - component: {fileID: 711436665155712855}
+  - component: {fileID: 3319479345373432322}
+  - component: {fileID: 3319479345373432334}
+  - component: {fileID: 3319479345373432323}
+  - component: {fileID: 3319479345373432321}
+  - component: {fileID: 8029032062889329854}
+  - component: {fileID: 451328767845810248}
+  - component: {fileID: 884604330004041456}
+  - component: {fileID: 4676378096283174627}
   m_Layer: 9
-  m_Name: SportcarTire
+  m_Name: Standart car wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5244547411026308040
+--- !u!4 &3319479345373432322
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5244547411026308047}
+  m_GameObject: {fileID: 3319479345373432325}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.545, y: -0.394, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalPosition: {x: -40.69, y: -26.92, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5244547411026308036
+--- !u!212 &3319479345373432334
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5244547411026308047}
+  m_GameObject: {fileID: 3319479345373432325}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 0413c4ff097963a4ca54ff56c2d1bb26, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 321887557dac1a147a48e318fa3af59f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -90,14 +90,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &5244547411026308043
+--- !u!58 &3319479345373432323
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319479345373432325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0034872293, y: 0.002141714}
+  serializedVersion: 2
+  m_Radius: 0.39911586
+--- !u!50 &3319479345373432321
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5244547411026308047}
+  m_GameObject: {fileID: 3319479345373432325}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -111,13 +127,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!235 &699626854795814260
+--- !u!235 &8029032062889329854
 WheelJoint2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5244547411026308047}
+  m_GameObject: {fileID: 3319479345373432325}
   m_Enabled: 1
   serializedVersion: 4
   m_EnableCollision: 0
@@ -129,53 +145,53 @@ WheelJoint2D:
   m_ConnectedAnchor: {x: 0.545, y: -0.394}
   m_Suspension:
     m_DampingRatio: 1
-    m_Frequency: 150
+    m_Frequency: 50
     m_Angle: 90
   m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 1000
---- !u!114 &-2262432183710031486
+--- !u!114 &451328767845810248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5244547411026308047}
+  m_GameObject: {fileID: 3319479345373432325}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b785068999fc8f4193588c333a40244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarPartName: Sportcar wheel
-  CarPartTypeID: 12
+  CarPartName: Standart car wheel
+  CarPartTypeID: 5
   ConnectedFramePartID: -1
   Type: 0
-  Icon: {fileID: 21300000, guid: 0413c4ff097963a4ca54ff56c2d1bb26, type: 3}
-  Cost: 75
---- !u!114 &-1540242039802040518
+  Icon: {fileID: 21300000, guid: 321887557dac1a147a48e318fa3af59f, type: 3}
+  Cost: 40
+--- !u!114 &884604330004041456
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5244547411026308047}
+  m_GameObject: {fileID: 3319479345373432325}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f626ab80bd9cff469e4dfcd192e0086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DrivableWheel: 1
-  powerLimit: 3000
-  wheelPowerEfficiency: 1.15
+  powerLimit: 2100
+  wheelPowerEfficiency: 1
   wheelJoint: {fileID: 0}
---- !u!114 &-6468121311403022551
+--- !u!114 &4676378096283174627
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5244547411026308047}
+  m_GameObject: {fileID: 3319479345373432325}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e078da0b74b3aa947ad208d3fdbf5210, type: 3}
@@ -183,19 +199,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placedCorrectlyOnTheFrame: 0
   badPlacementColor: {r: 1, g: 0, b: 0, a: 1}
---- !u!58 &711436665155712855
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5244547411026308047}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.1325
