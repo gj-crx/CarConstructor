@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Advertisements;
 
@@ -20,10 +21,14 @@ namespace Ads
 
 
 
-        void Start() => Advertisement.Initialize(Application.platform == RuntimePlatform.IPhonePlayer ? IOSGameID : androidGameID, testMode, this);
+        void Start() => StartDelayedInitialization();
+        private async void StartDelayedInitialization()
+        {
+            await Task.Delay(1000);
 
+            Advertisement.Initialize(Application.platform == RuntimePlatform.IPhonePlayer ? IOSGameID : androidGameID, testMode, this);
 
-
+        }
         public void OnInitializationComplete()
         {
             BannerAd.StartAd();
